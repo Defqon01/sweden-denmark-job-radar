@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data and generated reports (keep the folders via .gitkeep)
+data/*.sqlite
+data/*.db
+reports/*.md
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
