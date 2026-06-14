@@ -1,473 +1,574 @@
 {
-  "generated_at": "2026-06-12T06:53:48+00:00",
-  "period": "Last 7 days",
-  "summary": "This period the radar tracked 586 distinct layoff/restructuring event(s) and 206 live vacancies across Europe, with activity concentrated in Germany. EU skills shortages remain pronounced in healthcare and skilled trades (Cedefop).",
+  "generated_at": "2026-06-14T08:27:39+00:00",
+  "period": "May 16 – Jun 14, 2026",
+  "summary": "Sweden shows more layoff pressure (6 events vs 2 in Denmark).",
+  "insights": [
+    "Sweden shows more layoff pressure (6 events vs 2 in Denmark).",
+    "Largest single cut: Novo Nordisk — 9,000 roles (Denmark).",
+    "Most-advertised roles: Data/IT in Sweden; AI in Denmark.",
+    "Sharpest skills shortage: Legal, social, cultural and related associate professionals (Sweden, severity 3.7/4)."
+  ],
   "countries": [
-    {
-      "name": "Germany",
-      "code": "DE",
-      "layoff_level": "high",
-      "layoff_score": 1.0,
-      "events": 50,
-      "vacancies": 114,
-      "headline": "Volkswagen Layoffs: Volkswagen to Cut 50,000 Jobs in Germany by 2030 Amid Profit Decline - Storyboard18",
-      "headline_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWE9ObUhIUjBsNlJPdndHUmFlaHBlVGJwSHRwRGpQd2FwQ0FVUE5VMGZwRV9DeEdPOHNxZnR5R01RTndMenF2WHJjVjZSN2w4dk9MdWJsTjVpN2tkNEc2UDRud3V3RnN5R21TN3BYU3FzemFfT2dRSkdqUlBKeWV3UHNaT0UxeEtVaFZIdEFLM2VscldpTUFseDZBdWsxOGlxYkdodEtPOWhEemlvY1ZhTUJqSFVvQlNkQXRhUXc3TlcwTDjSAcgBQVVfeXFMT0dEaGd2NFFuOGYyVW9wcUFBbVYwRnM3Nlpia3V4NzM4WVFLU0wySUFTRTZhVDB2LWp5aUExNl9lSl8yenpQb29vR2xUaTc5ZXU2cG5Wb212cGZqdkpDWUdfTUhva19jZGdjNE5CRnFxenRlRjJqU0Z4eHB6azMxcmZ2TEhPNHlnVVdBU1ZhY1pwZzhKYnJ1WXUwaVJvb3JYNm9BMXBnSktfN0N0UlJmc3ltdzFRUGRiOTBLWTJlR3hKT0hmWE5Nazc?oc=5",
-      "summary": "50 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Italy",
-      "code": "IT",
-      "layoff_level": "high",
-      "layoff_score": 0.72,
-      "events": 36,
-      "vacancies": 0,
-      "headline": "New Stellantis layoffs mean over 3,000 jobs set to go in Italy - Automotive News",
-      "headline_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVVVhRjB0aGZXakhHVlROb2NGQ182b1dzamdicjNxanp2XzJOY1R4TXdnZHFRaTJYV085WFpEWWNTWE13Nm1oVVNoYU1BWGtGcklrVVBNQnZCOGpuQl92ZFBabWVJUEZVNVpMZVVNbnhTelpxa2J1b1QxbkhIVTNFUnNmU2Nrdw?oc=5",
-      "summary": "36 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Spain",
-      "code": "ES",
-      "layoff_level": "high",
-      "layoff_score": 0.68,
-      "events": 34,
-      "vacancies": 0,
-      "headline": "A Shadow Over Amazon Spain: Layoffs Affecting 1200 Workers - Foro3D",
-      "headline_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONXphQVAzZUkzOGVKMGwyV1UyX3d5UU81WGE1b3g4MXBnT1lfLVlTWjZHeHA5dUhyZUI3eHN0cGNBNFhvcE02cDAtN0ZtVnZFUVFSenJoeEhLdHl0QVdSNEtfMERUR1NsMlllRE1Kc3Q2ZEttTlhQeFJ5WWM4NWFsWDZ3RHdITWpPTlRLOHo3YUN4ZVdlWmNQcA?oc=5",
-      "summary": "34 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "France",
-      "code": "FR",
-      "layoff_level": "elevated",
-      "layoff_score": 0.58,
-      "events": 29,
-      "vacancies": 0,
-      "headline": "Ubisoft begins voluntary layoff process at Paris headquarters, up to 200 roles affected - Storyboard18",
-      "headline_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN1Q3UzVGTU84NnllS1ZHUUxDMGJ3NTRvcDlFa1M1bmdUQmdObUxTX2dRanJIU0xKYWdZeVVTVF9rQmFTTm5DbzR0NWNuM1ZwU0dZTl9qaDVWQXFMZVBQb2ZzbEhiZERfbWM5cUNTQ05peTBhSWp2TjNsMC1oOVlyaW81dUpvTjhLd2g4RWhQSTlwSk1hSlJ0YmhTcGJCY1JvaXFOYWd3MFhXVjNzaE1YR1U0ZHMxbzZYWVRJeFZSeVhiOHpvZTRNX1NvQU5YMDJiWmFuZtIB2gFBVV95cUxQNk1sNk9PZFFXRTVwX21ndWV1WF93SGlIdE5tRUJLc0ZXcGs1RmJjMjVZOUdLY0dJZk1QdjRwdHV3QTlNekhmdzB3VGpUcHZuMWNHLUdvMjFpYzhfZDM1S3lXTWR6TDdsNHIzbV9sQ1MyQnFJN3hIUEkwV0toMEhoZU5JX0dpaWtNcnBuNnRtQlg4c0ZuWTl6TTdJcFpxbjhKX3Z1QzlJTUlyZVRLQWM5MXQwYmdEMlFETjVUV1U0bHBVLThZWnZzb3lxX09zWGxudzNYb2lkVkhQdw?oc=5",
-      "summary": "29 layoff/restructuring event(s) tracked this period."
-    },
     {
       "name": "Sweden",
       "code": "SE",
-      "layoff_level": "elevated",
-      "layoff_score": 0.5,
-      "events": 25,
-      "vacancies": 92,
-      "headline": "Ericsson layoffs: Telecom equipment giant to cut 1,600 jobs in Sweden in push to cut costs - MSN",
-      "headline_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOXl5VGFSczhjdkt6c2czYXpIYXpqa0k2Z1c0X0w5N0h2dVVBS2I2UjduMW02Y1NDN2lWWXp3WEZWOUNMaXRzUnVQUnlJdzBJTDJlZkNDLUNBeXhZZmkzc3RkQnhjdG1ZRWhYWUt2YUFZVVVndTNWSDNnME5RU1FJMDdkMDRXenVKNU5xQ1R1Ymlzb3RIWWxyOTJpWjExTHBaY05ZTFVza210WnF0dUZCd2Z1dHNBcmhvSGQyMi1OZ2swU1lVMjJBNVdaZHZ6RXRVaU1haw?oc=5",
-      "summary": "25 layoff/restructuring event(s) tracked this period."
+      "layoff_level": "high",
+      "layoff_score": 1.0,
+      "events": 6,
+      "vacancies": 143,
+      "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
+      "headline": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
+      "headline_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
+      "summary": "6 workforce event(s) and 143 sampled vacancies."
     },
     {
       "name": "Denmark",
       "code": "DK",
       "layoff_level": "elevated",
-      "layoff_score": 0.46,
-      "events": 23,
-      "vacancies": 0,
+      "layoff_score": 0.33,
+      "events": 2,
+      "vacancies": 109,
+      "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
       "headline": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
       "headline_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
-      "summary": "23 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Netherlands",
-      "code": "NL",
-      "layoff_level": "elevated",
-      "layoff_score": 0.46,
-      "events": 23,
-      "vacancies": 0,
-      "headline": "Dutch bank ABN Amro plans to slash 5,200 jobs by 2028 — what's behind the layoffs? - Mint",
-      "headline_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR0ZKbHN3RlNKU2JxeV9wakVuRHNReU4wS2xzUWl6WFZvdTU1SkhVbkpuVmRON3lZWXl3b2JLVUo2TXZtWEwzWEhGbVFKVWtwLTBsT01VT3l6TDVpZFRQZjVfV3NyWVJMcTl1b1BlRXVyQm1mUkllRWNVZ2sxZmx0TXBMM3ZjXzlDMVNGYUJIanFoTldpZkZMbzJRbmJpODMwejgyV2VUS0xhRFM3ZDU3TWRMdnVRdU5DelpCbnRJUjdnNmIwMFdMUzhXdWJlZjc3bktzRNIB2gFBVV95cUxQMklWU25vNDlXU1UtS3ZTYUhYZ0VDR1pTR3hjcVNiZHNHaGRCQXNZbFIxUDM2SVFIRmR6UXg5T1lCaDZDNGZ6ZmowaS0wYjcxY0VMRVBqQjVEcXphaGhhaHFSMkZta2V5SERySjk4N3FuWFhvcUowWGM4aGVoVS0tQjFHLWMxemxNTjlBOXFmRm04SWF3WWo4TmNsdW82YldRUFl1UDNNcDM3WlNyZHliY0l2OVRhWTUtaHFjQjFJY3hjaWFrbDlzZUJwWk5tUUMzbnRwTFRYTDF3dw?oc=5",
-      "summary": "23 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Poland",
-      "code": "PL",
-      "layoff_level": "low",
-      "layoff_score": 0.06,
-      "events": 3,
-      "vacancies": 0,
-      "headline": "‘The automotive industry is dying’: Global carmaker announces mass layoffs in Poland - TVP World",
-      "headline_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTG1aMFFMWG9Ca3hxZEpQV1BLMHA5RE5XdGpVZzBMQ2sxaU5sRHJBeHk0VFJIZEwxS01sb3pGb0NGNTVQZGpDWno2TThQTm1fLXFfcGQwUnkzTTEtUk80XzJSbFRrYXJLLWg2TE5PQ2JtVlp2V2dvamc1RVpDOWVIcFhqYnFqZG44dmVsRFBVeEgyVTJBRGlfUENoTQ?oc=5",
-      "summary": "3 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Belgium",
-      "code": "BE",
-      "layoff_level": "low",
-      "layoff_score": 0.04,
-      "events": 2,
-      "vacancies": 0,
-      "headline": "Over 100 workers in Belgium set to lose jobs amid AGC group layoffs - The Brussels Times",
-      "headline_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRjR4OWpQdThiQXoyaEpMa0wyb3JESW5WU1VyaGpHbUp5aTJqcmdCNEkyZHdLTV9MRWVlWWdmWDk1dWZHRDJDcmFKQnM1U19hUUtRLUg4NmtUbVZ3RmoteDliZzJra2ZHT2RIRkdfdkswTXZfNkJHbjMwTlVLWThYc19GeExNTW83ekFiTG4xZmthY1dpNEZLX0l6UE90QkpNN3B5YlJFMU8?oc=5",
-      "summary": "2 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Norway",
-      "code": "NO",
-      "layoff_level": "low",
-      "layoff_score": 0.02,
-      "events": 1,
-      "vacancies": 0,
-      "headline": "Norway wealth fund CEO warns just using AI for job cuts risks backlash - Reuters",
-      "headline_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMWNKak5SMzl6SDZLSW0tRG51V1c1bWNqY2ZSOXZmd1cwaVlfRklLLTdkT3pvb2toQkVxWjFZT0Z3VGdOb1RHVm1UWFFzdUlvaHNreVRndnRSX2RudXdIQUtxTGV3dmkzMHE0cFRnbm5PU3NxdFF6VU9HZGM0bEhUc3hxdWhsMjhtZkNNVzloeUdpTUFsQmtOOFdyNlBYX3dobm1vOEdTWjdlOW9udlZoRHlITUhQcGQ1UFVac1lNV2hBQmNXbFE?oc=5",
-      "summary": "1 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Ireland",
-      "code": "IE",
-      "layoff_level": "low",
-      "layoff_score": 0.02,
-      "events": 1,
-      "vacancies": 0,
-      "headline": "Restructuring Trends in Europe: Impact on Irish Businesses - EY",
-      "headline_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQckpBb0NERTRiQUlUOXpiUE91ZjBOR0RpaEl4dmRBZVFoUDhDbTR0X1NYTjlFNkN0SktMYjQ4bHpuMHU1WTA4UmxFdjJzWG4tTVJfYjVqVHU1d09NaU83dVhHa1BVZUFJT0o3cUdBMXRDT1ZOTC1raVpWLUxucmJqRjBsU1ZpdWtDWVo0aDIyT2l0V2hFQUdFT1hkOXJkdnU3MkE?oc=5",
-      "summary": "1 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Switzerland",
-      "code": "CH",
-      "layoff_level": "low",
-      "layoff_score": 0.02,
-      "events": 1,
-      "vacancies": 0,
-      "headline": "Hundreds of UN staff in Swiss city protest against job cuts triggered by Trump - The Straits Times",
-      "headline_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX0g2enRQbVYxS3JPZms5cXBUaEpnXzg5ZWl6OGJrMVR6Y1BGVE5kY2xoQzFydEpGM2FkQ0x0T3RtcW1VQjlFb29GVDV5SDFXSkJQNmktVllRSzZGWjN3RW50OUtKVDhKVGNndjJoZER1U2M5SS1aU19SUl9XaXlKRjI2Z1NxTTFmZTlSR1U4MU9mYjBDazdUZHpKNDlYZW9iZ19hQnIxd1NWLVBlZFpMbExR?oc=5",
-      "summary": "1 layoff/restructuring event(s) tracked this period."
-    },
-    {
-      "name": "Finland",
-      "code": "FI",
-      "layoff_level": "low",
-      "layoff_score": 0.02,
-      "events": 1,
-      "vacancies": 0,
-      "headline": "Hologic Diagnostic Facility Closures Result in 190 Finland & France Layoffs - Medical Device and Diagnostic industry",
-      "headline_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2VVS3JtOGlyVUY3QzZIRDVIMHN2WDV2aWljUFRKNHNfQ2ZGaTNxdG9fQkxzUVA5WE5LSDJHeXRISFhwZHFiM2JHQWFmUXJJUld1OU9vV1p4NWNqN1dMYnNsQklRSnVxazNnYVZzZlpVOFVqOXR6bFRUVmFGS01jNHBxWVl0YmlHS1A0SUxHSkhDTVlfNEJ0LUpuc09nZ2ZCSEtnR0JxZnQyd2xOWFE?oc=5",
-      "summary": "1 layoff/restructuring event(s) tracked this period."
+      "summary": "2 workforce event(s) and 109 sampled vacancies."
     }
   ],
-  "top_events": [
+  "events": [
     {
-      "company": null,
-      "country": "Europe",
-      "type": "layoff",
-      "jobs_affected": 200000,
-      "title": "European banks may lay off 200,000 due to AI - Computerworld",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRUhZb1NBMktuT3pWTmV3QVJyYzNTbk9SQ3lyc2pIWklBVHdBX1pIZFJINVJkLW1jb0ZIZTBJTEpINmZUWWk1OFliaUozUVNKU29xV0E4RjNpa3pEUDVnVWVfaUpoMDZ5clNUVHlPTGZvYWwzQVhtcVEzLW5qUTV6cnFhd2tyUUFvSTFPTGQxSGRES0tYN3FhV3dR?oc=5",
-      "date": "2026-01-02"
-    },
-    {
-      "company": null,
-      "country": "Germany",
-      "type": "layoff",
-      "jobs_affected": 50000,
-      "title": "Volkswagen Layoffs: Volkswagen to Cut 50,000 Jobs in Germany by 2030 Amid Profit Decline - Storyboard18",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWE9ObUhIUjBsNlJPdndHUmFlaHBlVGJwSHRwRGpQd2FwQ0FVUE5VMGZwRV9DeEdPOHNxZnR5R01RTndMenF2WHJjVjZSN2w4dk9MdWJsTjVpN2tkNEc2UDRud3V3RnN5R21TN3BYU3FzemFfT2dRSkdqUlBKeWV3UHNaT0UxeEtVaFZIdEFLM2VscldpTUFseDZBdWsxOGlxYkdodEtPOWhEemlvY1ZhTUJqSFVvQlNkQXRhUXc3TlcwTDjSAcgBQVVfeXFMT0dEaGd2NFFuOGYyVW9wcUFBbVYwRnM3Nlpia3V4NzM4WVFLU0wySUFTRTZhVDB2LWp5aUExNl9lSl8yenpQb29vR2xUaTc5ZXU2cG5Wb212cGZqdkpDWUdfTUhva19jZGdjNE5CRnFxenRlRjJqU0Z4eHB6azMxcmZ2TEhPNHlnVVdBU1ZhY1pwZzhKYnJ1WXUwaVJvb3JYNm9BMXBnSktfN0N0UlJmc3ltdzFRUGRiOTBLWTJlR3hKT0hmWE5Nazc?oc=5",
-      "date": "2026-03-11"
-    },
-    {
-      "company": null,
-      "country": null,
-      "type": "layoff",
-      "jobs_affected": 39000,
-      "title": "Layoffs From Just 6 Pharmas Could Wipe Out Over 39,000 Jobs - BioSpace",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaUVfNGtwejBLMUVBcUZUVWdqN2tjbGRBVzNiQWVPbWNxVE9yMUZJaUpvX283TVJxcUtJTHZIUWJlcm9qRDBkZ2pzdWtiOTNJZ0U4Z3hvbFAxZEZxWEpHRVRPQ05kci1YelZkdmtPQVFDbWEyRHFDX0t0azNKNGVtTGhxTl9oVml1Q1dTeEwyNm5PNWp6a3ZUNnpSbw?oc=5",
-      "date": "2025-09-18"
-    },
-    {
-      "company": null,
-      "country": "Europe",
-      "type": "restructuring",
-      "jobs_affected": 21000,
-      "title": "Intel to cut 21,000 jobs, pause Europe fab projects under restructuring drive - digitimes",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNFNvNlhvTHgwYThJMlJOMWhZcWxzcl9ldWVVbGIzWnExNmpvRkE1U2l5SzFjV2R4SE9lVUFuTHBhd0xuZ05fMS0xRVRnXzF1NS1TbHBBSjRNUDBwcnUxSThlQmxzdDV1bHlfNF9EOXpOeVBMaFI3UFlYYUhpQ1BOTzczRF9qU1k?oc=5",
-      "date": "2025-07-25"
-    },
-    {
-      "company": null,
-      "country": "EU",
-      "type": "layoff",
-      "jobs_affected": 16000,
-      "title": "Meta Plans Mass Layoffs: Up to 16,000 Jobs at Stake - trendingtopics.eu",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSlA3dUhwYi0xTlpvNjBhcDhrSmo0bGNoaEhaeHZaUnNWV2hsRUh2aFY0MlhFcFQ2UUtWV0JmUnB6ajNnRVB2MzdXeUprYmFMUnlYWFpkbU9FSU8xTHpVTG9UTVNCc0pSbWJSQnp4eGJhSzN4S2F4dEZha0ZNcDVBLVpLNGJBN2s?oc=5",
-      "date": "2026-03-15"
-    },
-    {
-      "company": null,
-      "country": "Europe",
-      "type": "layoff",
-      "jobs_affected": 16000,
-      "title": "Amazon Cuts 16000 Jobs as AI Push Drives Second Layoff Wave - The European Business Review",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa1d4emlxQjl3c1BhYTFBU1B6eDF5R1RpVi1SNFJfenNkVlBabFhqUWwySEVzaS1tSTNUakI2N2JFNFg5TUxnTDNUWnAtVnhZQVg1b01kSXpHS1I1UnpxWlN0c0NkYW1ZY3Y1Nnd5SUFIQ1c0TklYbXVRbF9IejRZSnlYN1FYMDV0OUNlUTRpU2ZyUDFwZkJtMjQzY1ZIZUFM?oc=5",
-      "date": "2026-01-29"
-    },
-    {
-      "company": null,
-      "country": null,
-      "type": "restructuring",
-      "jobs_affected": 16000,
-      "title": "Amazon Unveils Second Workforce Restructuring, Cuts 16,000 Jobs to Hit 30,000 Total - Modaes",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRkpISV9uMXB4b2dOMWFWWm1MNXlHQW44TU9qaUxNMVVLNWJHTTZOVFVIRGh2ZVlRRXBETGF0MUF6REhmWGpzMlJqcS1uZGhKVDBFdEYzNW1kQ3JxVGZJZXdoaXhueUxlblZhdE1uS0hCd3A3ZW1mQVczaTZrQzNyZ3U0RzZob1ZwdVFSSDJJYnFBb3Q5NHBhdTlpXzBLcngzcVlidFlWdEVKcjBGaWhaWGI5di1GcXN5TTF4YkNDZDhVZjRfWkRqazl3RERQZ1J1YjlrRVR0MFY?oc=5",
-      "date": "2026-01-28"
-    },
-    {
-      "company": null,
-      "country": null,
-      "type": "layoff",
-      "jobs_affected": 16000,
-      "title": "Amazon layoffs: Tech giant to cut 16,000 jobs, Indian teams could take biggest hit - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRHRoZFlBSmdLY3NVRnlabUVodHFKb3pwd3o2QUhUcWNsZTNpS2t6SDFQczl1NlM5bkh5Qkd0eGZmbkpCdDNrR0QzYW5ud3hLMnRielFkU3dFRE1PdUhJZkRQYk9ZcThWdjVaY2M2WkRUZldrUkdBOTl0WTd3cTdMQ3E0SEktZ0hpWnNtbThybFpQTkpYNzgyTFBkWjhBWmRnVlBHZ1Y1SzA3R0RMTDI3QWdCNExWSHltLWxWeTVGc1k2QdIBxwFBVV95cUxNMGs4ZkZvWWpaeGJDM0xySDlBM3hOQllMNVFNMjFWcFZXU01EdWtYcktmU3liVS10NG41QkhFY2lnMnBxSGdCLU53RXpyc3hvZ3JpbUlLRnV2UEN4YVhYSWdHcHg2aE9uZ0hGdHgwUzRtMzZhNmtwUzhJMjFVLWlRdmUwaEVsLS0zMzBLVGdKODQ3QzZpMjJobFNzNUJLTUNlNjNJVmNXVl9ieEh4VXc5THRIZGhIX2tvZEs4LTZTQS10bENaaGF3?oc=5",
-      "date": "2026-01-27"
-    },
-    {
-      "company": null,
-      "country": null,
-      "type": "layoff",
-      "jobs_affected": 14000,
-      "title": "Massive wave of Amazon layoffs as 14,000 jobs get cut - Techzine Global",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ3owY2FsUEJtTDBmTkVaWFMwalNyRWNnQUVkY1hGSjAyX2h4S09XaFZ3YkQyZGdISmNySHh1ZHR0NEhZc083UUQ0dHBlQ1V5NzZQQkF5TWVjNVN0Y1IxSjJIczVYalRaSU9tVDlzdlhiNTVpbW1KVnB3N2lCcXVXbHM0dnZoN0VtdDFuLW01WlVrUURHRVB5WWxkRzQ0MEJzVThGeWhTVQ?oc=5",
-      "date": "2025-10-28"
-    },
-    {
-      "company": null,
-      "country": "Europe",
-      "type": "restructuring",
-      "jobs_affected": 13000,
-      "title": "Bosch Mobility to cut 13,000 Jobs by 2030 in $2.5 billion restructuring - eeNews Europe",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSE1ub1BHNW5xdTNrbzZZdjUzQUZjb1Q1aVdFVTdpWFFKOThLUDlkYnRTSk1aQWFxWXN2MGJuUkdEZ2tsRzVrVzlhMlF0VXNwbFdnaHVYd2xCVHphUW1JUHE4cTg4RERZb2kzWnhhMnhaVlI4TkN5bWVFQUNQeDV4dzFpMGVQdmh6WlRWdDBWMXhWRHVqNVhuRU8ybjhpZGFNSzJiWQ?oc=5",
-      "date": "2025-10-03"
-    },
-    {
-      "company": null,
-      "country": null,
+      "company": "Novo Nordisk",
+      "country": "Denmark",
+      "city": "København",
       "type": "layoff",
       "jobs_affected": 9000,
-      "title": "Novo Nordisk to lay off 9,000 workers as new CEO aims to save $1.3B per year by late 2026 - Fierce Pharma",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLTRUV3l5bV8wSThneGEyb2RUYS1XRTJCaEJwLUE5bDNMVHZwUWZXTHhENXVoT2NyZ1QyOUQ2UFgtbDIwTTZzZjhGZi1FQUZTSUs5Y0xDRVp6bkg4d296MEJ2UjFMcktKWlB0d1JWa0x1TXJnazJuNFA3T0lWQ0pXRlEwSlFzX2syYWhjRnFEa3d6NUY2VUZ4WkNlblc1TXQyMGxIeA?oc=5",
-      "date": "2025-09-10"
+      "title": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
+      "date": "2026-05-21",
+      "sources": [
+        {
+          "title": "Danish employment rate hits record-high despite Novo Nordisk layoffs - The Local Denmark",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcWlsY28tai1RejBPQmZkMUNwREN4ZXZYbUJlSlI3UTdOekhFeTBiM1l3N3JLcXJhRGxHQlQ2WVhYOFdJbEFEclN1dFZnaFI4V1pwREh1MXNzeHV2dzZCaTM2NnAzOHBvS0dKZThqSVhMd2R2OXdRS0FiTGt3b1J0SEh2RFJKNEd3Nk15R2w0SXR1OHR4a2MtV0Ntd1J0WnRpSG5z?oc=5",
+          "date": "2026-05-21",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk layoffs cause employment to fall for first time in 17 months - The Local Denmark",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWxhX0t4Uk9JbFhrSklJRWN3cWtXLUVCWEJhRjFsWnQySFJOYUdWaTY1R1VUdUVxM0c5M3p6TXJaWFVvMlV1YlpjZ3hCMTRnVTBmb01CMHRNNlZfbUxxd0NBOGdkaGhRMmxVaGVPbjAzSHlLb1B6dUhTdnNtVkdnSzBNV2VUX0ZER05pb0RLLWpXNDl1ZmhyZFQzTE54U3ZyZHp6X1Fremt1Zw?oc=5",
+          "date": "2026-04-28",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk Layoffs Add to Denmark’s Mounting Economic Anxieties - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnBSaDNoaG5CS09Jb1FmZF8yWG1qaGhmcFF5S3FqSTBBMmVWYmZLZGVFQ2NVbFNxeHhXS3dmdk1UWncyTzFRbUs1RF90VlVRTVVSMGtsTVI2WDdZQVVxNVA4cWhnbEotVGxXcVFtY0FuLVF4UjdUbzBnLUJSU0lFUzI0aEppQy1ubkZzWGg1S1p1SmZWcG8wbUVHTHM1SDRtb19DRFJsXzhBNFk?oc=5",
+          "date": "2026-02-20",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk Layoffs Add Fuel to Denmark's Economic Anxieties - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXRhSmsyZktpNkJEQjFvbGRlall4Zy1INTFhTGc5REsxSXByYTBveEJMQUwxYTRkLU9pWUFyX2ZNM2hqV2xySWVESzFOS0s4eHRhRnZzakNwY1dOQXB0N1BlVnZadzNIYnp2a0ZkaEljR0k2ZlNuS19uTzNQeWluRjVTdmtja05GeURoYkZaOUJmZXplc1FvbXFuZVBaejd4UGpDTjJjdFNnQ2Jvc2VmYXVB?oc=5",
+          "date": "2026-02-19",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk announces layoffs are over - The Copenhagen Post",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMlVjaXAzbXNxWFFhbVp4TmlBeFQ1TU5NRVgwSTJGRlhvVmQwbkExZWVtdUtzR3lvMVBBRnJnTnk0ajRrZHowN0drUHBFRW91amFwYkg3aHktNi1iRzRXdzVpaHhfMS0xbnNrLVlnUGJzb3hlOXJLeHl6YTNvTkc4TWt1MEs4d1ktU3dkMzhZcGxkNUJIRzc1ajBhTlc?oc=5",
+          "date": "2025-11-03",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Round of redundancies among Novo Nordisk employees in Denmark is complete - medwatch.com",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81NFFKZ1BCa3JpWWJObVZsWmZ2N3d2MC1teEItMGpOZnluVnpHMXdmVlFiTWxKNnY3Sm00OC1KRUY3dEFwNUJ2Z3oxRWdEQmZQLWJlVzY2NGZjem9WZmhsUzdyeUwzTkV1UDh4ajJfbw?oc=5",
+          "date": "2025-11-03",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Employment climbs in Denmark but Novo Nordisk job cuts on way - The Local Denmark",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUs2X0ZXc2lkenBIeHd2bFNWWmJlZXJOZlpkSDZFS0R4ZlRBd1dKd3IxT0RmaXJHZnUzdUFwT0dQdWl5dmpFOXlRRFJiWnlFcUNQajJLWHM0aTZ5Rkp1RXQwM1FSdTBwcldfaVRGTUZyOUZGelNjZkVyS0RpWFJpWWhzTDFYMEpHNnR0NjkxeFNjVnlSeGs5ZnJB?oc=5",
+          "date": "2025-09-22",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
+          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
+          "date": "2025-09-10",
+          "source": "Google News: Denmark layoffs"
+        }
+      ],
+      "title_en": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY"
+    },
+    {
+      "company": "H&M",
+      "country": "Sweden",
+      "city": null,
+      "type": "restructuring",
+      "jobs_affected": 1500,
+      "title": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
+      "date": "2026-05-18",
+      "sources": [
+        {
+          "title": "Swedish H&M lays off staff in Singapore amid regional restructuring - Scandasia",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZWtNdU1XcXJxUmozTzd4RS1rTmNuaWZEZ0tJVW8yY0w4THRoR2Y5NTNDUXkzbnk0LUswU3Bpc2xyVzVJYlpPWXdWZnkxd2JEa3lvSDJQbmhUUmNISWcwU3NvQ3hudmpseUo1UVJBdFZSM2ZiQUxVT29zbVRJbmpGU2R2OF9TS3FuZHE0c3NhcGtCaUE?oc=5",
+          "date": "2026-05-18",
+          "source": "Google News: Sweden restructuring"
+        },
+        {
+          "title": "H&M Sweden publishes job postings with 0 working hours amid staff restructuring - Newsendip",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQTRIaXlTWVQtVGVvNGE4QXJ6anFvaDRjNnFkZ0xSZ0Ffb2hsVjNCa0VndWVLYWtIakhwX3VhMHJzOW03VHpOTldOQlRHbHlJSEhVR2ZIWFhhS3JfWUFSNXBvZnNfb1g4YUxxcEIxWlVxNURwMHQ4enhGSlZvMlZIc1hrVWp2SVZBNURVUENzYVR2NXowNEUzdjJhV0ZFdThvSEJKclhlRFh0S1FrMkdyaUtQSG5HeFNrVGc?oc=5",
+          "date": "2023-02-07",
+          "source": "Google News: Sweden restructuring"
+        },
+        {
+          "title": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
+          "date": "2022-11-30",
+          "source": "Google News: Sweden job cuts"
+        }
+      ],
+      "title_en": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters"
+    },
+    {
+      "company": "Danish Crown",
+      "country": "Denmark",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 800,
+      "title": "Danish Crown to cut 800 jobs in restructuring push - The Pig Site",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb2tnamZmWTI5em9CTXpSd21tUXlBSV9vNVBFdS1KOFU1R0Z2RDd5ZjZPRzJoaVJ4M0NpREJOYXV2VWNVMkp0ZlFnRk5ZRW1tTUdVQ1l4UGhPTFU3Ti1tbm1rUjJ5WlJfdkI0QURrZmtBS0xFUEFSSGtES1pJaTJxdUxDdVBCVU52MjctdnJobnJFUDhx?oc=5",
+      "date": "2026-06-02",
+      "sources": [
+        {
+          "title": "Danish Crown Announces Major Workforce Reduction Amid Restructuring Efforts - Earnings Revision Upgrade - The Legal Advocate",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTdCbEFJeV9TT1ZtNnZ6a01zU0V6MGc3d3NuUERqYnBDc0NjcEVrTVVQcmtaSl9FNEtiQ0pZVThhejQ3TTViTTJ5SjlfWDRzbGowOUlRRXlKdWNsb292NFhtOXNUeTZBVEdkX0pickhJenRLSE1Lallaa0RjV2RKd1NrMXgwVFNaUXhDSnpOZkIzMGZnRnA4QzZZZHhtRC1iTVVEeXRsUGZYMHdCQXJOTEduczYwR2M1UW13eWFqTU5nR3F6Qnc?oc=5",
+          "date": "2026-06-02",
+          "source": "Google News: Denmark restructuring"
+        },
+        {
+          "title": "Danish Crown Announces Company Restructuring And Job Cuts - ESM Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQWJmdWFaRkhydHhqNDk1UEIybjJCcDNsRWNYTGp4a2ZjSG9nYVJRT3lZVnZwTUVad2tMR3RCa0EzaTl1eWNUenQ4WlYzM1RuT2hFR0hoNVhTWnN4OHNENkFZTURSenp6T2k2THZNeThGX2MzRW53bEl5YjhzdHFGTDhYOHluY3NQYmc0UjlKVkxuTmN5Y3dSVDlhbmxzZEtuYlY4VDkzSHN0ZWNfa2NwdUhoQWtTWkxK?oc=5",
+          "date": "2026-06-02",
+          "source": "Google News: Denmark job cuts"
+        },
+        {
+          "title": "Danish Crown to cut 800 jobs in restructuring push - The Pig Site",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb2tnamZmWTI5em9CTXpSd21tUXlBSV9vNVBFdS1KOFU1R0Z2RDd5ZjZPRzJoaVJ4M0NpREJOYXV2VWNVMkp0ZlFnRk5ZRW1tTUdVQ1l4UGhPTFU3Ti1tbm1rUjJ5WlJfdkI0QURrZmtBS0xFUEFSSGtES1pJaTJxdUxDdVBCVU52MjctdnJobnJFUDhx?oc=5",
+          "date": "2026-06-02",
+          "source": "Google News: Denmark job cuts"
+        },
+        {
+          "title": "Danish Crown Announces Major Workforce Reduction Amid Restructuring Efforts - Pre-Earnings Drift - newsline.com",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSERrRG9pQUZ4SWQ1NVJtaXpiMGFDWjJ1TmwtY09ZNlZGRFJaZExJUFdZLUhvQW5iZ2FLRGZYOGs4YzN5ZWlIX202WGpwV1NhX2JHbEVjX00wR05GQzdtc2l2UEdlS2NMQ0M1ZC1kYXdsUmJyNnhrTkQyVGllN3JPNWNMSVNsT1BveG8wLXh0Z0h0NFdzYU14VGgyUHBIeU9aQU52WGotcVJCdk9ZN2IySGpZMjg?oc=5",
+          "date": "2026-06-02",
+          "source": "Google News: Denmark restructuring"
+        },
+        {
+          "title": "Danish Crown to Eliminate 800 Corporate Jobs in Major Restructuring - asatunews.co.id",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sa3VhaUZnMG5tMGE2Q2RyMnFRU2Fsa3NvLS1VRlJLZnRwZEN1UzRNYlU2WUdRZWZ0cHJySDUwX1BxRm1MdlAwM0pYSFJGS3JUQW5UTXNkM2Zta29RNDJ3bXYwQ3J0TzhvbDVxU3c0RWd1SFYzRUlSZW5qb3U?oc=5",
+          "date": "2026-06-02",
+          "source": "Google News: Denmark restructuring"
+        },
+        {
+          "title": "Danish Crown restructures, plans to close Denmark plant - National Hog Farmer",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNVl0eU1Nby16VVliVkoycmdjUE9Ua05rcWROcFZnNmg1YkwySkVudnJpd1FTRUlEbGNCY2FJZ0k0ZGFNOEJWQUZKRnlJNDBsaTRiVlY3Y3JSM3J4eVZiMjBpa1gwcE96Mi05b1N3ZG9BNkZnV21RX1Z2dlIzRTU4bHRSUkc2a3ljZ3RJbDRCZmRIR2NabnpncWg3eWxDX2xDVVE?oc=5",
+          "date": "2023-08-11",
+          "source": "Google News: Denmark restructuring"
+        },
+        {
+          "title": "Danish Crown announces large-scale redundancies in United Kingdom - The Local Denmark",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1FfOEM5OHJPd09OWWZEazk0QmVMSDVrQlZIYmxTanlRd3RxbVp2TVhmQWNPOUJ0MFJOMzlNeFZQS2FFQnJKcmIzY1dxaFpqbHVuSDRmU0JIWWVjVmNVSmhoTjJnSXFTZzJMT3dHd0VNMlRiVHZHNTVEZXIza1RvYWFaVnBLNHEzWGszUHBtRjFER1VRbmZKLXBxZ1BoRDQ?oc=5",
+          "date": "2019-01-30",
+          "source": "Google News: Denmark job cuts"
+        }
+      ],
+      "title_en": "Danish Crown to cut 800 jobs in restructuring push - The Pig Site"
+    },
+    {
+      "company": "IKEA",
+      "country": "Sweden",
+      "city": "Malmö",
+      "type": "layoff",
+      "jobs_affected": 600,
+      "title": "Varsel på IKEA: Över 600 jobb bort i Sverige - Ehandel.se",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wakVHSUE3MGk0aWhEVGZtMzBVb25wcjhJOHF4UWN2S0xxc0lueWRoTU1DMHZtXzJhRG10ck9TaTRmNVR1cnh1dGJjckI3MS1vaDJMb1ZJaVlYU082NU54bTRhLVdzRURBY2c3YmNR?oc=5",
+      "date": "2026-05-18",
+      "sources": [
+        {
+          "title": "Malmö hårt drabbat av nytt Ikea-varsel - Sveriges Radio",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN2g3bTR0NU9jeTZEWnN0Q2pnMlpFcmJMOXRadVlPcld6QS1lWEpzcmI0NURsTFBZLVI5WEFzd19zNWFCTU4zXzZtQXVjcXBRMHU3bmJ5Y20wamFmZjFlOTZHNnVlNzFKMDFLU18wTF9jRkVIZ0ZtbTZLX1ZSNl90Ug?oc=5",
+          "date": "2026-05-18",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Nya uppsägningar på Ikea - Akademikerförbundet SSR",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82NEk1clVJQWh4UF9MWnFJamd5THp5NEFFTjNydmJoZHRJZVI2ckRRcGk1UDJsN184WEt1bGxYOVNoLTNGeEczQWtISHl2U2RRMUotX1lZUG1seVR1MUpj?oc=5",
+          "date": "2026-05-18",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Varsel på Ikea - Akademikerförbundet SSR",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hX2Y3UFFQa3JYZFgxQVRBekFBaWVHdXFWMmpUMU5VV21pVFZBVnA5elVuOEVXcUU0R3hXX0tuOEF4YTRtaFd4cmRKRWZqVXFvVmc?oc=5",
+          "date": "2026-03-20",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Varsel på IKEA: Över 600 jobb bort i Sverige - Ehandel.se",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wakVHSUE3MGk0aWhEVGZtMzBVb25wcjhJOHF4UWN2S0xxc0lueWRoTU1DMHZtXzJhRG10ck9TaTRmNVR1cnh1dGJjckI3MS1vaDJMb1ZJaVlYU082NU54bTRhLVdzRURBY2c3YmNR?oc=5",
+          "date": "2026-03-20",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Ännu ett varsel i ett Ikea-bolag – 45 tjänster påverkas - Market.se",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTi1oQ0RwcEx2by14eUVPUG4xcnNCWmxfQkFxRXpsVXZRSks1WTI0X1ltM2ttQ2dNRl9aZGh5YU9Tb2t6ZFBENHJzTzNnZFhWSGxUWHdhRjVFYUttREhYMVFvMkdPUTR2Q3ZKaVdOaVM5UjFCSk0zMjVlWUdaa1hCUndDMlRObW5SSnpiVUJFSTBwY29iR2FYbzZmNVc0ZU9iSk5iMWVpWldQdw?oc=5",
+          "date": "2025-10-27",
+          "source": "Google News SE: omorganisation jobb"
+        }
+      ],
+      "title_en": "Varsel på IKEA: Över 600 jobb bort i Sverige - Ehandel.se"
     },
     {
       "company": null,
-      "country": null,
+      "country": "Sweden",
+      "city": null,
       "type": "layoff",
-      "jobs_affected": 9000,
-      "title": "Layoffs News: Wegovy maker Novo Nordisk to cut 9,000 jobs across the globe: Here's why - Mint",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdmo5WVlWTUwzNDJKZmtzZkxQR1FfWW1vOFJtQnJURFdSN2VyU18wV0Z5alRFOWdCbUhFNUUwZk5VX0hsMWkwc2txeE5xMXFqUmNhRDg0d080QjNreUw5OVFJajU3bmIzNXJlV3ZTWGhWZUdYTWlTNlFZUVZPQzdvQVYwVVVZdWRRVm9FcU5fdnhvaG1RRGh0R1Q4MzdLWGVORmpodjBNQ1pmbVYwSnVQYlVZUFY3enlKbDRUY1hRMkVfclBuRWhCRnVOMmNIcWlUTW9lUy11N2kxRDjSAeABQVVfeXFMTnNobF8wSFI3M2VzR2FHRElTRXdXM1QwSTBkU1pvNlZzUXp4UTZ6TlhJSW1DVnVRTjdhb0hqQXpxTFgwR1FyYXpyOGdQRUxMN3hqeEY1WjRIX2NrRmtydmJZcl9kWXpwdkIydFptbi1rNFo5V2U5djZuQ2NMZ2ZjS3JtMndsclBySGFocWt6ZEd3VzgyczFob1gzR3lnTDN2dmFtRFVnZWMxcXVJOXhWRmJYSmtfdUF4V2NldEYtQ0tCRmNSUDgzVjBRYjN3T2NORENYcEt6QWNkcHVDVVVrZTE?oc=5",
-      "date": "2025-09-10"
+      "jobs_affected": 30,
+      "title": "30 anställda berörs i veckans största konkurs - Byggvärlden",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jOHIwTlBubE1zNTRnOUJ3MktmVVJmaUd6T3lZQTRKUVE3eXlDM3c0WDdCYmI3YTlfbFBpa2xQV0U0WVNFTWFvNHNiNnluMTRvQWRkc0NnejVKcXJlVkQ1M25zOVh1R0dWNEtzTGoybWNfRldRT2RqTDB1aUllQQ?oc=5",
+      "date": "2026-06-01",
+      "sources": [
+        {
+          "title": "30 anställda berörs i veckans största konkurs - Byggvärlden",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jOHIwTlBubE1zNTRnOUJ3MktmVVJmaUd6T3lZQTRKUVE3eXlDM3c0WDdCYmI3YTlfbFBpa2xQV0U0WVNFTWFvNHNiNnluMTRvQWRkc0NnejVKcXJlVkQ1M25zOVh1R0dWNEtzTGoybWNfRldRT2RqTDB1aUllQQ?oc=5",
+          "date": "2026-06-01",
+          "source": "Google News SE: konkurs anställda"
+        }
+      ],
+      "title_en": "30 anställda berörs i veckans största konkurs - Byggvärlden"
+    },
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 13,
+      "title": "Varsel på Unity line i Ystad – 13 anställda kan sägas upp - Ystads Allehanda",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM3dENXZYVUU4VWhocElSWk5TZ0xFanFNbGdLd2xsdHEzc1BQTkVvRmlQTzlocFNBenFpOW1YWFVPc0wyU0V2Q1RGM1JiQVlqblY2VTE2MldWZm91OHZlTUt5SW9UazFoS3FtVlZVUHFnNDFRVmNVUDJxOGhtZVVES0hhM0t5Y0ROM291RGcweTUxOVdqRENpMQ?oc=5",
+      "date": "2026-05-12",
+      "sources": [
+        {
+          "title": "Varsel på Unity line i Ystad – 13 anställda kan sägas upp - Ystads Allehanda",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM3dENXZYVUU4VWhocElSWk5TZ0xFanFNbGdLd2xsdHEzc1BQTkVvRmlQTzlocFNBenFpOW1YWFVPc0wyU0V2Q1RGM1JiQVlqblY2VTE2MldWZm91OHZlTUt5SW9UazFoS3FtVlZVUHFnNDFRVmNVUDJxOGhtZVVES0hhM0t5Y0ROM291RGcweTUxOVdqRENpMQ?oc=5",
+          "date": "2026-05-12",
+          "source": "Google News SE: varsel"
+        }
+      ],
+      "title_en": "Varsel på Unity line i Ystad – 13 anställda kan sägas upp - Ystads Allehanda"
+    },
+    {
+      "company": "Meta",
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Irland: Strejk mot AI-uppsägningar på Meta - Arbetaren",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzRhbE5nQm8wd0F1bFBTdzhuVWNTQkZ2N3EwYVpNTkU0T0MybGs2VVc4OExKdHRmNmpTV19OYkg4VndFTjhxclphdDFqSV82aEJDR0NIVXZwZ2t2RExBdzE0LXgzTHc0djc0aWVxdThIbWN6N2Y4N01vaXdXd2VQdURGVlk?oc=5",
+      "date": "2026-05-25",
+      "sources": [
+        {
+          "title": "Irland: Strejk mot AI-uppsägningar på Meta - Arbetaren",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzRhbE5nQm8wd0F1bFBTdzhuVWNTQkZ2N3EwYVpNTkU0T0MybGs2VVc4OExKdHRmNmpTV19OYkg4VndFTjhxclphdDFqSV82aEJDR0NIVXZwZ2t2RExBdzE0LXgzTHc0djc0aWVxdThIbWN6N2Y4N01vaXdXd2VQdURGVlk?oc=5",
+          "date": "2026-05-25",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Uppsägningar sänker pressat mjukvarubolag – Meta har varslat klart - EFN",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVWx0WUdTMkV3aXdXcW8xRHhfMzJVcUpUN0ZQdnlmLVBZSGNnY2txQXQ3M3BuQzlBN2JPRnlOZS1IZnd2cThzV1FoY0ZDNWFjT3FhZ3BBT2lQX2JpVm5DdUxaZTc1ejZ3T3VseHJfY1pUZTBmSGViSWdSRG15dS05dUJKREZvZw?oc=5",
+          "date": "2026-05-20",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Meta gör om inför uppsägningar - Svenska Dagbladet",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MYWtMT1lzNnlhU3Q2Z0pRcFZzTUZFMzJLQU9JSFpPX1p3VlB3Mi03YVpOZFBmSmp4Z1lrV3BFUWJ0bTV6Z1o4ZGdDZEo4NjdMeHYxR1VOQWxtTDR5RWlEUEFwb3lyZmpsb3c?oc=5",
+          "date": "2026-05-18",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Meta gör om inför uppsägningar - Svenska Epoch Times",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHTVAzcm9WaDZrMjFqYjFraG9zY0dlYlZDRklmTE04eklVeXNVVVpsZWs5ODVvaVVxU3hJUnRoVDJid3NTYkdPQlZ2WDFZMHpQTkpEY1ZNRDJvcm94V3R6a1Y1Z1ByWUE?oc=5",
+          "date": "2026-05-18",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Meta gör om inför uppsägningar - Västerbottens-Kuriren",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hZ2RZU0JJQlhVaWxKaHlvMWNCa19FWnVuZVA2TTBMYmJISTQzbHl4dkZsY1oycVc5TkVjbjl1YWZ4TVNPUHJpbzNIdGd0Zi11Sl9PbndsaWhiT2UzSnVfWlVhSnVPMlRZQl9JRzFOYXpwbmc?oc=5",
+          "date": "2026-05-18",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Meta planerar omfattande uppsägningar - första våg i maj - Reuters - Börsvärlden",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdl9iT1BYYVp2NGJQRmpBQlBFYUxrVmdGY0VuM3BjbmdLeEpXenNJc2ZYNm5DS3ZYRldfdWRzNF9weENmdGlXemRXNnJhZGVWdjVibEFWNGFQZzdRMllTZlhsM25CVFc0NlhPSXJqVWJpRXNRaGU4OGEwbDNnZ2JiclNySGNTM0pyTzQ5NHpJYnhyV2RvT0dqcDZmMA?oc=5",
+          "date": "2026-04-20",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Omfattande uppsägningar på Meta väntas nästa månad - Dagens industri",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mbGJ4TnEyc21wVFlpMllVRnBaU1g1MXVia05OM1JLRENZRXJjbktoWl8wQ1RYaVEyY0ZmbjRndGlZNnRHRnhOMzJDd2Q2XzlLakc4WGpQQ1RZaHg4NWNPY1RpZHN6ekpoZFdtRWJVZVNNX0tiZkZUcFRualNvUk0?oc=5",
+          "date": "2026-04-17",
+          "source": "Google News SE: uppsägningar"
+        },
+        {
+          "title": "Digest: OpenAI Tests Ads Manager and Prepares Agentic Storefronts Feature; Meta Plans Layoffs while Publishers Back its Expulsion from IAB Sweden - exchangewire.com",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOSVAxeWxGaV9mYVNWNE5WZFdvcFJJalg1c3VNRjItelFWZ3JrVlJzV0xacVR1UFlubk42NnZBdlYxMEV3d0lLc2JwNXlHaTVUeUtpTVp3bGxtWlJ5S0s2RTZualpwYm5RQUZ5SXVHcWtpTHF0NTFnRjBYd2R4bEo4MkFya0JhdkpUNTZrOTFzWWNsZFpYMTVYZ1lqUXV5M0VOZ3JseHZtcVBwSURYTnJTYkpLNHRMcVM0NFZjVThHQkp4dzc1OE40ejYzNG9OMXhMdGlUT0ktd0d6NUtqUW0xanBnWDlvV2RFaEFIWU41NkYyS2h6a3BrSERXQjJjV3BQb3VSZmw5clNMRkFSXzk2dkJsd3hkLVR3?oc=5",
+          "date": "2026-03-17",
+          "source": "Google News: Sweden layoffs"
+        },
+        {
+          "title": "Meta bekräftar uppsägningar i VR-satsningen - Omni",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03eV9XX3pUak52ODhxa2lhUmw1cG1fTVJmOGxjRGUtb05fSUtHNXVrWWh5eEhvZGZpMVhib2pUaVpOTUdwTzJ1QjRKMWROdi1WRzhkTTV4eWhONUFzTWk1aklYd25wVDBSYm9rSVJoMFJkMmN2NnVz?oc=5",
+          "date": "2026-01-14",
+          "source": "Google News SE: uppsägningar"
+        }
+      ],
+      "title_en": "Irland: Strejk mot AI-uppsägningar på Meta - Arbetaren"
+    },
+    {
+      "company": "SAS",
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "SAS vd: Inga statliga räddningspaket",
+      "url": "https://www.svt.se/nyheter/ekonomi/sas-vd-inga-statliga-raddningspaket",
+      "date": "2026-05-15",
+      "sources": [
+        {
+          "title": "SAS vd: Inga statliga räddningspaket",
+          "url": "https://www.svt.se/nyheter/ekonomi/sas-vd-inga-statliga-raddningspaket",
+          "date": "2026-05-15",
+          "source": "SVT Nyheter – Ekonomi"
+        }
+      ],
+      "title_en": "SAS vd: Inga statliga räddningspaket"
     }
   ],
-  "rising_skills": [
+  "demand": [
     {
-      "skill": "Ai",
-      "demand_index": 100,
-      "trend": "flat",
-      "evidence": "74 mention(s) across this week's signals"
+      "country": "Sweden",
+      "role": "Data/IT",
+      "vacancies": 48,
+      "share": 34
     },
     {
-      "skill": "Tech",
-      "demand_index": 41,
-      "trend": "flat",
-      "evidence": "30 mention(s) across this week's signals"
+      "country": "Sweden",
+      "role": "Pedagogik",
+      "vacancies": 21,
+      "share": 15
     },
     {
-      "skill": "Data/IT",
-      "demand_index": 31,
-      "trend": "flat",
-      "evidence": "23 mention(s) across this week's signals"
+      "country": "Sweden",
+      "role": "Yrken med teknisk inriktning",
+      "vacancies": 17,
+      "share": 12
     },
     {
-      "skill": "Administration, ekonomi, juridik",
-      "demand_index": 24,
-      "trend": "flat",
-      "evidence": "18 mention(s) across this week's signals"
+      "country": "Sweden",
+      "role": "Hälso- och sjukvård",
+      "vacancies": 16,
+      "share": 11
     },
     {
-      "skill": "Yrken med teknisk inriktning",
-      "demand_index": 20,
-      "trend": "flat",
-      "evidence": "15 mention(s) across this week's signals"
+      "country": "Sweden",
+      "role": "Administration, ekonomi, juridik",
+      "vacancies": 15,
+      "share": 10
     },
     {
-      "skill": "Automotive",
-      "demand_index": 18,
-      "trend": "flat",
-      "evidence": "13 mention(s) across this week's signals"
+      "country": "Sweden",
+      "role": "Installation, drift, underhåll",
+      "vacancies": 7,
+      "share": 5
     },
     {
-      "skill": "Pedagogik",
-      "demand_index": 15,
-      "trend": "flat",
-      "evidence": "11 mention(s) across this week's signals"
+      "country": "Denmark",
+      "role": "AI",
+      "vacancies": 15,
+      "share": 14
     },
     {
-      "skill": "Försäljning, inköp, marknadsföring",
-      "demand_index": 11,
-      "trend": "flat",
-      "evidence": "8 mention(s) across this week's signals"
+      "country": "Denmark",
+      "role": "Teacher",
+      "vacancies": 15,
+      "share": 14
+    },
+    {
+      "country": "Denmark",
+      "role": "Nurse",
+      "vacancies": 15,
+      "share": 14
+    },
+    {
+      "country": "Denmark",
+      "role": "Data Scientist",
+      "vacancies": 13,
+      "share": 12
+    },
+    {
+      "country": "Denmark",
+      "role": "Machine Learning",
+      "vacancies": 13,
+      "share": 12
+    },
+    {
+      "country": "Denmark",
+      "role": "Workforce Planning",
+      "vacancies": 8,
+      "share": 7
     }
   ],
   "shortages": [
     {
       "country": "EU27",
       "occupation": "Legal, social, cultural and related associate professionals",
-      "severity": 3.3
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
     },
     {
       "country": "EU27",
       "occupation": "Personal service workers",
-      "severity": 3.3
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
     },
     {
       "country": "EU27",
       "occupation": "Personal care workers",
-      "severity": 3.3
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
     },
     {
       "country": "EU27",
       "occupation": "Building and related trades workers, excluding electricians",
-      "severity": 3.3
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "EU27",
+      "occupation": "Cleaners and helpers",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "EU27",
+      "occupation": "Refuse workers and other elementary workers",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "EU27",
+      "occupation": "Chief executives, senior officials and legislators",
+      "severity": 3.0,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "EU27",
+      "occupation": "Production and specialised services managers",
+      "severity": 3.0,
+      "source": "Cedefop CLSSI 2024"
     },
     {
       "country": "Sweden",
       "occupation": "Legal, social, cultural and related associate professionals",
-      "severity": 3.7
+      "severity": 3.7,
+      "source": "Cedefop CLSSI 2024"
     },
     {
       "country": "Sweden",
       "occupation": "Drivers and mobile plant operators",
-      "severity": 3.7
+      "severity": 3.7,
+      "source": "Cedefop CLSSI 2024"
     },
     {
       "country": "Sweden",
       "occupation": "Labourers in mining, construction, manufacturing and transport",
-      "severity": 3.7
+      "severity": 3.7,
+      "source": "Cedefop CLSSI 2024"
     },
     {
       "country": "Sweden",
       "occupation": "Refuse workers and other elementary workers",
-      "severity": 3.7
+      "severity": 3.7,
+      "source": "Cedefop CLSSI 2024"
     },
     {
-      "country": "Germany",
-      "occupation": "Legal, social and cultural professionals",
-      "severity": 4.0
-    },
-    {
-      "country": "Germany",
-      "occupation": "Agricultural, forestry and fishery labourers",
-      "severity": 4.0
-    },
-    {
-      "country": "Germany",
-      "occupation": "Teaching professionals",
-      "severity": 3.7
-    },
-    {
-      "country": "Germany",
-      "occupation": "Market-oriented skilled agricultural workers",
-      "severity": 3.7
-    },
-    {
-      "country": "Netherlands",
-      "occupation": "General and keyboard clerks",
-      "severity": 3.3
-    },
-    {
-      "country": "Netherlands",
-      "occupation": "Stationary plant and machine operators",
-      "severity": 3.3
-    },
-    {
-      "country": "Netherlands",
-      "occupation": "Drivers and mobile plant operators",
-      "severity": 3.3
-    },
-    {
-      "country": "Netherlands",
-      "occupation": "Cleaners and helpers",
-      "severity": 3.3
-    },
-    {
-      "country": "France",
-      "occupation": "Cleaners and helpers",
-      "severity": 3.7
-    },
-    {
-      "country": "France",
-      "occupation": "Food preparation assistants",
-      "severity": 3.7
-    },
-    {
-      "country": "France",
-      "occupation": "Refuse workers and other elementary workers",
-      "severity": 3.7
-    },
-    {
-      "country": "France",
-      "occupation": "Sales workers",
-      "severity": 3.3
-    },
-    {
-      "country": "Spain",
-      "occupation": "Legal, social, cultural and related associate professionals",
-      "severity": 3.3
-    },
-    {
-      "country": "Spain",
-      "occupation": "Customer services clerks",
-      "severity": 3.3
-    },
-    {
-      "country": "Spain",
+      "country": "Sweden",
       "occupation": "Personal service workers",
-      "severity": 3.3
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
     },
     {
-      "country": "Spain",
-      "occupation": "Building and related trades workers, excluding electricians",
-      "severity": 3.3
+      "country": "Sweden",
+      "occupation": "Market-oriented skilled forestry, fishery and hunting workers",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
     },
     {
-      "country": "Italy",
-      "occupation": "Administrative and commercial managers",
-      "severity": 4.0
-    },
-    {
-      "country": "Italy",
-      "occupation": "Science and engineering professionals",
-      "severity": 4.0
-    },
-    {
-      "country": "Italy",
-      "occupation": "Business and administration professionals",
-      "severity": 4.0
-    },
-    {
-      "country": "Italy",
-      "occupation": "Legal, social and cultural professionals",
-      "severity": 4.0
-    },
-    {
-      "country": "Finland",
-      "occupation": "Assemblers",
-      "severity": 4.0
-    },
-    {
-      "country": "Finland",
+      "country": "Sweden",
       "occupation": "Food preparation assistants",
-      "severity": 4.0
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
     },
     {
-      "country": "Finland",
-      "occupation": "Building and related trades workers, excluding electricians",
-      "severity": 3.7
+      "country": "Sweden",
+      "occupation": "Health professionals",
+      "severity": 3.0,
+      "source": "Cedefop CLSSI 2024"
     },
     {
-      "country": "Finland",
-      "occupation": "Electrical and electronic trades workers",
-      "severity": 3.7
+      "country": "Denmark",
+      "occupation": "Drivers and mobile plant operators",
+      "severity": 3.7,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "Denmark",
+      "occupation": "Agricultural, forestry and fishery labourers",
+      "severity": 3.7,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "Denmark",
+      "occupation": "Production and specialised services managers",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "Denmark",
+      "occupation": "Health associate professionals",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "Denmark",
+      "occupation": "Legal, social, cultural and related associate professionals",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "Denmark",
+      "occupation": "Personal service workers",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "Denmark",
+      "occupation": "Protective services workers",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
+    },
+    {
+      "country": "Denmark",
+      "occupation": "Handicraft and printing workers",
+      "severity": 3.3,
+      "source": "Cedefop CLSSI 2024"
     }
   ],
-  "sources_count": 21
+  "sources_count": 23
 }

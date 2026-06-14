@@ -1,7 +1,7 @@
 """
-EU Job Market Radar — entry point.
+Sweden & Denmark Job Market Radar — entry point.
 
-Orchestrates the whole weekly workflow:
+Orchestrates the whole workflow:
 1. Load config (done on import of `config`).
 2. Initialise the database.
 3. Run all collectors.
@@ -27,18 +27,11 @@ from datetime import date
 import config
 from radar import db
 from radar.collectors import (
-    adzuna_jobs,
-    arbeitnow_collector,
     company_news_collector,
-    eures_collector,
+    denmark_jobs,
     eurofound_collector,
-    finland_jobs,
-    france_jobs,
     gdelt_collector,
-    germany_jobs,
-    netherlands_jobs,
     rss_collector,
-    spain_jobs,
     sweden_jobs,
 )
 from radar.models import Item
@@ -50,20 +43,14 @@ from radar.utils.logging import get_logger
 logger = get_logger("main")
 
 # The collectors to run, in order. Each must expose a `collect() -> list[Item]`.
+# Scope is Sweden + Denmark, so only SE/DK-relevant sources run.
 COLLECTORS = [
-    ("RSS / Google News", rss_collector.collect),
-    ("GDELT news (multilingual)", gdelt_collector.collect),
-    ("Company news", company_news_collector.collect),
-    ("Sweden jobs", sweden_jobs.collect),
-    ("Arbeitnow jobs", arbeitnow_collector.collect),
-    ("Germany jobs", germany_jobs.collect),
-    ("France jobs", france_jobs.collect),
-    ("Netherlands jobs", netherlands_jobs.collect),
-    ("Finland jobs", finland_jobs.collect),
-    ("Spain jobs", spain_jobs.collect),
-    ("Adzuna (multi-country jobs)", adzuna_jobs.collect),
+    ("RSS / Google News (EN + local SE/DK)", rss_collector.collect),
+    ("GDELT news (multilingual, SE/DK)", gdelt_collector.collect),
+    ("Company news (Nordic employers)", company_news_collector.collect),
+    ("Sweden jobs (Arbetsförmedlingen)", sweden_jobs.collect),
+    ("Denmark jobs (Jobindex)", denmark_jobs.collect),
     ("Eurofound ERM", eurofound_collector.collect),
-    ("EURES", eures_collector.collect),
 ]
 
 
@@ -147,8 +134,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--days",
         type=int,
-        default=7,
-        help="Look-back window in days for the report (default: 7).",
+        default=30,
+        help="Look-back window in days (default: 30 — 'biggest moves this month').",
     )
     return parser.parse_args()
 

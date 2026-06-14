@@ -1,12 +1,15 @@
 """
-Central configuration for EU Job Market Radar.
+Central configuration for the Sweden & Denmark Job Market Radar.
 
-Everything that you might want to tweak (data sources, keywords, country list,
-LLM settings, email settings) lives here so beginners only have to look in one
-place to customise the project.
+Everything you might want to tweak (data sources, keywords, country list, LLM
+settings, email settings) lives here so there is only one place to look.
 
-Secrets (SMTP password, API keys) are read from environment variables, which
-are loaded from a local ".env" file via python-dotenv.
+Secrets (SMTP password, API keys) are read from environment variables, loaded
+from a local ".env" file via python-dotenv.
+
+SCOPE: this radar deliberately covers ONLY Sweden and Denmark, so it can go deep
+(native-language news, national job boards, country shortage + demand data)
+instead of thin-and-wide across the EU.
 """
 
 import os
@@ -26,237 +29,183 @@ DATA_DIR = BASE_DIR / "data"
 REPORTS_DIR = BASE_DIR / "reports"
 DOCS_DIR = BASE_DIR / "docs"
 DB_PATH = DATA_DIR / "radar.sqlite"
-# The daily public snapshot consumed by the website (committed/pushed to the site).
+# The public snapshot consumed by the website (committed/pushed to the site).
 DATA_JSON_PATH = DOCS_DIR / "data.json"
 
-# Make sure the folders exist (cheap and safe to call on every run).
 DATA_DIR.mkdir(exist_ok=True)
 REPORTS_DIR.mkdir(exist_ok=True)
 DOCS_DIR.mkdir(exist_ok=True)
 
+# ---------------------------------------------------------------------------
+# Scope — the single source of truth for which countries we cover.
+# ---------------------------------------------------------------------------
+FOCUS_COUNTRIES = ["Sweden", "Denmark"]
+
 # ISO-2 country codes for the website (flags / labels).
-COUNTRY_CODES = {
-    "Sweden": "SE", "Denmark": "DK", "Norway": "NO", "Finland": "FI",
-    "Germany": "DE", "Netherlands": "NL", "France": "FR", "Italy": "IT",
-    "Spain": "ES", "Poland": "PL", "Ireland": "IE", "Belgium": "BE",
-    "Austria": "AT", "Switzerland": "CH", "EU": "EU", "Europe": "EU",
+COUNTRY_CODES = {"Sweden": "SE", "Denmark": "DK", "EU": "EU", "Europe": "EU"}
+
+# Where a clickable vacancy count takes the reader: the live national job board,
+# pre-filtered. {q} is replaced with a search term by the exporter.
+VACANCY_BOARD_URLS = {
+    "Sweden": "https://arbetsformedlingen.se/platsbanken/annonser?q={q}",
+    "Denmark": "https://www.jobindex.dk/jobsoegning?q={q}",
 }
 
 # ---------------------------------------------------------------------------
 # HTTP / politeness settings
 # ---------------------------------------------------------------------------
-# A descriptive User-Agent is good manners: it tells site owners who is making
-# requests and gives them a way to contact you.
 USER_AGENT = (
-    "eu-job-market-radar/1.0 (personal learning project; "
-    "+https://github.com/your-username/eu-job-market-radar)"
+    "sweden-denmark-job-radar/1.0 (personal project; "
+    "+https://github.com/Defqon01/sweden-denmark-job-radar)"
 )
-# Seconds to wait between requests to the SAME host (simple rate limiting).
 REQUEST_DELAY_SECONDS = 2.0
-# Per-request network timeout in seconds.
 REQUEST_TIMEOUT_SECONDS = 20
-# Whether to check robots.txt before scraping HTML pages.
 RESPECT_ROBOTS_TXT = True
 
 # ---------------------------------------------------------------------------
-# Google News RSS search queries
+# Google News RSS — English-edition queries, scoped to Sweden + Denmark.
 # ---------------------------------------------------------------------------
-# Each query becomes a Google News RSS feed. Google News exposes search results
-# as RSS, which is allowed and far friendlier than scraping HTML.
 GOOGLE_NEWS_QUERIES = [
-    "Europe layoffs",
-    "EU layoffs",
-    "Europe job cuts",
-    "Europe redundancies",
-    "Sweden layoffs",
-    "Denmark layoffs",
-    "Germany layoffs",
-    "Netherlands layoffs",
-    "France layoffs",
-    "Italy layoffs",
-    "Spain layoffs",
-    "Europe hiring freeze",
-    "Europe restructuring",
-    "EU skills shortage",
-    "AI jobs Europe",
-    "AI governance jobs Europe",
-    "workforce planning Europe",
-    "HR analytics Europe",
-    "talent management Europe",
+    "Sweden layoffs", "Sweden job cuts", "Sweden hiring freeze",
+    "Sweden restructuring", "Sweden skills shortage",
+    "Denmark layoffs", "Denmark job cuts", "Denmark hiring freeze",
+    "Denmark restructuring", "Denmark skills shortage",
 ]
-
-# Google News RSS endpoint. {query} is URL-encoded by the collector.
-# hl = language, gl = country, ceid = country:language edition.
 GOOGLE_NEWS_RSS_TEMPLATE = (
     "https://news.google.com/rss/search?q={query}&hl=en&gl=US&ceid=US:en"
 )
 
+# Native-language queries fetched from the LOCAL Google News edition — the big
+# "local info" win, since most Swedish/Danish layoff news ("varsel", "fyringer")
+# never reaches the English edition. Each entry carries the country it belongs
+# to so items are attributed even when the headline never says Sweden/Denmark.
+#   (query, hl, gl, ceid, country)
+GOOGLE_NEWS_LOCAL_QUERIES = [
+    # Swedish (sv-SE)
+    ("varsel", "sv", "SE", "SE:sv", "Sweden"),
+    ("uppsägningar", "sv", "SE", "SE:sv", "Sweden"),
+    ("nedskärningar personal", "sv", "SE", "SE:sv", "Sweden"),
+    ("konkurs anställda", "sv", "SE", "SE:sv", "Sweden"),
+    ("anställningsstopp", "sv", "SE", "SE:sv", "Sweden"),
+    ("kompetensbrist", "sv", "SE", "SE:sv", "Sweden"),
+    ("omorganisation jobb", "sv", "SE", "SE:sv", "Sweden"),
+    # Danish (da-DK)
+    ("fyringer", "da", "DK", "DK:da", "Denmark"),
+    ("afskedigelser", "da", "DK", "DK:da", "Denmark"),
+    ("fyringsrunde", "da", "DK", "DK:da", "Denmark"),
+    ("konkurs medarbejdere", "da", "DK", "DK:da", "Denmark"),
+    ("ansættelsesstop", "da", "DK", "DK:da", "Denmark"),
+    ("mangel på arbejdskraft", "da", "DK", "DK:da", "Denmark"),
+    ("omstrukturering job", "da", "DK", "DK:da", "Denmark"),
+]
+GOOGLE_NEWS_RSS_TEMPLATE_LOCAL = (
+    "https://news.google.com/rss/search?q={query}&hl={hl}&gl={gl}&ceid={ceid}"
+)
+
 # ---------------------------------------------------------------------------
-# Generic / direct RSS feeds (non-Google).
-# Add any public RSS feed about labour markets, HR, or the economy here.
+# Local Sweden/Denmark business & economy RSS feeds. (name, url, country).
+# `country` pre-tags items so local-language headlines are attributed even when
+# they never spell out the country. Unreachable feeds are skipped safely.
 # ---------------------------------------------------------------------------
 DIRECT_RSS_FEEDS = [
-    # (source_name, url)
-    # Example placeholders — uncomment / replace with feeds you trust:
-    # ("Euractiv Economy", "https://www.euractiv.com/sections/economy-jobs/feed/"),
-    # ("ECB Press", "https://www.ecb.europa.eu/rss/press.html"),
+    # Sweden
+    ("SVT Nyheter – Ekonomi", "https://www.svt.se/nyheter/ekonomi/rss.xml", "Sweden"),
+    ("Dagens Nyheter – Ekonomi", "https://www.dn.se/ekonomi/rss/", "Sweden"),
+    ("Breakit", "https://www.breakit.se/feed/artiklar", "Sweden"),
+    # Denmark
+    ("DR – Penge", "https://www.dr.dk/nyheder/service/feeds/penge", "Denmark"),
+    ("DR – Indland", "https://www.dr.dk/nyheder/service/feeds/indland", "Denmark"),
+    ("Finans.dk", "https://finans.dk/rss", "Denmark"),
 ]
 
 # ---------------------------------------------------------------------------
-# Company newsrooms / press release feeds.
-# Many large companies publish an RSS feed or a press page. Where a public RSS
-# feed is known it is listed; otherwise the URL is left as None with a TODO so
-# the collector simply skips it without crashing.
+# Major Swedish & Danish employer newsrooms (RSS where known, else None=skip).
 # ---------------------------------------------------------------------------
 COMPANY_FEEDS = [
-    # (company_name, rss_url_or_None)
     ("Ericsson", "https://www.ericsson.com/en/rss"),
     ("Spotify", "https://newsroom.spotify.com/feed/"),
-    ("SAP", "https://news.sap.com/feed/"),
-    ("Nokia", "https://www.nokia.com/rss.xml"),
-    # TODO: confirm/replace the feeds below — left as None so they skip safely.
-    ("IKEA", None),            # TODO: find a public Inter IKEA / IKEA newsroom RSS
-    ("Volvo Group", None),     # TODO: Volvo Group media RSS
-    ("Klarna", None),          # TODO: Klarna newsroom RSS
-    ("Siemens", None),         # TODO: Siemens press RSS
-    ("Maersk", None),          # TODO: Maersk press RSS
-    ("Novo Nordisk", None),    # TODO: Novo Nordisk news RSS
+    ("Volvo Cars", None),
+    ("Klarna", None),
+    ("IKEA", None),
+    ("H&M", None),
+    ("Maersk", None),
+    ("Novo Nordisk", None),
+    ("Carlsberg", None),
+    ("Vestas", None),
+    ("Ørsted", None),
+    ("Danske Bank", None),
 ]
 
-# ---------------------------------------------------------------------------
-# Eurofound European Restructuring Monitor (ERM)
-# ---------------------------------------------------------------------------
+# Eurofound European Restructuring Monitor (EU-wide; yields SE/DK items too).
 EUROFOUND_ERM_URL = "https://www.eurofound.europa.eu/en/restructuring/erm"
 
 # ---------------------------------------------------------------------------
-# EURES (European job mobility portal)
-# ---------------------------------------------------------------------------
-EURES_URL = "https://eures.europa.eu/index_en"
-
-# ---------------------------------------------------------------------------
-# Country job-board collectors.
-#
-# Each country has its own collector file in radar/collectors/. They all use
-# the SAME English search terms below, so coverage stays consistent and easy
-# to tune in one place. Job titles returned by national APIs are in the local
-# language (we do not translate them), but everything we control is in English.
-#
-# Keep the limit modest so a weekly run does not flood the database with
-# thousands of vacancies.
+# Job-board collectors. Both countries use the same search terms so coverage
+# stays consistent and the per-term counts double as a demand signal.
 # ---------------------------------------------------------------------------
 JOB_SEARCH_TERMS = [
-    "AI",
-    "machine learning",
-    "data scientist",
-    "data engineer",
-    "workforce planning",
-    "HR analytics",
-    "people analytics",
-    "talent acquisition",
+    "AI", "machine learning", "data scientist", "data engineer",
+    "software engineer", "nurse", "teacher", "electrician",
+    "workforce planning", "HR analytics", "people analytics", "talent acquisition",
 ]
 JOB_BOARD_LIMIT_PER_QUERY = 15
 
-# --- Sweden: Arbetsförmedlingen JobTech API (public, no key required) ---
-#   docs: https://jobtechdev.se/
+# Sweden: Arbetsförmedlingen JobTech API (public, no key). https://jobtechdev.se/
 SWEDEN_JOBS_API = "https://jobsearch.api.jobtechdev.se/search"
 
-# --- Germany: Bundesagentur für Arbeit "Jobsuche" API (public app key) ---
-# The key below is the well-known public key used by their own web/app client;
-# no personal registration is required to read public vacancies.
-GERMANY_JOBS_API = (
-    "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs"
-)
-GERMANY_JOBS_API_KEY = "jobboerse-jobsuche"
-# Public vacancy detail pages are built from the ad's reference number:
-GERMANY_JOB_DETAIL_URL = "https://www.arbeitsagentur.de/jobsuche/jobdetail/{refnr}"
-
-# --- France: France Travail "Offres d'emploi" API (free, but OAuth required) ---
-# Create free credentials at https://francetravail.io/ and put them in your
-# .env / GitHub secrets. If they are missing, the collector skips safely.
-FRANCE_JOBS_TOKEN_URL = (
-    "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=/partenaire"
-)
-FRANCE_JOBS_API = (
-    "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
-)
-FRANCE_TRAVAIL_CLIENT_ID = os.getenv("FRANCE_TRAVAIL_CLIENT_ID", "").strip()
-FRANCE_TRAVAIL_CLIENT_SECRET = os.getenv("FRANCE_TRAVAIL_CLIENT_SECRET", "").strip()
-
-# --- Adzuna: free job-search aggregator API covering many EU countries ------
-# One collector (adzuna_jobs.py) covers several countries via this single API.
-# Create free credentials at https://developer.adzuna.com/ and put them in your
-# .env / GitHub secrets. If they are missing, the collector skips safely.
-#
-# Note: Adzuna does NOT cover Sweden or Finland. Sweden keeps its own native
-# Arbetsförmedlingen collector; Germany already has a native collector, so it
-# is left out of the Adzuna list below to avoid double-counting.
-ADZUNA_API = "https://api.adzuna.com/v1/api/jobs/{country}/search/1"
-ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID", "").strip()
-ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY", "").strip()
-# Adzuna 2-letter country code -> display name used in our reports.
-ADZUNA_COUNTRIES = {
-    "nl": "Netherlands",
-    "es": "Spain",
-    "fr": "France",
-    "it": "Italy",
-    "pl": "Poland",
-    "at": "Austria",
-}
+# Denmark: Jobindex public search RSS (no key; intended for syndication).
+DENMARK_JOBS_RSS = "https://www.jobindex.dk/jobsoegning.rss?q={query}"
 
 # ---------------------------------------------------------------------------
-# Cedefop Labour and Skills Shortage Index (CLSSI) — the EU skills source.
-# A public Excel dataset of labour/skills shortage scores (1=low .. 4=severe)
-# by occupation group, with one sheet per country plus an EU27 sheet.
-#   page:    https://www.cedefop.europa.eu/en/datasets/labour-skills-shortage-index
-# The report downloads and parses this to show real shortage occupations.
+# Cedefop Labour & Skills Shortage Index (CLSSI) — the shortage data source.
+# Public Excel, one sheet per country (1=low .. 4=severe by occupation group).
 # ---------------------------------------------------------------------------
 CEDEFOP_CLSSI_URL = (
     "https://www.cedefop.europa.eu/files/"
     "2024_cedefop_labour_skills_shortage_index_clssi_dataset.xlsx"
 )
-# Map our country names to the CLSSI sheet codes we want to feature, plus EU27.
-CEDEFOP_FEATURED = {
-    "EU27": "EU27",
-    "Sweden": "SE",
-    "Germany": "DE",
-    "Netherlands": "NL",
-    "France": "FR",
-    "Spain": "ES",
-    "Italy": "IT",
-    "Finland": "FI",
-}
-# Only occupations at or above this index count as a real shortage (1..4 scale).
+# Only the two focus countries (+ EU27 for context).
+CEDEFOP_FEATURED = {"EU27": "EU27", "Sweden": "SE", "Denmark": "DK"}
 CEDEFOP_SHORTAGE_THRESHOLD = 3.0
+CEDEFOP_LIMIT_PER_COUNTRY = 8
 
 # ---------------------------------------------------------------------------
-# GDELT — global news-event database (free, no key, fully sanctioned for
-# programmatic use). It is TRANSLINGUAL: querying English layoff terms also
-# matches LOCAL-LANGUAGE articles per country (e.g. German "Entlassungen"),
-# giving far broader European coverage than English-only Google News.
-#   docs: https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
+# GDELT — free, no-key, TRANSLINGUAL news-event database. An English "layoffs"
+# query also matches Swedish/Danish coverage. Scoped to SE + DK source country.
 # ---------------------------------------------------------------------------
 GDELT_API = "https://api.gdeltproject.org/api/v2/doc/doc"
-GDELT_QUERY = "layoffs"            # single robust term; translingual broadens it
-GDELT_TIMESPAN = "14d"
-GDELT_LIMIT_PER_COUNTRY = 25
-# FIPS 10-4 country codes (used by GDELT 'sourcecountry') -> our display names.
-GDELT_COUNTRIES = {
-    "GM": "Germany", "FR": "France", "IT": "Italy", "SP": "Spain",
-    "SW": "Sweden", "NL": "Netherlands", "DA": "Denmark", "NO": "Norway",
-    "FI": "Finland", "PL": "Poland", "BE": "Belgium", "AU": "Austria",
-    "SZ": "Switzerland", "EI": "Ireland", "PO": "Portugal", "GR": "Greece",
-}
+GDELT_QUERY = "layoffs"
+GDELT_TIMESPAN = "30d"  # 30-day window for "biggest moves this month"
+GDELT_LIMIT_PER_COUNTRY = 75
+GDELT_COUNTRIES = {"SW": "Sweden", "DA": "Denmark"}
 
 # ---------------------------------------------------------------------------
-# Arbeitnow — free, public, no-key job-board API (Europe-focused, many German
-# and EU listings). https://www.arbeitnow.com/api/job-board-api
+# Major employers that show up in Swedish/Danish workforce news. News items
+# rarely carry a structured company, so the exporter scans HEADLINES for these
+# to CLUSTER duplicate coverage of one layoff into a single event.
 # ---------------------------------------------------------------------------
-ARBEITNOW_API = "https://www.arbeitnow.com/api/job-board-api"
+COMPANY_WATCHLIST = [
+    # Sweden
+    "Ericsson", "Volvo Cars", "Volvo Group", "Volvo", "Electrolux", "Klarna",
+    "Spotify", "Northvolt", "Scania", "Sandvik", "Atlas Copco", "ABB", "SKF",
+    "Saab", "Telia", "Tele2", "SEB", "Swedbank", "Handelsbanken", "H&M",
+    "IKEA", "SAS", "Embracer", "King", "Truecaller", "Postnord", "PostNord",
+    "ICA", "Coop", "Securitas", "Skanska", "NCC", "SJ", "Storytel", "Sinch",
+    "Avanza", "Nordnet", "Husqvarna", "Assa Abloy", "Essity", "Boliden",
+    # Denmark
+    "Novo Nordisk", "Maersk", "Carlsberg", "Vestas", "Ørsted", "Danske Bank",
+    "Pandora", "Lego", "Lundbeck", "Grundfos", "Danfoss", "Coloplast", "DSV",
+    "Nordea", "GN Store Nord", "Demant", "Genmab", "Bang & Olufsen",
+    "Rockwool", "ISS", "TDC", "Chr. Hansen", "Nilfisk", "Danish Crown",
+    "Arla", "Salling Group", "Bestseller", "Jysk", "Ecco", "FLSmidth",
+    "Topdanmark", "Tryg", "Velux", "Widex", "Nykredit", "Jyske Bank",
+    # Global names that announce SE/DK cuts
+    "Microsoft", "Google", "Meta", "Amazon", "Tesla", "Intel", "SAP", "IBM",
+    "Nokia", "Tietoevry", "CGI", "Accenture", "Cognizant", "Siemens",
+]
 
 # ---------------------------------------------------------------------------
-# Classification keywords (lower-cased matching).
-# Order matters: the classifier checks job_posting hints, then the categories
-# below in this dictionary order.
+# Classification keywords (lower-cased). Order matters.
 # ---------------------------------------------------------------------------
 SIGNAL_KEYWORDS = {
     "layoff": [
@@ -264,22 +213,32 @@ SIGNAL_KEYWORDS = {
         "redundancy", "redundancies", "dismissal", "dismissals",
         "workforce reduction", "cut jobs", "cutting jobs", "slash jobs",
         "axe jobs", "headcount reduction", "downsizing",
+        # Swedish
+        "varsel", "varslar", "varslas", "varslade", "uppsäg", "säga upp",
+        "sägs upp", "personalneddragning", "neddragning", "nedskärning",
+        "permittering", "konkurs",
+        # Danish
+        "fyring", "fyrer", "fyret", "afskedig", "fyringsrunde", "massefyring",
+        "nedskæring", "personalereduktion",
     ],
     "restructuring": [
         "restructuring", "restructure", "reorganization", "reorganisation",
         "reorganize", "reorganise", "transformation programme",
         "transformation program", "business transformation",
+        "omstrukturering", "omorganisation", "omorganisering", "omstilling",
     ],
     "hiring_freeze": [
         "hiring freeze", "hiring freezes", "freeze hiring", "freezing hiring",
         "recruitment freeze", "pause hiring", "hiring pause",
+        "anställningsstopp", "rekryteringsstopp", "ansættelsesstop",
     ],
     "skills_shortage": [
         "skills shortage", "skill shortage", "talent shortage",
         "labour shortage", "labor shortage", "skills gap", "skill gap",
         "talent gap",
+        "kompetensbrist", "arbetskraftsbrist", "brist på arbetskraft",
+        "mangel på arbejdskraft", "rekrutteringsudfordringer", "mangel på faglært",
     ],
-    # labour_market_news is a catch-all for HR/analytics/AI-governance topics.
     "labour_market_news": [
         "ai governance", "ai jobs", "workforce planning", "hr analytics",
         "people analytics", "talent management", "labour market",
@@ -287,56 +246,62 @@ SIGNAL_KEYWORDS = {
     ],
 }
 
-# Words that strongly suggest the item is an actual job posting (vacancy)
-# rather than news about the labour market.
 JOB_POSTING_HINTS = [
     "apply now", "we are hiring", "we're hiring", "job opening",
     "job vacancy", "vacancy", "open position", "open role", "join our team",
     "now hiring", "career opportunity",
 ]
 
-# ---------------------------------------------------------------------------
-# Country detection. Maps a canonical country label to keywords to search for.
-# ---------------------------------------------------------------------------
-COUNTRY_KEYWORDS = {
-    "Sweden": ["sweden", "swedish", "stockholm"],
-    "Denmark": ["denmark", "danish", "copenhagen"],
-    "Norway": ["norway", "norwegian", "oslo"],
-    "Finland": ["finland", "finnish", "helsinki"],
-    "Germany": ["germany", "german", "berlin", "munich", "frankfurt"],
-    "Netherlands": ["netherlands", "dutch", "amsterdam", "the hague"],
-    "France": ["france", "french", "paris"],
-    "Italy": ["italy", "italian", "rome", "milan"],
-    "Spain": ["spain", "spanish", "madrid", "barcelona"],
-    "Poland": ["poland", "polish", "warsaw"],
-    "Ireland": ["ireland", "irish", "dublin"],
-    "Belgium": ["belgium", "belgian", "brussels"],
-    "Austria": ["austria", "austrian", "vienna"],
-    "Switzerland": ["switzerland", "swiss", "zurich", "geneva"],
-    # Broad fallbacks checked last.
-    "EU": ["european union", "eu-wide", "eu "],
-    "Europe": ["europe", "european"],
-}
-
-# Extra keywords surfaced in the "top keywords" section of the fallback report.
+# Themes surfaced by the markdown report's keyword extractor (report path only;
+# the website uses real vacancy-demand data instead of keyword guessing).
 EXTRA_KEYWORDS_OF_INTEREST = [
-    "ai", "artificial intelligence", "automation", "remote work",
-    "return to office", "rto", "manufacturing", "tech", "banking",
-    "automotive", "retail", "green jobs", "renewable", "semiconductor",
+    "ai", "artificial intelligence", "automation", "green jobs", "renewable",
+    "semiconductor", "manufacturing", "tech", "banking", "automotive",
+    "retail", "healthcare", "defence", "life sciences",
 ]
 
 # ---------------------------------------------------------------------------
-# LLM settings
+# Country detection — Sweden + Denmark only, with native spellings + big cities
+# so local-language articles (which rarely say "Sweden"/"Denmark") still attach.
+# Anything matching neither stays country=None and is dropped from the tiles.
+# ---------------------------------------------------------------------------
+COUNTRY_KEYWORDS = {
+    "Sweden": [
+        "sweden", "swedish", "sverige", "svensk", "svenska",
+        "stockholm", "göteborg", "goteborg", "gothenburg", "malmö", "malmo",
+        "uppsala", "västerås", "vasteras", "linköping", "linkoping", "örebro",
+        "helsingborg", "norrköping", "norrkoping",
+    ],
+    "Denmark": [
+        "denmark", "danish", "danmark", "dansk", "danske",
+        "københavn", "kobenhavn", "copenhagen", "kbh",
+        "aarhus", "århus", "odense", "aalborg", "ålborg", "esbjerg",
+        "randers", "kolding", "vejle", "roskilde",
+    ],
+}
+
+# City -> country gazetteer for the website's map clustering. The frontend holds
+# the coordinates; this keeps the matching terms in one place.
+SEDK_CITIES = {
+    "Stockholm": "Sweden", "Göteborg": "Sweden", "Malmö": "Sweden",
+    "Uppsala": "Sweden", "Västerås": "Sweden", "Linköping": "Sweden",
+    "Örebro": "Sweden", "Helsingborg": "Sweden",
+    "København": "Denmark", "Aarhus": "Denmark", "Odense": "Denmark",
+    "Aalborg": "Denmark", "Esbjerg": "Denmark", "Roskilde": "Denmark",
+}
+
+# ---------------------------------------------------------------------------
+# LLM settings — Anthropic Claude (Haiku) refines the narrative and translates
+# Swedish/Danish headlines into plain English.
 # ---------------------------------------------------------------------------
 LLM_PROVIDER = (os.getenv("LLM_PROVIDER") or "none").strip().lower()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "").strip()
 LLM_MODEL = (os.getenv("LLM_MODEL") or "").strip()
 
-# Sensible default models per provider.
 DEFAULT_LLM_MODELS = {
     "openai": "gpt-4o-mini",
-    "anthropic": "claude-sonnet-4-6",
+    "anthropic": "claude-haiku-4-5",
 }
 
 
@@ -348,27 +313,15 @@ def get_llm_model() -> str:
 
 
 # ---------------------------------------------------------------------------
-# Email settings
+# Email settings (optional — the new version is a website, email is off unless
+# SMTP is configured).
 # ---------------------------------------------------------------------------
 def _clean_credential(value: str) -> str:
-    """
-    Remove ALL whitespace (including non-breaking spaces, U+00A0) from a
-    credential.
-
-    Why: Gmail shows App Passwords grouped as "abcd efgh ijkl mnop", but the
-    real password is 16 characters with no spaces. Copy-pasting often brings
-    along regular or non-breaking spaces. A non-breaking space cannot even be
-    ASCII-encoded for SMTP AUTH and would crash the login. SMTP usernames and
-    app passwords never legitimately contain whitespace, so stripping it is
-    safe and makes the project forgiving of this very common mistake.
-    """
+    """Remove ALL whitespace from a credential (Gmail App Passwords paste with
+    spaces / non-breaking spaces that would otherwise break SMTP AUTH)."""
     cleaned = re.sub(r"\s+", "", value or "")
     if cleaned != (value or "").strip():
-        # Don't log the secret itself — just that we cleaned it.
-        print(
-            "[config] Note: removed stray whitespace from an SMTP credential "
-            "(e.g. spaces pasted from a Gmail App Password)."
-        )
+        print("[config] Note: removed stray whitespace from an SMTP credential.")
     return cleaned
 
 
@@ -381,5 +334,4 @@ EMAIL_TO = os.getenv("EMAIL_TO", "").strip()
 
 
 def email_is_configured() -> bool:
-    """True only if every required SMTP/email field is present."""
     return all([SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, EMAIL_FROM, EMAIL_TO])
