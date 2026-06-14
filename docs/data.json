@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-14T08:27:39+00:00",
+  "generated_at": "2026-06-14T08:35:09+00:00",
   "period": "May 16 – Jun 14, 2026",
-  "summary": "Sweden shows more layoff pressure (6 events vs 2 in Denmark).",
+  "summary": "Novo Nordisk's 9,000-job cut (11% workforce) signals major pharma restructuring; Danish job market faces significant impact.",
   "insights": [
-    "Sweden shows more layoff pressure (6 events vs 2 in Denmark).",
-    "Largest single cut: Novo Nordisk — 9,000 roles (Denmark).",
-    "Most-advertised roles: Data/IT in Sweden; AI in Denmark.",
-    "Sharpest skills shortage: Legal, social, cultural and related associate professionals (Sweden, severity 3.7/4)."
+    "Novo Nordisk's 9,000-job cut (11% workforce) signals major pharma restructuring; Danish job market faces significant impact.",
+    "Retail sector under pressure: H&M cutting 1,500 Swedish jobs; cost-saving drives automation and consolidation across Nordics.",
+    "Food processing and manufacturing hit hard: Danish Crown, IKEA, Unity Line all restructuring; supply chain realignment underway.",
+    "Meta AI layoffs and SAS financial distress indicate tech/aviation sectors vulnerable; jobseekers should upskill in stable sectors."
   ],
   "countries": [
     {
@@ -19,7 +19,7 @@
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
       "headline": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
       "headline_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
-      "summary": "6 workforce event(s) and 143 sampled vacancies."
+      "summary": "Multiple major layoffs across retail (H&M 1,500), furniture (IKEA 600+), manufacturing; smaller bankruptcies ongoing."
     },
     {
       "name": "Denmark",
@@ -31,7 +31,7 @@
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
       "headline": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
       "headline_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
-      "summary": "2 workforce event(s) and 109 sampled vacancies."
+      "summary": "Novo Nordisk (9,000) and Danish Crown (800) cuts represent significant workforce reductions in pharma and food sectors."
     }
   ],
   "events": [
@@ -94,7 +94,7 @@
           "source": "Google News: Denmark layoffs"
         }
       ],
-      "title_en": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY"
+      "title_en": "Novo Nordisk to eliminate 9,000 jobs, 11% of workforce, to save costs"
     },
     {
       "company": "H&M",
@@ -125,7 +125,7 @@
           "source": "Google News: Sweden job cuts"
         }
       ],
-      "title_en": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters"
+      "title_en": "H&M to lay off 1,500 Swedish staff to cut costs and rescue profits"
     },
     {
       "company": "Danish Crown",
@@ -180,7 +180,7 @@
           "source": "Google News: Denmark job cuts"
         }
       ],
-      "title_en": "Danish Crown to cut 800 jobs in restructuring push - The Pig Site"
+      "title_en": "Danish Crown to cut 800 jobs in restructuring"
     },
     {
       "company": "IKEA",
@@ -223,7 +223,7 @@
           "source": "Google News SE: omorganisation jobb"
         }
       ],
-      "title_en": "Varsel på IKEA: Över 600 jobb bort i Sverige - Ehandel.se"
+      "title_en": "Over 600 IKEA jobs eliminated in Sweden"
     },
     {
       "company": null,
@@ -242,7 +242,7 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "30 anställda berörs i veckans största konkurs - Byggvärlden"
+      "title_en": "30 employees affected in Sweden's largest bankruptcy this week"
     },
     {
       "company": null,
@@ -261,7 +261,7 @@
           "source": "Google News SE: varsel"
         }
       ],
-      "title_en": "Varsel på Unity line i Ystad – 13 anställda kan sägas upp - Ystads Allehanda"
+      "title_en": "Unity Line in Ystad: 13 employees at risk of redundancy"
     },
     {
       "company": "Meta",
@@ -328,7 +328,7 @@
           "source": "Google News SE: uppsägningar"
         }
       ],
-      "title_en": "Irland: Strejk mot AI-uppsägningar på Meta - Arbetaren"
+      "title_en": "Ireland: Strike against AI-driven layoffs at Meta"
     },
     {
       "company": "SAS",
@@ -347,7 +347,7 @@
           "source": "SVT Nyheter – Ekonomi"
         }
       ],
-      "title_en": "SAS vd: Inga statliga räddningspaket"
+      "title_en": "SAS CEO: No state rescue packages"
     }
   ],
   "demand": [
@@ -570,5 +570,6 @@
       "source": "Cedefop CLSSI 2024"
     }
   ],
-  "sources_count": 23
+  "sources_count": 23,
+  "llm": "claude-haiku-4-5"
 }
