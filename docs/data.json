@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-14T08:35:09+00:00",
-  "period": "May 16 – Jun 14, 2026",
-  "summary": "Novo Nordisk's 9,000-job cut (11% workforce) signals major pharma restructuring; Danish job market faces significant impact.",
+  "generated_at": "2026-06-15T11:41:25+00:00",
+  "period": "May 17 – Jun 15, 2026",
+  "summary": "H&M, IKEA, and Danish Crown cutting 2,900+ jobs combined; retail and food sectors under severe cost pressure across region.",
   "insights": [
-    "Novo Nordisk's 9,000-job cut (11% workforce) signals major pharma restructuring; Danish job market faces significant impact.",
-    "Retail sector under pressure: H&M cutting 1,500 Swedish jobs; cost-saving drives automation and consolidation across Nordics.",
-    "Food processing and manufacturing hit hard: Danish Crown, IKEA, Unity Line all restructuring; supply chain realignment underway.",
-    "Meta AI layoffs and SAS financial distress indicate tech/aviation sectors vulnerable; jobseekers should upskill in stable sectors."
+    "H&M, IKEA, and Danish Crown cutting 2,900+ jobs combined; retail and food sectors under severe cost pressure across region.",
+    "Swedish manufacturing and logistics facing wave of restructuring; jobseekers should target healthcare, tech, and renewable energy sectors.",
+    "Denmark's strong employment rate masks sector-specific layoffs; monitor Novo Nordisk and food processing for further displacement.",
+    "SAS rejecting state aid signals airlines in distress; avoid aviation sector; diversify skills toward digitalization and AI-resistant roles."
   ],
   "countries": [
     {
@@ -14,88 +14,27 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 6,
-      "vacancies": 143,
+      "events": 5,
+      "vacancies": 141,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
       "headline": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
       "headline_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
-      "summary": "Multiple major layoffs across retail (H&M 1,500), furniture (IKEA 600+), manufacturing; smaller bankruptcies ongoing."
+      "summary": "Major layoffs at H&M (1,500), IKEA (600+), and corporate restructuring across retail, furniture, and logistics; SAS declining bailout."
     },
     {
       "name": "Denmark",
       "code": "DK",
       "layoff_level": "elevated",
-      "layoff_score": 0.33,
+      "layoff_score": 0.4,
       "events": 2,
-      "vacancies": 109,
+      "vacancies": 102,
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
-      "headline": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
-      "headline_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
-      "summary": "Novo Nordisk (9,000) and Danish Crown (800) cuts represent significant workforce reductions in pharma and food sectors."
+      "headline": "Danish Crown to cut 800 jobs in restructuring push - The Pig Site",
+      "headline_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb2tnamZmWTI5em9CTXpSd21tUXlBSV9vNVBFdS1KOFU1R0Z2RDd5ZjZPRzJoaVJ4M0NpREJOYXV2VWNVMkp0ZlFnRk5ZRW1tTUdVQ1l4UGhPTFU3Ti1tbm1rUjJ5WlJfdkI0QURrZmtBS0xFUEFSSGtES1pJaTJxdUxDdVBCVU52MjctdnJobnJFUDhx?oc=5",
+      "summary": "Danish Crown cutting 800 jobs in meat processing; Novo Nordisk layoffs offset by record-high overall employment rate."
     }
   ],
   "events": [
-    {
-      "company": "Novo Nordisk",
-      "country": "Denmark",
-      "city": "København",
-      "type": "layoff",
-      "jobs_affected": 9000,
-      "title": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
-      "date": "2026-05-21",
-      "sources": [
-        {
-          "title": "Danish employment rate hits record-high despite Novo Nordisk layoffs - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcWlsY28tai1RejBPQmZkMUNwREN4ZXZYbUJlSlI3UTdOekhFeTBiM1l3N3JLcXJhRGxHQlQ2WVhYOFdJbEFEclN1dFZnaFI4V1pwREh1MXNzeHV2dzZCaTM2NnAzOHBvS0dKZThqSVhMd2R2OXdRS0FiTGt3b1J0SEh2RFJKNEd3Nk15R2w0SXR1OHR4a2MtV0Ntd1J0WnRpSG5z?oc=5",
-          "date": "2026-05-21",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk layoffs cause employment to fall for first time in 17 months - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWxhX0t4Uk9JbFhrSklJRWN3cWtXLUVCWEJhRjFsWnQySFJOYUdWaTY1R1VUdUVxM0c5M3p6TXJaWFVvMlV1YlpjZ3hCMTRnVTBmb01CMHRNNlZfbUxxd0NBOGdkaGhRMmxVaGVPbjAzSHlLb1B6dUhTdnNtVkdnSzBNV2VUX0ZER05pb0RLLWpXNDl1ZmhyZFQzTE54U3ZyZHp6X1Fremt1Zw?oc=5",
-          "date": "2026-04-28",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk Layoffs Add to Denmark’s Mounting Economic Anxieties - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnBSaDNoaG5CS09Jb1FmZF8yWG1qaGhmcFF5S3FqSTBBMmVWYmZLZGVFQ2NVbFNxeHhXS3dmdk1UWncyTzFRbUs1RF90VlVRTVVSMGtsTVI2WDdZQVVxNVA4cWhnbEotVGxXcVFtY0FuLVF4UjdUbzBnLUJSU0lFUzI0aEppQy1ubkZzWGg1S1p1SmZWcG8wbUVHTHM1SDRtb19DRFJsXzhBNFk?oc=5",
-          "date": "2026-02-20",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk Layoffs Add Fuel to Denmark's Economic Anxieties - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXRhSmsyZktpNkJEQjFvbGRlall4Zy1INTFhTGc5REsxSXByYTBveEJMQUwxYTRkLU9pWUFyX2ZNM2hqV2xySWVESzFOS0s4eHRhRnZzakNwY1dOQXB0N1BlVnZadzNIYnp2a0ZkaEljR0k2ZlNuS19uTzNQeWluRjVTdmtja05GeURoYkZaOUJmZXplc1FvbXFuZVBaejd4UGpDTjJjdFNnQ2Jvc2VmYXVB?oc=5",
-          "date": "2026-02-19",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk announces layoffs are over - The Copenhagen Post",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMlVjaXAzbXNxWFFhbVp4TmlBeFQ1TU5NRVgwSTJGRlhvVmQwbkExZWVtdUtzR3lvMVBBRnJnTnk0ajRrZHowN0drUHBFRW91amFwYkg3aHktNi1iRzRXdzVpaHhfMS0xbnNrLVlnUGJzb3hlOXJLeHl6YTNvTkc4TWt1MEs4d1ktU3dkMzhZcGxkNUJIRzc1ajBhTlc?oc=5",
-          "date": "2025-11-03",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Round of redundancies among Novo Nordisk employees in Denmark is complete - medwatch.com",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81NFFKZ1BCa3JpWWJObVZsWmZ2N3d2MC1teEItMGpOZnluVnpHMXdmVlFiTWxKNnY3Sm00OC1KRUY3dEFwNUJ2Z3oxRWdEQmZQLWJlVzY2NGZjem9WZmhsUzdyeUwzTkV1UDh4ajJfbw?oc=5",
-          "date": "2025-11-03",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Employment climbs in Denmark but Novo Nordisk job cuts on way - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUs2X0ZXc2lkenBIeHd2bFNWWmJlZXJOZlpkSDZFS0R4ZlRBd1dKd3IxT0RmaXJHZnUzdUFwT0dQdWl5dmpFOXlRRFJiWnlFcUNQajJLWHM0aTZ5Rkp1RXQwM1FSdTBwcldfaVRGTUZyOUZGelNjZkVyS0RpWFJpWWhzTDFYMEpHNnR0NjkxeFNjVnlSeGs5ZnJB?oc=5",
-          "date": "2025-09-22",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk Layoffs: Danish Drug Major To Eliminate 9,000 Jobs, 11% of Its Workforce To Save Costs by End - LatestLY",
-          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQ2tFTXBmVnc3LUlGUG42cTBNRi1Cb3RIbTdoZkJmVzgyLW1jRVlaVGtiUVAxcUZ6Y1NNcWFtS2tMZEtMeDFneFVVdVdDMHFHTUd3WUxXQVUyYU1ORXM2dFFMVEdVUjhNYjN1X1hscGZSSlBBRnh5REVVSTNVOEV5N250WkZJVHZPcExsQm40N0dVeG1QbFhjeThrX2pFc2drLUx1YW9qMjhWdEJDUXVWakhlZUpBS1c4eTdoOHM3NXAwcUNOeVpHYXhmTXhqVkUxTVVkcC0yQ3NneG9mV2h4SzBrdVByR0l4TXYxbVB0eXpIdHpmLU9wN0JvTVNWUk14a3RoMTVoX3gwRzZoR1g1cnRZd3VmUTlyeEtBLXd2S0Q1aDl30gGqAkFVX3lxTFAyczhMSFVPd090dGM0V2JSTnc5VlRZcWRzS0pvTVNfV2h4SFBWMW1YSVliVXoxenVFUkNUd25HczVER1pVZElnTDUwcng5SHdlTFdxRUFRWk9pX29XVkFpOVFCQkJtX0RzX3o5UXBSN0xBc0duc3d4VXdYam1abnpHMGMzUTZCNjdNaHpLSWNBRDhnclpiQnp2VG1xUGhlQk9WT3BqTDNWMFdjSU1CS3VJVHp5OFIyVC1jYUpxVWRpV2pCYVhBLXJZVDNOOXdXUnNmdTBUWExSc3ZzZ2I4SmI2OVprNFhfOUd4OUNhbndvSHRXN1hzZERiRkZ6dGhyS0tJUzBqRVdSandfbVVyVmI0ZVRpOWdURmFSdFBOZXpHV2hkRG5MdDBhb2c?oc=5",
-          "date": "2025-09-10",
-          "source": "Google News: Denmark layoffs"
-        }
-      ],
-      "title_en": "Novo Nordisk to eliminate 9,000 jobs, 11% of workforce, to save costs"
-    },
     {
       "company": "H&M",
       "country": "Sweden",
@@ -125,7 +64,7 @@
           "source": "Google News: Sweden job cuts"
         }
       ],
-      "title_en": "H&M to lay off 1,500 Swedish staff to cut costs and rescue profits"
+      "title_en": "H&M to lay off 1,500 staff in Sweden to cut costs and rescue profits"
     },
     {
       "company": "Danish Crown",
@@ -180,7 +119,7 @@
           "source": "Google News: Denmark job cuts"
         }
       ],
-      "title_en": "Danish Crown to cut 800 jobs in restructuring"
+      "title_en": "Danish Crown to cut 800 jobs in restructuring push"
     },
     {
       "company": "IKEA",
@@ -217,13 +156,13 @@
           "source": "Google News SE: varsel"
         },
         {
-          "title": "Ännu ett varsel i ett Ikea-bolag – 45 tjänster påverkas - Market.se",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTi1oQ0RwcEx2by14eUVPUG4xcnNCWmxfQkFxRXpsVXZRSks1WTI0X1ltM2ttQ2dNRl9aZGh5YU9Tb2t6ZFBENHJzTzNnZFhWSGxUWHdhRjVFYUttREhYMVFvMkdPUTR2Q3ZKaVdOaVM5UjFCSk0zMjVlWUdaa1hCUndDMlRObW5SSnpiVUJFSTBwY29iR2FYbzZmNVc0ZU9iSk5iMWVpWldQdw?oc=5",
-          "date": "2025-10-27",
-          "source": "Google News SE: omorganisation jobb"
+          "title": "Ikea president who led controversial store restructuring is retiring after 36 years with the Swedish furniture giant - Business Insider",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9JSWtSTk03bXB1R0pOLThoaDk1YlNlUlNVZ25RTXAxRzVXb3BuZXJTWVZzSGxmVkNuc3NzRXpyZVo2bjB2aEFiN2p5OXZyeDV2N3ZkREx6TzhXY1RLT1h5dTNuQ1R3b28yQ2pJd0VuYTFZdFE?oc=5",
+          "date": "2019-01-25",
+          "source": "Google News: Sweden restructuring"
         }
       ],
-      "title_en": "Over 600 IKEA jobs eliminated in Sweden"
+      "title_en": "IKEA warning: Over 600 jobs cut in Sweden"
     },
     {
       "company": null,
@@ -242,26 +181,7 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "30 employees affected in Sweden's largest bankruptcy this week"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 13,
-      "title": "Varsel på Unity line i Ystad – 13 anställda kan sägas upp - Ystads Allehanda",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM3dENXZYVUU4VWhocElSWk5TZ0xFanFNbGdLd2xsdHEzc1BQTkVvRmlQTzlocFNBenFpOW1YWFVPc0wyU0V2Q1RGM1JiQVlqblY2VTE2MldWZm91OHZlTUt5SW9UazFoS3FtVlZVUHFnNDFRVmNVUDJxOGhtZVVES0hhM0t5Y0ROM291RGcweTUxOVdqRENpMQ?oc=5",
-      "date": "2026-05-12",
-      "sources": [
-        {
-          "title": "Varsel på Unity line i Ystad – 13 anställda kan sägas upp - Ystads Allehanda",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM3dENXZYVUU4VWhocElSWk5TZ0xFanFNbGdLd2xsdHEzc1BQTkVvRmlQTzlocFNBenFpOW1YWFVPc0wyU0V2Q1RGM1JiQVlqblY2VTE2MldWZm91OHZlTUt5SW9UazFoS3FtVlZVUHFnNDFRVmNVUDJxOGhtZVVES0hhM0t5Y0ROM291RGcweTUxOVdqRENpMQ?oc=5",
-          "date": "2026-05-12",
-          "source": "Google News SE: varsel"
-        }
-      ],
-      "title_en": "Unity Line in Ystad: 13 employees at risk of redundancy"
+      "title_en": "30 employees affected in week's largest bankruptcy"
     },
     {
       "company": "Meta",
@@ -331,6 +251,61 @@
       "title_en": "Ireland: Strike against AI-driven layoffs at Meta"
     },
     {
+      "company": "Novo Nordisk",
+      "country": "Denmark",
+      "city": "København",
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Danish employment rate hits record-high despite Novo Nordisk layoffs - The Local Denmark",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcWlsY28tai1RejBPQmZkMUNwREN4ZXZYbUJlSlI3UTdOekhFeTBiM1l3N3JLcXJhRGxHQlQ2WVhYOFdJbEFEclN1dFZnaFI4V1pwREh1MXNzeHV2dzZCaTM2NnAzOHBvS0dKZThqSVhMd2R2OXdRS0FiTGt3b1J0SEh2RFJKNEd3Nk15R2w0SXR1OHR4a2MtV0Ntd1J0WnRpSG5z?oc=5",
+      "date": "2026-05-21",
+      "sources": [
+        {
+          "title": "Danish employment rate hits record-high despite Novo Nordisk layoffs - The Local Denmark",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcWlsY28tai1RejBPQmZkMUNwREN4ZXZYbUJlSlI3UTdOekhFeTBiM1l3N3JLcXJhRGxHQlQ2WVhYOFdJbEFEclN1dFZnaFI4V1pwREh1MXNzeHV2dzZCaTM2NnAzOHBvS0dKZThqSVhMd2R2OXdRS0FiTGt3b1J0SEh2RFJKNEd3Nk15R2w0SXR1OHR4a2MtV0Ntd1J0WnRpSG5z?oc=5",
+          "date": "2026-05-21",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk layoffs cause employment to fall for first time in 17 months - The Local Denmark",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWxhX0t4Uk9JbFhrSklJRWN3cWtXLUVCWEJhRjFsWnQySFJOYUdWaTY1R1VUdUVxM0c5M3p6TXJaWFVvMlV1YlpjZ3hCMTRnVTBmb01CMHRNNlZfbUxxd0NBOGdkaGhRMmxVaGVPbjAzSHlLb1B6dUhTdnNtVkdnSzBNV2VUX0ZER05pb0RLLWpXNDl1ZmhyZFQzTE54U3ZyZHp6X1Fremt1Zw?oc=5",
+          "date": "2026-04-28",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk Layoffs Add to Denmark’s Mounting Economic Anxieties - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnBSaDNoaG5CS09Jb1FmZF8yWG1qaGhmcFF5S3FqSTBBMmVWYmZLZGVFQ2NVbFNxeHhXS3dmdk1UWncyTzFRbUs1RF90VlVRTVVSMGtsTVI2WDdZQVVxNVA4cWhnbEotVGxXcVFtY0FuLVF4UjdUbzBnLUJSU0lFUzI0aEppQy1ubkZzWGg1S1p1SmZWcG8wbUVHTHM1SDRtb19DRFJsXzhBNFk?oc=5",
+          "date": "2026-02-20",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk Layoffs Add Fuel to Denmark's Economic Anxieties - Bloomberg",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXRhSmsyZktpNkJEQjFvbGRlall4Zy1INTFhTGc5REsxSXByYTBveEJMQUwxYTRkLU9pWUFyX2ZNM2hqV2xySWVESzFOS0s4eHRhRnZzakNwY1dOQXB0N1BlVnZadzNIYnp2a0ZkaEljR0k2ZlNuS19uTzNQeWluRjVTdmtja05GeURoYkZaOUJmZXplc1FvbXFuZVBaejd4UGpDTjJjdFNnQ2Jvc2VmYXVB?oc=5",
+          "date": "2026-02-19",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Novo Nordisk announces layoffs are over - The Copenhagen Post",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMlVjaXAzbXNxWFFhbVp4TmlBeFQ1TU5NRVgwSTJGRlhvVmQwbkExZWVtdUtzR3lvMVBBRnJnTnk0ajRrZHowN0drUHBFRW91amFwYkg3aHktNi1iRzRXdzVpaHhfMS0xbnNrLVlnUGJzb3hlOXJLeHl6YTNvTkc4TWt1MEs4d1ktU3dkMzhZcGxkNUJIRzc1ajBhTlc?oc=5",
+          "date": "2025-11-03",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Round of redundancies among Novo Nordisk employees in Denmark is complete - medwatch.com",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81NFFKZ1BCa3JpWWJObVZsWmZ2N3d2MC1teEItMGpOZnluVnpHMXdmVlFiTWxKNnY3Sm00OC1KRUY3dEFwNUJ2Z3oxRWdEQmZQLWJlVzY2NGZjem9WZmhsUzdyeUwzTkV1UDh4ajJfbw?oc=5",
+          "date": "2025-11-03",
+          "source": "Google News: Denmark layoffs"
+        },
+        {
+          "title": "Employment climbs in Denmark but Novo Nordisk job cuts on way - The Local Denmark",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUs2X0ZXc2lkenBIeHd2bFNWWmJlZXJOZlpkSDZFS0R4ZlRBd1dKd3IxT0RmaXJHZnUzdUFwT0dQdWl5dmpFOXlRRFJiWnlFcUNQajJLWHM0aTZ5Rkp1RXQwM1FSdTBwcldfaVRGTUZyOUZGelNjZkVyS0RpWFJpWWhzTDFYMEpHNnR0NjkxeFNjVnlSeGs5ZnJB?oc=5",
+          "date": "2025-09-22",
+          "source": "Google News: Denmark layoffs"
+        }
+      ],
+      "title_en": "Danish employment rate hits record high despite Novo Nordisk layoffs"
+    },
+    {
       "company": "SAS",
       "country": "Sweden",
       "city": null,
@@ -354,20 +329,20 @@
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 48,
-      "share": 34
-    },
-    {
-      "country": "Sweden",
-      "role": "Pedagogik",
-      "vacancies": 21,
-      "share": 15
+      "vacancies": 44,
+      "share": 31
     },
     {
       "country": "Sweden",
       "role": "Yrken med teknisk inriktning",
-      "vacancies": 17,
-      "share": 12
+      "vacancies": 20,
+      "share": 14
+    },
+    {
+      "country": "Sweden",
+      "role": "Pedagogik",
+      "vacancies": 19,
+      "share": 13
     },
     {
       "country": "Sweden",
@@ -378,50 +353,50 @@
     {
       "country": "Sweden",
       "role": "Administration, ekonomi, juridik",
-      "vacancies": 15,
-      "share": 10
+      "vacancies": 11,
+      "share": 8
     },
     {
       "country": "Sweden",
-      "role": "Installation, drift, underhåll",
-      "vacancies": 7,
-      "share": 5
+      "role": "Chefer och verksamhetsledare",
+      "vacancies": 6,
+      "share": 4
     },
     {
       "country": "Denmark",
       "role": "AI",
       "vacancies": 15,
-      "share": 14
+      "share": 15
     },
     {
       "country": "Denmark",
       "role": "Teacher",
       "vacancies": 15,
-      "share": 14
+      "share": 15
     },
     {
       "country": "Denmark",
       "role": "Nurse",
       "vacancies": 15,
-      "share": 14
-    },
-    {
-      "country": "Denmark",
-      "role": "Data Scientist",
-      "vacancies": 13,
-      "share": 12
+      "share": 15
     },
     {
       "country": "Denmark",
       "role": "Machine Learning",
-      "vacancies": 13,
-      "share": 12
+      "vacancies": 11,
+      "share": 11
     },
     {
       "country": "Denmark",
       "role": "Workforce Planning",
+      "vacancies": 10,
+      "share": 10
+    },
+    {
+      "country": "Denmark",
+      "role": "Data Scientist",
       "vacancies": 8,
-      "share": 7
+      "share": 8
     }
   ],
   "shortages": [
