@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-22T11:30:05+00:00",
-  "period": "May 24 – Jun 22, 2026",
-  "summary": "Danish food & pharma sectors facing major restructuring: 800 + 400 positions eliminated within weeks.",
+  "generated_at": "2026-06-29T10:17:40+00:00",
+  "period": "May 31 – Jun 29, 2026",
+  "summary": "AI-driven layoffs dominate: 21,000 IT jobs cut in single event signals sector-wide disruption.",
   "insights": [
-    "Danish food & pharma sectors facing major restructuring: 800 + 400 positions eliminated within weeks.",
-    "Swedish public broadcaster SVT eliminating 114 roles without layoffs; workforce restructuring underway.",
-    "Tech sector volatility continues: Meta Ireland strike signals labor resistance to AI-driven job cuts.",
-    "Monitor Danish manufacturing and biotech for further cost-reduction announcements; regional talent displacement likely."
+    "AI-driven layoffs dominate: 21,000 IT jobs cut in single event signals sector-wide disruption.",
+    "Danish Crown restructuring affects 800+ roles across Sweden and Denmark; food sector under pressure.",
+    "Swedish bankruptcies emerging: Niutech (209 jobs), SVT restructure (114 roles) indicate broader instability.",
+    "HR priority: Monitor tech and food sectors; prepare retraining programs for displaced workers."
   ],
   "countries": [
     {
@@ -14,43 +14,56 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 3,
-      "vacancies": 149,
+      "events": 6,
+      "vacancies": 146,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
-      "headline": "Ingen sägs upp från SVT – 114 tjänster försvinner - Expressen",
-      "headline_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcGo5dDJLUWtxSFFlb05qdV80N3BLVF82OXppTjFsb3ZXX1FXbmt3b0ZjbWVDWXRHaTVqZV92LXdTS21aY0d4MFB6NzFHT3gyZ0xUeG01clF6VjhZX09HNXU5eFJOaUwzeUtjMkZkNnZma05Scm5NVGowaTdtMmJpeGRLM2g?oc=5",
-      "summary": "SVT restructuring 114 positions without traditional layoffs; one bankruptcy affecting 30 workers; Meta strike in Ireland signals tech sector tensions."
+      "headline": "Danish Crown skär ned 800 tjänster i omorganisation - Börsvärlden",
+      "headline_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNci1nV1RaS1k3T3kwSzlLS2ZGTURtLWJ4MF9KeG1OWUFwM195cXVqRDAtMWxOalZ5bU5rUFlHeWZiYVd6MWU3M3VIeDlrX1JieEMyY3pRblFRMEt6cWU5SVJwdDF0SkpkYWI3VVVRTUpsWnZ6MnBzUExaUDdGUU1fMEgwNGRJVXdWa2JtRQ?oc=5",
+      "summary": "Multiple bankruptcies (Niutech, construction) plus SVT restructure; 209-800 job losses across sectors."
     },
     {
       "name": "Denmark",
       "code": "DK",
-      "layoff_level": "high",
-      "layoff_score": 0.67,
+      "layoff_level": "elevated",
+      "layoff_score": 0.33,
       "events": 2,
-      "vacancies": 126,
+      "vacancies": 113,
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
-      "headline": "Danish Crown to eliminate 800 positions as restructuring drive targets US$77.9M in savings - Food Business Middle East & Africa",
-      "headline_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEV4dEUwX0JNTTd4bXlhRHhUNUJuYzRUck5Db0k3a3dwcjk2bmxLZjFON2pYLUswdzhwaGxqOUN1QnZJWklaRFhaMm0yTnhFeWVWODh4Q0hFbnZOQ3VmWFlIOXU2QWZBSHpSRWRCUHk5WlhOa1ZFWGk4TDRtNzRVaVBoZ3ZSbmVjZkt4eGZ0akc5TmJrUTNUb2RwT2ppX1FiOEpkOER3NlVrd3NuMkJTRi1kSF96UW1DaThFMVluOA?oc=5",
-      "summary": "Major restructuring wave: Danish Crown cutting 800 jobs (US$77.9M savings target), Novo Nordisk laying off ~400 in Denmark and China."
+      "headline": "AI fører til massefyring: It-gigant har skåret 21.000 jobs væk",
+      "headline_url": "https://www.dr.dk/nyheder/penge/ai-foerer-til-massefyring-it-gigant-har-skaaret-21-000-jobs-vaek",
+      "summary": "Major IT layoffs (21,000) and Danish Crown restructuring (800) driving significant labor market disruption."
     }
   ],
   "events": [
+    {
+      "company": null,
+      "country": "Denmark",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 21000,
+      "title": "AI fører til massefyring: It-gigant har skåret 21.000 jobs væk",
+      "url": "https://www.dr.dk/nyheder/penge/ai-foerer-til-massefyring-it-gigant-har-skaaret-21-000-jobs-vaek",
+      "date": "2026-06-23",
+      "sources": [
+        {
+          "title": "AI fører til massefyring: It-gigant har skåret 21.000 jobs væk",
+          "url": "https://www.dr.dk/nyheder/penge/ai-foerer-til-massefyring-it-gigant-har-skaaret-21-000-jobs-vaek",
+          "date": "2026-06-23",
+          "source": "DR – Penge"
+        }
+      ],
+      "title_en": "AI leads to mass layoffs: IT giant cuts 21,000 jobs"
+    },
     {
       "company": "Danish Crown",
       "country": "Denmark",
       "city": null,
       "type": "restructuring",
       "jobs_affected": 800,
-      "title": "Danish Crown to eliminate 800 positions as restructuring drive targets US$77.9M in savings - Food Business Middle East & Africa",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEV4dEUwX0JNTTd4bXlhRHhUNUJuYzRUck5Db0k3a3dwcjk2bmxLZjFON2pYLUswdzhwaGxqOUN1QnZJWklaRFhaMm0yTnhFeWVWODh4Q0hFbnZOQ3VmWFlIOXU2QWZBSHpSRWRCUHk5WlhOa1ZFWGk4TDRtNzRVaVBoZ3ZSbmVjZkt4eGZ0akc5TmJrUTNUb2RwT2ppX1FiOEpkOER3NlVrd3NuMkJTRi1kSF96UW1DaThFMVluOA?oc=5",
-      "date": "2026-06-11",
+      "title": "Danish Crown to cut 800 jobs as it restructures the business. - Food Manufacture",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY3VtdzFDM0VDdzZlai1qQVdEU0tjVjBYUVdJdkhiVExYU25ubzVQZENJLUwzWmw0cW9URVBMazNTUmZ6SVoxUlBRaDZLRHVFalppcEhwSHlJNUFqU21rTEx3ZnN0dF9TZGlaaTNMLWJwQVpEUW5xaHNjV1czSGpfMHdlQ1BRbHZVM3pNX1liYnNnSXFKWXRjc09vemdaTm1jMk9YV0hfdWRnd0FXSEpFVGlpaWc?oc=5",
+      "date": "2026-06-04",
       "sources": [
-        {
-          "title": "Danish Crown to eliminate 800 positions as restructuring drive targets US$77.9M in savings - Food Business Middle East & Africa",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSEV4dEUwX0JNTTd4bXlhRHhUNUJuYzRUck5Db0k3a3dwcjk2bmxLZjFON2pYLUswdzhwaGxqOUN1QnZJWklaRFhaMm0yTnhFeWVWODh4Q0hFbnZOQ3VmWFlIOXU2QWZBSHpSRWRCUHk5WlhOa1ZFWGk4TDRtNzRVaVBoZ3ZSbmVjZkt4eGZ0akc5TmJrUTNUb2RwT2ppX1FiOEpkOER3NlVrd3NuMkJTRi1kSF96UW1DaThFMVluOA?oc=5",
-          "date": "2026-06-11",
-          "source": "Google News: Denmark restructuring"
-        },
         {
           "title": "Danish Crown to cut 800 jobs as it restructures the business. - Food Manufacture",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY3VtdzFDM0VDdzZlai1qQVdEU0tjVjBYUVdJdkhiVExYU25ubzVQZENJLUwzWmw0cW9URVBMazNTUmZ6SVoxUlBRaDZLRHVFalppcEhwSHlJNUFqU21rTEx3ZnN0dF9TZGlaaTNMLWJwQVpEUW5xaHNjV1czSGpfMHdlQ1BRbHZVM3pNX1liYnNnSXFKWXRjc09vemdaTm1jMk9YV0hfdWRnd0FXSEpFVGlpaWc?oc=5",
@@ -58,110 +71,76 @@
           "source": "Google News: Denmark job cuts"
         },
         {
-          "title": "Danish Crown Announces Major Workforce Reduction Amid Restructuring Efforts - Earnings Revision Upgrade - The Legal Advocate",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTdCbEFJeV9TT1ZtNnZ6a01zU0V6MGc3d3NuUERqYnBDc0NjcEVrTVVQcmtaSl9FNEtiQ0pZVThhejQ3TTViTTJ5SjlfWDRzbGowOUlRRXlKdWNsb292NFhtOXNUeTZBVEdkX0pickhJenRLSE1Lallaa0RjV2RKd1NrMXgwVFNaUXhDSnpOZkIzMGZnRnA4QzZZZHhtRC1iTVVEeXRsUGZYMHdCQXJOTEduczYwR2M1UW13eWFqTU5nR3F6Qnc?oc=5",
+          "title": "Danish Crown to cut 800 jobs in restructuring push - The Pig Site",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb2tnamZmWTI5em9CTXpSd21tUXlBSV9vNVBFdS1KOFU1R0Z2RDd5ZjZPRzJoaVJ4M0NpREJOYXV2VWNVMkp0ZlFnRk5ZRW1tTUdVQ1l4UGhPTFU3Ti1tbm1rUjJ5WlJfdkI0QURrZmtBS0xFUEFSSGtES1pJaTJxdUxDdVBCVU52MjctdnJobnJFUDhx?oc=5",
           "date": "2026-06-02",
-          "source": "Google News: Denmark restructuring"
+          "source": "Google News: Denmark job cuts"
         },
         {
           "title": "Danish Crown Announces Company Restructuring And Job Cuts - ESM Magazine",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQWJmdWFaRkhydHhqNDk1UEIybjJCcDNsRWNYTGp4a2ZjSG9nYVJRT3lZVnZwTUVad2tMR3RCa0EzaTl1eWNUenQ4WlYzM1RuT2hFR0hoNVhTWnN4OHNENkFZTURSenp6T2k2THZNeThGX2MzRW53bEl5YjhzdHFGTDhYOHluY3NQYmc0UjlKVkxuTmN5Y3dSVDlhbmxzZEtuYlY4VDkzSHN0ZWNfa2NwdUhoQWtTWkxK?oc=5",
           "date": "2026-06-02",
           "source": "Google News: Denmark job cuts"
-        },
-        {
-          "title": "Danish Crown Announces Major Workforce Reduction Amid Restructuring Efforts - Pre-Earnings Drift - newsline.com",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSERrRG9pQUZ4SWQ1NVJtaXpiMGFDWjJ1TmwtY09ZNlZGRFJaZExJUFdZLUhvQW5iZ2FLRGZYOGs4YzN5ZWlIX202WGpwV1NhX2JHbEVjX00wR05GQzdtc2l2UEdlS2NMQ0M1ZC1kYXdsUmJyNnhrTkQyVGllN3JPNWNMSVNsT1BveG8wLXh0Z0h0NFdzYU14VGgyUHBIeU9aQU52WGotcVJCdk9ZN2IySGpZMjg?oc=5",
-          "date": "2026-06-02",
-          "source": "Google News: Denmark restructuring"
-        },
-        {
-          "title": "Danish Crown to cut 800 jobs in restructuring push - The Cattle Site",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeXMtX194RS01VEUzeWFFUDJFa0tOR3ZEVHAzQ0pTcTdxbEVsR1BseUJJZHRhVmVXUzMxTHNnLURKY3FMamtNTUZLOVpta3U5Z0RmelpKbURsaVBkTzZnWXQzQjhqcG9vUmQ3WUxvU1BxbGVTeTl5ckdGUmdPeGlQMnlCTUZUd19DWkV1WXJB?oc=5",
-          "date": "2026-06-01",
-          "source": "Google News: Denmark job cuts"
-        },
-        {
-          "title": "Danish Crown announces large-scale redundancies in United Kingdom - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1FfOEM5OHJPd09OWWZEazk0QmVMSDVrQlZIYmxTanlRd3RxbVp2TVhmQWNPOUJ0MFJOMzlNeFZQS2FFQnJKcmIzY1dxaFpqbHVuSDRmU0JIWWVjVmNVSmhoTjJnSXFTZzJMT3dHd0VNMlRiVHZHNTVEZXIza1RvYWFaVnBLNHEzWGszUHBtRjFER1VRbmZKLXBxZ1BoRDQ?oc=5",
-          "date": "2019-01-30",
-          "source": "Google News: Denmark job cuts"
         }
       ],
-      "title_en": "Danish Crown to eliminate 800 positions targeting US$77.9M in savings"
+      "title_en": "Danish Crown to cut 800 jobs as it restructures the business"
     },
     {
-      "company": "Novo Nordisk",
-      "country": "Denmark",
-      "city": "København",
-      "type": "layoff",
-      "jobs_affected": 400,
-      "title": "Novo Nordisk lay off may involve 400 employees in Denmark and China - Pharmaceutical Technology",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GY3JDSjVwZ251VkFKaGJvZ0lLbUlCMnFDczQ5QUFSZGthSlFWLXE1bGJKeEJxQmkzRW9ick5rYndjZkRIYjh0cEFRVGRCME1wd3hFOEpZVUlIZy1RV1hmc2t5T3Q0enRNY0RLMG90N1JTeGd5NkQw?oc=5",
-      "date": "2026-05-21",
+      "company": "Danish Crown",
+      "country": "Sweden",
+      "city": null,
+      "type": "restructuring",
+      "jobs_affected": 800,
+      "title": "Danish Crown skär ned 800 tjänster i omorganisation - Börsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNci1nV1RaS1k3T3kwSzlLS2ZGTURtLWJ4MF9KeG1OWUFwM195cXVqRDAtMWxOalZ5bU5rUFlHeWZiYVd6MWU3M3VIeDlrX1JieEMyY3pRblFRMEt6cWU5SVJwdDF0SkpkYWI3VVVRTUpsWnZ6MnBzUExaUDdGUU1fMEgwNGRJVXdWa2JtRQ?oc=5",
+      "date": "2026-06-01",
       "sources": [
         {
-          "title": "Danish employment rate hits record-high despite Novo Nordisk layoffs - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcWlsY28tai1RejBPQmZkMUNwREN4ZXZYbUJlSlI3UTdOekhFeTBiM1l3N3JLcXJhRGxHQlQ2WVhYOFdJbEFEclN1dFZnaFI4V1pwREh1MXNzeHV2dzZCaTM2NnAzOHBvS0dKZThqSVhMd2R2OXdRS0FiTGt3b1J0SEh2RFJKNEd3Nk15R2w0SXR1OHR4a2MtV0Ntd1J0WnRpSG5z?oc=5",
-          "date": "2026-05-21",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk layoffs cause employment to fall for first time in 17 months - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcWxhX0t4Uk9JbFhrSklJRWN3cWtXLUVCWEJhRjFsWnQySFJOYUdWaTY1R1VUdUVxM0c5M3p6TXJaWFVvMlV1YlpjZ3hCMTRnVTBmb01CMHRNNlZfbUxxd0NBOGdkaGhRMmxVaGVPbjAzSHlLb1B6dUhTdnNtVkdnSzBNV2VUX0ZER05pb0RLLWpXNDl1ZmhyZFQzTE54U3ZyZHp6X1Fremt1Zw?oc=5",
-          "date": "2026-04-28",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk Layoffs Add to Denmark’s Mounting Economic Anxieties - Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnBSaDNoaG5CS09Jb1FmZF8yWG1qaGhmcFF5S3FqSTBBMmVWYmZLZGVFQ2NVbFNxeHhXS3dmdk1UWncyTzFRbUs1RF90VlVRTVVSMGtsTVI2WDdZQVVxNVA4cWhnbEotVGxXcVFtY0FuLVF4UjdUbzBnLUJSU0lFUzI0aEppQy1ubkZzWGg1S1p1SmZWcG8wbUVHTHM1SDRtb19DRFJsXzhBNFk?oc=5",
-          "date": "2026-02-20",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk Layoffs Add Fuel to Denmark's Economic Anxieties - Bloomberg",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXRhSmsyZktpNkJEQjFvbGRlall4Zy1INTFhTGc5REsxSXByYTBveEJMQUwxYTRkLU9pWUFyX2ZNM2hqV2xySWVESzFOS0s4eHRhRnZzakNwY1dOQXB0N1BlVnZadzNIYnp2a0ZkaEljR0k2ZlNuS19uTzNQeWluRjVTdmtja05GeURoYkZaOUJmZXplc1FvbXFuZVBaejd4UGpDTjJjdFNnQ2Jvc2VmYXVB?oc=5",
-          "date": "2026-02-19",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Round of redundancies among Novo Nordisk employees in Denmark is complete - medwatch.com",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81NFFKZ1BCa3JpWWJObVZsWmZ2N3d2MC1teEItMGpOZnluVnpHMXdmVlFiTWxKNnY3Sm00OC1KRUY3dEFwNUJ2Z3oxRWdEQmZQLWJlVzY2NGZjem9WZmhsUzdyeUwzTkV1UDh4ajJfbw?oc=5",
-          "date": "2025-11-03",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk announces layoffs are over - The Copenhagen Post",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMlVjaXAzbXNxWFFhbVp4TmlBeFQ1TU5NRVgwSTJGRlhvVmQwbkExZWVtdUtzR3lvMVBBRnJnTnk0ajRrZHowN0drUHBFRW91amFwYkg3aHktNi1iRzRXdzVpaHhfMS0xbnNrLVlnUGJzb3hlOXJLeHl6YTNvTkc4TWt1MEs4d1ktU3dkMzhZcGxkNUJIRzc1ajBhTlc?oc=5",
-          "date": "2025-11-03",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Employment climbs in Denmark but Novo Nordisk job cuts on way - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUs2X0ZXc2lkenBIeHd2bFNWWmJlZXJOZlpkSDZFS0R4ZlRBd1dKd3IxT0RmaXJHZnUzdUFwT0dQdWl5dmpFOXlRRFJiWnlFcUNQajJLWHM0aTZ5Rkp1RXQwM1FSdTBwcldfaVRGTUZyOUZGelNjZkVyS0RpWFJpWWhzTDFYMEpHNnR0NjkxeFNjVnlSeGs5ZnJB?oc=5",
-          "date": "2025-09-22",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Denmark's Economy Remains Strong Amid Novo Nordisk Layoffs - Global Banking & Finance Review",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeFpSVUNWRGpFQUtzNjI0ZEgxdlNPOGJuZzZtR211cUYxM2ZRUkt2QXVsSVpEeDF0VHZsNERVdmRyTDJrSVh0X0NQWG5HR3NkdEdPMHgtLUZNTElDai12MVJjcXFpbjJsXzUwVzF1Uk95b3RNV3dqclNFc2JURmZFa0czUkpTUE9IS1A0ZGlhY3FjQmdSQmJEYW00X29LRlpBZFZjcXAtZ1RrQQ?oc=5",
-          "date": "2025-09-10",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "With major layoffs at Novo Nordisk, Nykredit and Lundbeck, here is how your visa could be impacted - The Copenhagen Post",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRVVQT1ZjQXhUbWExZllQV0hiWGJ2ZE12eExvdzlFTXJVUTB0YUJqc0hxV0FNUk40RFlUUzBuUGhvR1NidXM4UnEwUV9UZjgxejhqa3ZmZWJwSGg3b25fbUIyOEtDcUE5OU5GdlAyMkxZT1dJOFVBcUtYU19pNmV6ZHJkdVQ5dFVoZzJMSG1PdVo0blZFUHAtcDBrdGhSSTE3VlBIdDNpLUJuaU95cHJoZW9lMkxEWmUzX1BsOEhReFI0Rkl3OW94aVp2QnlQUGpVd3p0dFdmai1zRU1nQlVJWU9SUThHRDQy?oc=5",
-          "date": "2025-09-10",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk’s outgoing CEO: “There will probably be layoffs” - The Copenhagen Post",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQWRyX183WXBmcE9ZM2lIQ2ZjMjRSRE1JY1lFYkZUS282XzBib2RHYTYwYzQyMUNHeGc3c3lDT0VtNFl0VE1CaFVZRUhVa1NfdG5HNzVObzEyeFFIX3VDNUs0MUFaWjJWT1hiVFM1b3o3TlpIdnNYaVA1THI4bDVyY2Z2RGx4UDNaQjZ2TUdUYmRWeHNMbFZsQTJ0S0Z1ZlFDellQT2d2bDdwQzdWaGJJSU1RWXBvMTNjZFdYUEo4RjNFUjE3OVFuSUlqMXRtd3Ni?oc=5",
-          "date": "2025-08-06",
-          "source": "Google News: Denmark layoffs"
+          "title": "Danish Crown skär ned 800 tjänster i omorganisation - Börsvärlden",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNci1nV1RaS1k3T3kwSzlLS2ZGTURtLWJ4MF9KeG1OWUFwM195cXVqRDAtMWxOalZ5bU5rUFlHeWZiYVd6MWU3M3VIeDlrX1JieEMyY3pRblFRMEt6cWU5SVJwdDF0SkpkYWI3VVVRTUpsWnZ6MnBzUExaUDdGUU1fMEgwNGRJVXdWa2JtRQ?oc=5",
+          "date": "2026-06-01",
+          "source": "Google News SE: omorganisation jobb"
         }
       ],
-      "title_en": "Novo Nordisk lays off approximately 400 employees in Denmark and China"
+      "title_en": "Danish Crown cuts 800 positions in restructuring"
+    },
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "restructuring",
+      "jobs_affected": 800,
+      "title": "Danska jätten kapar 800 tjänster i global omorganisation - food-supply.se",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmlxaFhUYV9KUEhkT1dVZlpTRkNXakdPejM0QWhaQld0WU41Q3JDelJtOFpqSjFGUUtZUi13T3pOaTlhcUlmQnkxZW4xTlpWNllTNVRYcFo2bDZGdHpJaTdoNzBoUVdOcTdJSFlrMHdTR1Zrcy10RFgxdDNHR3BPMkNLakNWTkhleU9xbHgxemRCazNCeGoxYUYwNFI3MkZFcFpUUnJSbw?oc=5",
+      "date": "2026-06-01",
+      "sources": [
+        {
+          "title": "Danska jätten kapar 800 tjänster i global omorganisation - food-supply.se",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmlxaFhUYV9KUEhkT1dVZlpTRkNXakdPejM0QWhaQld0WU41Q3JDelJtOFpqSjFGUUtZUi13T3pOaTlhcUlmQnkxZW4xTlpWNllTNVRYcFo2bDZGdHpJaTdoNzBoUVdOcTdJSFlrMHdTR1Zrcy10RFgxdDNHR3BPMkNLakNWTkhleU9xbHgxemRCazNCeGoxYUYwNFI3MkZFcFpUUnJSbw?oc=5",
+          "date": "2026-06-01",
+          "source": "Google News SE: omorganisation jobb"
+        }
+      ],
+      "title_en": "Danish giant cuts 800 jobs in global restructuring"
+    },
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 209,
+      "title": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1d0Y1ZaQVlYaUdIR29xbnJrVWsybllpaUw3ZWZXRHhYWUttdVlKQTNtaklmQUs0YXg0NC1VZ0VUMHZYOFFqUHUxMlpGU0FlcWZBakdrRzYzcWhLRlhxLWlnN0psekU4ZTJPTTludXVNaFhLUm56Q0ZCZ0dZa0M5amNyT2FiUUV0bUNJRlBKWWdYdnJaRF9HNzFLUS0?oc=5",
+      "date": "2026-06-29",
+      "sources": [
+        {
+          "title": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1d0Y1ZaQVlYaUdIR29xbnJrVWsybllpaUw3ZWZXRHhYWUttdVlKQTNtaklmQUs0YXg0NC1VZ0VUMHZYOFFqUHUxMlpGU0FlcWZBakdrRzYzcWhLRlhxLWlnN0psekU4ZTJPTTludXVNaFhLUm56Q0ZCZ0dZa0M5amNyT2FiUUV0bUNJRlBKWWdYdnJaRF9HNzFLUS0?oc=5",
+          "date": "2026-06-29",
+          "source": "Google News SE: konkurs anställda"
+        }
+      ],
+      "title_en": "Niutech in bankruptcy: 209 employees affected"
     },
     {
       "company": null,
@@ -180,7 +159,7 @@
           "source": "Google News SE: uppsägningar"
         }
       ],
-      "title_en": "No layoffs at SVT—114 positions eliminated through restructuring"
+      "title_en": "No layoffs from SVT – 114 positions eliminated"
     },
     {
       "company": null,
@@ -202,142 +181,100 @@
       "title_en": "30 employees affected in week's largest bankruptcy"
     },
     {
-      "company": "Meta",
+      "company": null,
       "country": "Sweden",
       "city": null,
       "type": "layoff",
-      "jobs_affected": null,
-      "title": "Irland: Strejk mot AI-uppsägningar på Meta - Arbetaren",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzRhbE5nQm8wd0F1bFBTdzhuVWNTQkZ2N3EwYVpNTkU0T0MybGs2VVc4OExKdHRmNmpTV19OYkg4VndFTjhxclphdDFqSV82aEJDR0NIVXZwZ2t2RExBdzE0LXgzTHc0djc0aWVxdThIbWN6N2Y4N01vaXdXd2VQdURGVlk?oc=5",
-      "date": "2026-05-25",
+      "jobs_affected": 18,
+      "title": "Stor koncern i konkurs – 18 anställda i Blekinge berörs - Blekinge Läns Tidning",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2x2QWV4N0hxa0NZYnFkcmFOYmxWTzVpN0ExQy1tSE1pc2xOMUJkVTdWei1lRGx5VTF3ZE9CYjJBWDltTS1SMHZiOVZVSVo3MUxzTFhmQmFpelBONmlIcDhib2Y1LVRuOFY1TC1EYUR0Nmd6aG1iSUpsOHJJNFFONUhDTTRZZWtfM2xCWA?oc=5",
+      "date": "2026-06-29",
       "sources": [
         {
-          "title": "Irland: Strejk mot AI-uppsägningar på Meta - Arbetaren",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzRhbE5nQm8wd0F1bFBTdzhuVWNTQkZ2N3EwYVpNTkU0T0MybGs2VVc4OExKdHRmNmpTV19OYkg4VndFTjhxclphdDFqSV82aEJDR0NIVXZwZ2t2RExBdzE0LXgzTHc0djc0aWVxdThIbWN6N2Y4N01vaXdXd2VQdURGVlk?oc=5",
-          "date": "2026-05-25",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Uppsägningar sänker pressat mjukvarubolag – Meta har varslat klart - EFN",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVWx0WUdTMkV3aXdXcW8xRHhfMzJVcUpUN0ZQdnlmLVBZSGNnY2txQXQ3M3BuQzlBN2JPRnlOZS1IZnd2cThzV1FoY0ZDNWFjT3FhZ3BBT2lQX2JpVm5DdUxaZTc1ejZ3T3VseHJfY1pUZTBmSGViSWdSRG15dS05dUJKREZvZw?oc=5",
-          "date": "2026-05-20",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Meta gör om inför uppsägningar - Sydsvenskan",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2cU82bnBITEUwRUl0cFVlSWxCZ2RPY1pvaDk5elFPMTFmdWRnUXEyc2lLcE5fNy1iUjk0T3lnY0Y2OGYxZkJoaUZNdVhLXzl6SzZCa1FEN1VISk0xaEVtSEVzb2tvcTcyX2F2b1V0RWZrSHV6?oc=5",
-          "date": "2026-05-19",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Meta gör om inför uppsägningar - TV4 Nyheterna",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVEhtWkVicnN2ZkJXWFUyelkyamVUX0hkWE5oODB5eXhuOXNlMVM1T0tvZHF3Z09IdkY3blljY3k0VEdVUmxWaE41dmljNWprZWQzdEQtNGdrRmgxZi1kaGRENVEzSnJpQXQ1YXZ2SEVBc0RsRlhXM3pYVFZ1MHBmUDFpdndxZUZNYlF6R1hGenZZZl9z?oc=5",
-          "date": "2026-05-19",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Meta gör om inför uppsägningar - Dagens Media",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91M1ZTN0NiWE1iYUVDSGxWWUNFdXRmNkhHX3Zqd3BWUzBqUjFYWEV4NDVZYTFsYWM0TFkzellVdktsbzJtWVV0MWtCTVdCU0F2cEV3d3hVYkgzeVgzOVd0Vm1MMmY4dzEzbzBNeHhPMmFmWng3c3ZoWHlXZXY?oc=5",
-          "date": "2026-05-18",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Omfattande uppsägningar på Meta väntas nästa månad - Dagens industri",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mbGJ4TnEyc21wVFlpMllVRnBaU1g1MXVia05OM1JLRENZRXJjbktoWl8wQ1RYaVEyY0ZmbjRndGlZNnRHRnhOMzJDd2Q2XzlLakc4WGpQQ1RZaHg4NWNPY1RpZHN6ekpoZFdtRWJVZVNNX0tiZkZUcFRualNvUk0?oc=5",
-          "date": "2026-04-17",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Digest: OpenAI Tests Ads Manager and Prepares Agentic Storefronts Feature; Meta Plans Layoffs while Publishers Back its Expulsion from IAB Sweden - exchangewire.com",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOSVAxeWxGaV9mYVNWNE5WZFdvcFJJalg1c3VNRjItelFWZ3JrVlJzV0xacVR1UFlubk42NnZBdlYxMEV3d0lLc2JwNXlHaTVUeUtpTVp3bGxtWlJ5S0s2RTZualpwYm5RQUZ5SXVHcWtpTHF0NTFnRjBYd2R4bEo4MkFya0JhdkpUNTZrOTFzWWNsZFpYMTVYZ1lqUXV5M0VOZ3JseHZtcVBwSURYTnJTYkpLNHRMcVM0NFZjVThHQkp4dzc1OE40ejYzNG9OMXhMdGlUT0ktd0d6NUtqUW0xanBnWDlvV2RFaEFIWU41NkYyS2h6a3BrSERXQjJjV3BQb3VSZmw5clNMRkFSXzk2dkJsd3hkLVR3?oc=5",
-          "date": "2026-03-17",
-          "source": "Google News: Sweden layoffs"
-        },
-        {
-          "title": "Meta bekräftar uppsägningar i VR-satsningen - Omni",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03eV9XX3pUak52ODhxa2lhUmw1cG1fTVJmOGxjRGUtb05fSUtHNXVrWWh5eEhvZGZpMVhib2pUaVpOTUdwTzJ1QjRKMWROdi1WRzhkTTV4eWhONUFzTWk1aklYd25wVDBSYm9rSVJoMFJkMmN2NnVz?oc=5",
-          "date": "2026-01-14",
-          "source": "Google News SE: uppsägningar"
+          "title": "Stor koncern i konkurs – 18 anställda i Blekinge berörs - Blekinge Läns Tidning",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2x2QWV4N0hxa0NZYnFkcmFOYmxWTzVpN0ExQy1tSE1pc2xOMUJkVTdWei1lRGx5VTF3ZE9CYjJBWDltTS1SMHZiOVZVSVo3MUxzTFhmQmFpelBONmlIcDhib2Y1LVRuOFY1TC1EYUR0Nmd6aG1iSUpsOHJJNFFONUhDTTRZZWtfM2xCWA?oc=5",
+          "date": "2026-06-29",
+          "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Ireland: Strike against AI-related layoffs at Meta"
+      "title_en": "Major corporation in bankruptcy – 18 employees in Blekinge affected"
     }
   ],
   "demand": [
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 43,
-      "share": 29
-    },
-    {
-      "country": "Sweden",
-      "role": "Yrken med teknisk inriktning",
-      "vacancies": 21,
-      "share": 14
+      "vacancies": 50,
+      "share": 34
     },
     {
       "country": "Sweden",
       "role": "Pedagogik",
-      "vacancies": 21,
+      "vacancies": 20,
       "share": 14
     },
     {
       "country": "Sweden",
-      "role": "Försäljning, inköp, marknadsföring",
+      "role": "Yrken med teknisk inriktning",
+      "vacancies": 18,
+      "share": 12
+    },
+    {
+      "country": "Sweden",
+      "role": "Hälso- och sjukvård",
       "vacancies": 16,
       "share": 11
     },
     {
       "country": "Sweden",
-      "role": "Hälso- och sjukvård",
-      "vacancies": 15,
-      "share": 10
+      "role": "Administration, ekonomi, juridik",
+      "vacancies": 9,
+      "share": 6
     },
     {
       "country": "Sweden",
-      "role": "Administration, ekonomi, juridik",
-      "vacancies": 14,
-      "share": 9
+      "role": "Försäljning, inköp, marknadsföring",
+      "vacancies": 6,
+      "share": 4
     },
     {
       "country": "Denmark",
       "role": "AI",
       "vacancies": 15,
-      "share": 12
+      "share": 13
     },
     {
       "country": "Denmark",
       "role": "Nurse",
       "vacancies": 15,
-      "share": 12
+      "share": 13
     },
     {
       "country": "Denmark",
       "role": "Teacher",
-      "vacancies": 15,
+      "vacancies": 14,
+      "share": 12
+    },
+    {
+      "country": "Denmark",
+      "role": "Machine Learning",
+      "vacancies": 13,
+      "share": 12
+    },
+    {
+      "country": "Denmark",
+      "role": "HR analytics",
+      "vacancies": 13,
       "share": 12
     },
     {
       "country": "Denmark",
       "role": "Data Scientist",
-      "vacancies": 14,
-      "share": 11
-    },
-    {
-      "country": "Denmark",
-      "role": "Machine Learning",
-      "vacancies": 12,
-      "share": 10
-    },
-    {
-      "country": "Denmark",
-      "role": "HR analytics",
-      "vacancies": 12,
+      "vacancies": 11,
       "share": 10
     }
   ],
   "shortages": [],
-  "sources_count": 24,
+  "sources_count": 27,
   "llm": "claude-haiku-4-5"
 }
