@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-29T10:17:40+00:00",
-  "period": "May 31 – Jun 29, 2026",
-  "summary": "AI-driven layoffs dominate: 21,000 IT jobs cut in single event signals sector-wide disruption.",
+  "generated_at": "2026-07-06T09:51:09+00:00",
+  "period": "Jun 07 – Jul 06, 2026",
+  "summary": "Danish Crown cuts 800 jobs; food manufacturing sector faces significant restructuring pressure.",
   "insights": [
-    "AI-driven layoffs dominate: 21,000 IT jobs cut in single event signals sector-wide disruption.",
-    "Danish Crown restructuring affects 800+ roles across Sweden and Denmark; food sector under pressure.",
-    "Swedish bankruptcies emerging: Niutech (209 jobs), SVT restructure (114 roles) indicate broader instability.",
-    "HR priority: Monitor tech and food sectors; prepare retraining programs for displaced workers."
+    "Danish Crown cuts 800 jobs; food manufacturing sector faces significant restructuring pressure.",
+    "Swedish bankruptcies (Niutech, unnamed large group) eliminate 227+ jobs; insolvency risk rising.",
+    "SVT restructures 114 roles without layoffs; redeployment model emerging in public sector.",
+    "Microsoft rumored for new Sweden layoffs; tech sector volatility continues despite stability claims."
   ],
   "countries": [
     {
@@ -14,46 +14,27 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 6,
-      "vacancies": 146,
+      "events": 4,
+      "vacancies": 145,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
-      "headline": "Danish Crown skär ned 800 tjänster i omorganisation - Börsvärlden",
-      "headline_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNci1nV1RaS1k3T3kwSzlLS2ZGTURtLWJ4MF9KeG1OWUFwM195cXVqRDAtMWxOalZ5bU5rUFlHeWZiYVd6MWU3M3VIeDlrX1JieEMyY3pRblFRMEt6cWU5SVJwdDF0SkpkYWI3VVVRTUpsWnZ6MnBzUExaUDdGUU1fMEgwNGRJVXdWa2JtRQ?oc=5",
-      "summary": "Multiple bankruptcies (Niutech, construction) plus SVT restructure; 209-800 job losses across sectors."
+      "headline": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
+      "headline_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYnMxSjNuNXNfZ2lvdHhCUl9CTjBxcnBuTlZNSlgyWjBJMHY5SUhWOEhmYVhxbUF4S2JhLVVjV2xZdUhGYlkzSnVaQ0tOMnhQN0Nta25MM1YzbXlpbTFrQ1cwbnp5VzlncWVLOXNJQVZPSEZxTVpfZ1R2eHA1cDUxdjNVdUVIaG84ZW1ZSHVUb0I2UQ?oc=5",
+      "summary": "Multiple insolvencies alongside restructurings; SVT avoids cuts but eliminates 114 positions through redeployment."
     },
     {
       "name": "Denmark",
       "code": "DK",
       "layoff_level": "elevated",
-      "layoff_score": 0.33,
+      "layoff_score": 0.5,
       "events": 2,
-      "vacancies": 113,
+      "vacancies": 123,
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
-      "headline": "AI fører til massefyring: It-gigant har skåret 21.000 jobs væk",
-      "headline_url": "https://www.dr.dk/nyheder/penge/ai-foerer-til-massefyring-it-gigant-har-skaaret-21-000-jobs-vaek",
-      "summary": "Major IT layoffs (21,000) and Danish Crown restructuring (800) driving significant labor market disruption."
+      "headline": "Danish Crown to cut 800 jobs as it restructures the business. - Food Manufacture",
+      "headline_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY3VtdzFDM0VDdzZlai1qQVdEU0tjVjBYUVdJdkhiVExYU25ubzVQZENJLUwzWmw0cW9URVBMazNTUmZ6SVoxUlBRaDZLRHVFalppcEhwSHlJNUFqU21rTEx3ZnN0dF9TZGlaaTNMLWJwQVpEUW5xaHNjV1czSGpfMHdlQ1BRbHZVM3pNX1liYnNnSXFKWXRjc09vemdaTm1jMk9YV0hfdWRnd0FXSEpFVGlpaWc?oc=5",
+      "summary": "Danish Crown 800-job cut signals food industry consolidation; GN Store Nord faces public criticism."
     }
   ],
   "events": [
-    {
-      "company": null,
-      "country": "Denmark",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 21000,
-      "title": "AI fører til massefyring: It-gigant har skåret 21.000 jobs væk",
-      "url": "https://www.dr.dk/nyheder/penge/ai-foerer-til-massefyring-it-gigant-har-skaaret-21-000-jobs-vaek",
-      "date": "2026-06-23",
-      "sources": [
-        {
-          "title": "AI fører til massefyring: It-gigant har skåret 21.000 jobs væk",
-          "url": "https://www.dr.dk/nyheder/penge/ai-foerer-til-massefyring-it-gigant-har-skaaret-21-000-jobs-vaek",
-          "date": "2026-06-23",
-          "source": "DR – Penge"
-        }
-      ],
-      "title_en": "AI leads to mass layoffs: IT giant cuts 21,000 jobs"
-    },
     {
       "company": "Danish Crown",
       "country": "Denmark",
@@ -81,47 +62,15 @@
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQWJmdWFaRkhydHhqNDk1UEIybjJCcDNsRWNYTGp4a2ZjSG9nYVJRT3lZVnZwTUVad2tMR3RCa0EzaTl1eWNUenQ4WlYzM1RuT2hFR0hoNVhTWnN4OHNENkFZTURSenp6T2k2THZNeThGX2MzRW53bEl5YjhzdHFGTDhYOHluY3NQYmc0UjlKVkxuTmN5Y3dSVDlhbmxzZEtuYlY4VDkzSHN0ZWNfa2NwdUhoQWtTWkxK?oc=5",
           "date": "2026-06-02",
           "source": "Google News: Denmark job cuts"
+        },
+        {
+          "title": "Danish Crown to axe 150 jobs amid group-wide restructuring - Global Food Industry News",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM0hfRExVeXVIY3VvWUt6ams1M0ZlVlQ1TWpBdGxUZC0tX3hDQW1BSF9yaGlmOURjUUJ4LW5nc0tpWHRfN3c4TGlhRWZnakxRemFnYWZmSjZ3dnZHRFc0ODdsYTVaZTBsZHV5TjhSaGtBTEY0NGtsdDh3RDI4RHlMMEpkeGU0cWtFMUlkajlrR2lrWEVC?oc=5",
+          "date": "2023-01-30",
+          "source": "Google News: Denmark job cuts"
         }
       ],
       "title_en": "Danish Crown to cut 800 jobs as it restructures the business"
-    },
-    {
-      "company": "Danish Crown",
-      "country": "Sweden",
-      "city": null,
-      "type": "restructuring",
-      "jobs_affected": 800,
-      "title": "Danish Crown skär ned 800 tjänster i omorganisation - Börsvärlden",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNci1nV1RaS1k3T3kwSzlLS2ZGTURtLWJ4MF9KeG1OWUFwM195cXVqRDAtMWxOalZ5bU5rUFlHeWZiYVd6MWU3M3VIeDlrX1JieEMyY3pRblFRMEt6cWU5SVJwdDF0SkpkYWI3VVVRTUpsWnZ6MnBzUExaUDdGUU1fMEgwNGRJVXdWa2JtRQ?oc=5",
-      "date": "2026-06-01",
-      "sources": [
-        {
-          "title": "Danish Crown skär ned 800 tjänster i omorganisation - Börsvärlden",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNci1nV1RaS1k3T3kwSzlLS2ZGTURtLWJ4MF9KeG1OWUFwM195cXVqRDAtMWxOalZ5bU5rUFlHeWZiYVd6MWU3M3VIeDlrX1JieEMyY3pRblFRMEt6cWU5SVJwdDF0SkpkYWI3VVVRTUpsWnZ6MnBzUExaUDdGUU1fMEgwNGRJVXdWa2JtRQ?oc=5",
-          "date": "2026-06-01",
-          "source": "Google News SE: omorganisation jobb"
-        }
-      ],
-      "title_en": "Danish Crown cuts 800 positions in restructuring"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "restructuring",
-      "jobs_affected": 800,
-      "title": "Danska jätten kapar 800 tjänster i global omorganisation - food-supply.se",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmlxaFhUYV9KUEhkT1dVZlpTRkNXakdPejM0QWhaQld0WU41Q3JDelJtOFpqSjFGUUtZUi13T3pOaTlhcUlmQnkxZW4xTlpWNllTNVRYcFo2bDZGdHpJaTdoNzBoUVdOcTdJSFlrMHdTR1Zrcy10RFgxdDNHR3BPMkNLakNWTkhleU9xbHgxemRCazNCeGoxYUYwNFI3MkZFcFpUUnJSbw?oc=5",
-      "date": "2026-06-01",
-      "sources": [
-        {
-          "title": "Danska jätten kapar 800 tjänster i global omorganisation - food-supply.se",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQmlxaFhUYV9KUEhkT1dVZlpTRkNXakdPejM0QWhaQld0WU41Q3JDelJtOFpqSjFGUUtZUi13T3pOaTlhcUlmQnkxZW4xTlpWNllTNVRYcFo2bDZGdHpJaTdoNzBoUVdOcTdJSFlrMHdTR1Zrcy10RFgxdDNHR3BPMkNLakNWTkhleU9xbHgxemRCazNCeGoxYUYwNFI3MkZFcFpUUnJSbw?oc=5",
-          "date": "2026-06-01",
-          "source": "Google News SE: omorganisation jobb"
-        }
-      ],
-      "title_en": "Danish giant cuts 800 jobs in global restructuring"
     },
     {
       "company": null,
@@ -130,17 +79,17 @@
       "type": "layoff",
       "jobs_affected": 209,
       "title": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1d0Y1ZaQVlYaUdIR29xbnJrVWsybllpaUw3ZWZXRHhYWUttdVlKQTNtaklmQUs0YXg0NC1VZ0VUMHZYOFFqUHUxMlpGU0FlcWZBakdrRzYzcWhLRlhxLWlnN0psekU4ZTJPTTludXVNaFhLUm56Q0ZCZ0dZa0M5amNyT2FiUUV0bUNJRlBKWWdYdnJaRF9HNzFLUS0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYnMxSjNuNXNfZ2lvdHhCUl9CTjBxcnBuTlZNSlgyWjBJMHY5SUhWOEhmYVhxbUF4S2JhLVVjV2xZdUhGYlkzSnVaQ0tOMnhQN0Nta25MM1YzbXlpbTFrQ1cwbnp5VzlncWVLOXNJQVZPSEZxTVpfZ1R2eHA1cDUxdjNVdUVIaG84ZW1ZSHVUb0I2UQ?oc=5",
       "date": "2026-06-29",
       "sources": [
         {
           "title": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1d0Y1ZaQVlYaUdIR29xbnJrVWsybllpaUw3ZWZXRHhYWUttdVlKQTNtaklmQUs0YXg0NC1VZ0VUMHZYOFFqUHUxMlpGU0FlcWZBakdrRzYzcWhLRlhxLWlnN0psekU4ZTJPTTludXVNaFhLUm56Q0ZCZ0dZa0M5amNyT2FiUUV0bUNJRlBKWWdYdnJaRF9HNzFLUS0?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYnMxSjNuNXNfZ2lvdHhCUl9CTjBxcnBuTlZNSlgyWjBJMHY5SUhWOEhmYVhxbUF4S2JhLVVjV2xZdUhGYlkzSnVaQ0tOMnhQN0Nta25MM1YzbXlpbTFrQ1cwbnp5VzlncWVLOXNJQVZPSEZxTVpfZ1R2eHA1cDUxdjNVdUVIaG84ZW1ZSHVUb0I2UQ?oc=5",
           "date": "2026-06-29",
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Niutech in bankruptcy: 209 employees affected"
+      "title_en": "Niutech bankruptcy: 209 employees affected"
     },
     {
       "company": null,
@@ -166,25 +115,6 @@
       "country": "Sweden",
       "city": null,
       "type": "layoff",
-      "jobs_affected": 30,
-      "title": "30 anställda berörs i veckans största konkurs - Byggvärlden",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jOHIwTlBubE1zNTRnOUJ3MktmVVJmaUd6T3lZQTRKUVE3eXlDM3c0WDdCYmI3YTlfbFBpa2xQV0U0WVNFTWFvNHNiNnluMTRvQWRkc0NnejVKcXJlVkQ1M25zOVh1R0dWNEtzTGoybWNfRldRT2RqTDB1aUllQQ?oc=5",
-      "date": "2026-06-01",
-      "sources": [
-        {
-          "title": "30 anställda berörs i veckans största konkurs - Byggvärlden",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jOHIwTlBubE1zNTRnOUJ3MktmVVJmaUd6T3lZQTRKUVE3eXlDM3c0WDdCYmI3YTlfbFBpa2xQV0U0WVNFTWFvNHNiNnluMTRvQWRkc0NnejVKcXJlVkQ1M25zOVh1R0dWNEtzTGoybWNfRldRT2RqTDB1aUllQQ?oc=5",
-          "date": "2026-06-01",
-          "source": "Google News SE: konkurs anställda"
-        }
-      ],
-      "title_en": "30 employees affected in week's largest bankruptcy"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
       "jobs_affected": 18,
       "title": "Stor koncern i konkurs – 18 anställda i Blekinge berörs - Blekinge Läns Tidning",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2x2QWV4N0hxa0NZYnFkcmFOYmxWTzVpN0ExQy1tSE1pc2xOMUJkVTdWei1lRGx5VTF3ZE9CYjJBWDltTS1SMHZiOVZVSVo3MUxzTFhmQmFpelBONmlIcDhib2Y1LVRuOFY1TC1EYUR0Nmd6aG1iSUpsOHJJNFFONUhDTTRZZWtfM2xCWA?oc=5",
@@ -197,84 +127,128 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Major corporation in bankruptcy – 18 employees in Blekinge affected"
+      "title_en": "Large corporation bankruptcy – 18 employees in Blekinge affected"
+    },
+    {
+      "company": "GN Store Nord",
+      "country": "Denmark",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Voldsom kritik af GN Store Nord : - En dansk erhvervstragedie – Ekstra Bladet",
+      "url": "https://ekstrabladet.dk/penge/voldsom-kritik-af-gn-store-nord-en-dansk-erhvervstragedie/11226450",
+      "date": "2026-07-06",
+      "sources": [
+        {
+          "title": "Voldsom kritik af GN Store Nord : - En dansk erhvervstragedie – Ekstra Bladet",
+          "url": "https://ekstrabladet.dk/penge/voldsom-kritik-af-gn-store-nord-en-dansk-erhvervstragedie/11226450",
+          "date": "2026-07-06",
+          "source": "GDELT: Denmark"
+        }
+      ],
+      "title_en": "Strong criticism of GN Store Nord: A Danish business tragedy"
+    },
+    {
+      "company": "Microsoft",
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Uppgifter: Microsoft krattar för nya varsel - Dagens industri",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVUlR1MGs5MktrTW1QOVZnSkxMZGxpMXpBdl9FZHVSM29rRXRZMUh5LTBHcTU5cGhFaW5EbnZLZG5KQjZjUzlVdmo2YWdhM0N4ZV9RZERSVU5yaTIybDZvRWJqd1h4UXRPaUhnSWlRaXBQREFT?oc=5",
+      "date": "2026-07-01",
+      "sources": [
+        {
+          "title": "Uppgifter: Microsoft krattar för nya varsel - Dagens industri",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVUlR1MGs5MktrTW1QOVZnSkxMZGxpMXpBdl9FZHVSM29rRXRZMUh5LTBHcTU5cGhFaW5EbnZLZG5KQjZjUzlVdmo2YWdhM0N4ZV9RZERSVU5yaTIybDZvRWJqd1h4UXRPaUhnSWlRaXBQREFT?oc=5",
+          "date": "2026-07-01",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Microsoft varslar om uppsägningar igen – denna gång är inte bara Xbox i sikte - Invezz",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNWdBcTBBS0EyT2t1bEdxU2JFY2t3bU5fX3BqMy1obWlsQXV2Mk1hckpvb0l5MUVVY1UydEtWMmNvTERXUnBzSDJQSlNwMzFvTldMeXI2TThEaUZibW9ha2xOVnlOcGNsaC1SdUl6dlZWLXpscTlwWkFrRWdTeVpXSFdCRVdISXBSeTVTdG1RdGFpdEhZTGNaTk9aWElod3NMRExtbThaQjRpNGtnR2t4NG5faDUwM3B1?oc=5",
+          "date": "2026-07-01",
+          "source": "Google News SE: uppsägningar"
+        }
+      ],
+      "title_en": "Reports: Microsoft preparing new layoffs"
     }
   ],
   "demand": [
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 50,
-      "share": 34
-    },
-    {
-      "country": "Sweden",
-      "role": "Pedagogik",
-      "vacancies": 20,
-      "share": 14
+      "vacancies": 45,
+      "share": 31
     },
     {
       "country": "Sweden",
       "role": "Yrken med teknisk inriktning",
+      "vacancies": 29,
+      "share": 20
+    },
+    {
+      "country": "Sweden",
+      "role": "Hälso- och sjukvård",
       "vacancies": 18,
       "share": 12
     },
     {
       "country": "Sweden",
-      "role": "Hälso- och sjukvård",
-      "vacancies": 16,
-      "share": 11
+      "role": "Pedagogik",
+      "vacancies": 15,
+      "share": 10
     },
     {
       "country": "Sweden",
       "role": "Administration, ekonomi, juridik",
-      "vacancies": 9,
-      "share": 6
+      "vacancies": 11,
+      "share": 8
     },
     {
       "country": "Sweden",
-      "role": "Försäljning, inköp, marknadsföring",
-      "vacancies": 6,
-      "share": 4
+      "role": "Chefer och verksamhetsledare",
+      "vacancies": 10,
+      "share": 7
     },
     {
       "country": "Denmark",
       "role": "AI",
       "vacancies": 15,
-      "share": 13
+      "share": 12
+    },
+    {
+      "country": "Denmark",
+      "role": "Teacher",
+      "vacancies": 15,
+      "share": 12
     },
     {
       "country": "Denmark",
       "role": "Nurse",
       "vacancies": 15,
-      "share": 13
-    },
-    {
-      "country": "Denmark",
-      "role": "Teacher",
-      "vacancies": 14,
       "share": 12
     },
     {
       "country": "Denmark",
       "role": "Machine Learning",
       "vacancies": 13,
-      "share": 12
-    },
-    {
-      "country": "Denmark",
-      "role": "HR analytics",
-      "vacancies": 13,
-      "share": 12
+      "share": 11
     },
     {
       "country": "Denmark",
       "role": "Data Scientist",
-      "vacancies": 11,
+      "vacancies": 12,
+      "share": 10
+    },
+    {
+      "country": "Denmark",
+      "role": "Electrician",
+      "vacancies": 12,
       "share": 10
     }
   ],
   "shortages": [],
-  "sources_count": 27,
+  "sources_count": 25,
   "llm": "claude-haiku-4-5"
 }
