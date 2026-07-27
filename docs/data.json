@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-20T08:35:21+00:00",
-  "period": "Jun 21 – Jul 20, 2026",
-  "summary": "H&M's 1,500 layoffs signal major retail restructuring; monitor fashion sector for similar moves.",
+  "generated_at": "2026-07-27T09:23:36+00:00",
+  "period": "Jun 28 – Jul 27, 2026",
+  "summary": "Sweden facing multiple concurrent bankruptcies affecting 247+ workers; immediate wage payment uncertainty for Subway, Niutech staff.",
   "insights": [
-    "H&M's 1,500 layoffs signal major retail restructuring; monitor fashion sector for similar moves.",
-    "Swedish public broadcaster SVT eliminating 114 roles without layoffs suggests internal reallocation strategies.",
-    "Multiple small-medium bankruptcies (Subway, others) affecting 50+ employees; gig/franchise model fragility evident.",
-    "Meta's AI-assisted terminations raise legal/ethical concerns; expect scrutiny of automated HR decisions."
+    "Sweden facing multiple concurrent bankruptcies affecting 247+ workers; immediate wage payment uncertainty for Subway, Niutech staff.",
+    "Tech sector volatility: Meta's AI-driven layoffs (8,000) and Microsoft's reported new cuts signal broader restructuring in Sweden.",
+    "Manufacturing supply chain disruption: Volvo supplier bankruptcy compounds industrial sector pressure on employment stability.",
+    "Job seekers in Sweden should prioritize wage guarantee verification and monitor tech/manufacturing sectors for accelerating cuts."
   ],
   "countries": [
     {
@@ -15,11 +15,11 @@
       "layoff_level": "high",
       "layoff_score": 1.0,
       "events": 6,
-      "vacancies": 152,
+      "vacancies": 150,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
-      "headline": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
-      "headline_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
-      "summary": "Major layoffs at H&M (1,500) alongside public sector restructuring (SVT 114 roles) and multiple bankruptcies affecting smaller employers."
+      "headline": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
+      "headline_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1d0Y1ZaQVlYaUdIR29xbnJrVWsybllpaUw3ZWZXRHhYWUttdVlKQTNtaklmQUs0YXg0NC1VZ0VUMHZYOFFqUHUxMlpGU0FlcWZBakdrRzYzcWhLRlhxLWlnN0psekU4ZTJPTTludXVNaFhLUm56Q0ZCZ0dZa0M5amNyT2FiUUV0bUNJRlBKWWdYdnJaRF9HNzFLUS0?oc=5",
+      "summary": "Multiple bankruptcies (Niutech 209, Subway 15–20, unnamed 18), plus tech sector cuts (Meta 8,000, Microsoft pending) and manufacturing disruption."
     },
     {
       "name": "Denmark",
@@ -31,71 +31,28 @@
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
       "headline": null,
       "headline_url": null,
-      "summary": "No events recorded in dataset."
+      "summary": "No events reported."
     }
   ],
   "events": [
-    {
-      "company": "H&M",
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 1500,
-      "title": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
-      "date": "2026-07-18",
-      "sources": [
-        {
-          "title": "H&M stäms efter uppsägningar – krävs på halv miljon - MSN",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS0s1TW5XOHlpUFNhbVhTQ3JKc29aYlM2TXROUUlhR0lnRUtjLWNWZVVKOS1KWFNtMkxJZVBBRHdsUHpzTWNoN2RrQnlzS3h2dEtSWEtMUjY2SlJJcGkyamZwRWR5NU45VGpTNVFNa1BnNEltXzZYNVRaQlowSzA5T3U5a09tMUZCWVIyMjJSWTFXdTZ1WXVPdzdxblM4LTlMblhibWdyVWVET1AwRzVGcHJrbVZiSF9Rbm92dUNSNA?oc=5",
-          "date": "2026-07-18",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "H&M stäms efter uppsägningar – krävs på halv miljon - Dagens PS",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcTFVcFBRRU9CR1JCbWpucXVFSmVUTUlTWTJUZVVpWjdmLUdjUWRNZUZWZEFHYmJUdnBic2dlUWJZNTNEM19zYjNoSlNnY3E3SGZfMjZiY0FQeVc4bUZfZF9CUkJxUG92YjY5V3ZBTExhREFkQlBqMDYxRTNKa0VZMmVGTU5zOTl6?oc=5",
-          "date": "2026-07-13",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Swedish H&M lays off staff in Singapore amid regional restructuring - Scandasia",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZWtNdU1XcXJxUmozTzd4RS1rTmNuaWZEZ0tJVW8yY0w4THRoR2Y5NTNDUXkzbnk0LUswU3Bpc2xyVzVJYlpPWXdWZnkxd2JEa3lvSDJQbmhUUmNISWcwU3NvQ3hudmpseUo1UVJBdFZSM2ZiQUxVT29zbVRJbmpGU2R2OF9TS3FuZHE0c3NhcGtCaUE?oc=5",
-          "date": "2026-05-18",
-          "source": "Google News: Sweden restructuring"
-        },
-        {
-          "title": "H&M Sweden publishes job postings with 0 working hours amid staff restructuring - Newsendip",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQTRIaXlTWVQtVGVvNGE4QXJ6anFvaDRjNnFkZ0xSZ0Ffb2hsVjNCa0VndWVLYWtIakhwX3VhMHJzOW03VHpOTldOQlRHbHlJSEhVR2ZIWFhhS3JfWUFSNXBvZnNfb1g4YUxxcEIxWlVxNURwMHQ4enhGSlZvMlZIc1hrVWp2SVZBNURVUENzYVR2NXowNEUzdjJhV0ZFdThvSEJKclhlRFh0S1FrMkdyaUtQSG5HeFNrVGc?oc=5",
-          "date": "2023-02-07",
-          "source": "Google News: Sweden restructuring"
-        },
-        {
-          "title": "Sweden's H&M to lay off 1,500 staff in drive to cut soaring costs and rescue profits - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMi1LX185bldnMm5KQU0wQW53bTJpT25CMjV6QmE1QWVuQjVHMGp6TjlRX3pVQWtTVnExZDNMLVdkanA0Ym01QkRQcVZhSlBOeHpDYmcwYU4tNUsyQkU0em9IeklDclpmeHV2bktTWjVwNkVINHFOU2doNm1NSFFqcU41M0xrY0tuQ3VJZHJ1OA?oc=5",
-          "date": "2022-11-30",
-          "source": "Google News: Sweden job cuts"
-        }
-      ],
-      "title_en": "H&M to lay off 1,500 staff in Sweden to cut costs and rescue profits"
-    },
     {
       "company": null,
       "country": "Sweden",
       "city": null,
       "type": "layoff",
-      "jobs_affected": 114,
-      "title": "Ingen sägs upp från SVT – 114 tjänster försvinner - Expressen",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcGo5dDJLUWtxSFFlb05qdV80N3BLVF82OXppTjFsb3ZXX1FXbmt3b0ZjbWVDWXRHaTVqZV92LXdTS21aY0d4MFB6NzFHT3gyZ0xUeG01clF6VjhZX09HNXU5eFJOaUwzeUtjMkZkNnZma05Scm5NVGowaTdtMmJpeGRLM2g?oc=5",
-      "date": "2026-06-17",
+      "jobs_affected": 209,
+      "title": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1d0Y1ZaQVlYaUdIR29xbnJrVWsybllpaUw3ZWZXRHhYWUttdVlKQTNtaklmQUs0YXg0NC1VZ0VUMHZYOFFqUHUxMlpGU0FlcWZBakdrRzYzcWhLRlhxLWlnN0psekU4ZTJPTTludXVNaFhLUm56Q0ZCZ0dZa0M5amNyT2FiUUV0bUNJRlBKWWdYdnJaRF9HNzFLUS0?oc=5",
+      "date": "2026-06-29",
       "sources": [
         {
-          "title": "Ingen sägs upp från SVT – 114 tjänster försvinner - Expressen",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcGo5dDJLUWtxSFFlb05qdV80N3BLVF82OXppTjFsb3ZXX1FXbmt3b0ZjbWVDWXRHaTVqZV92LXdTS21aY0d4MFB6NzFHT3gyZ0xUeG01clF6VjhZX09HNXU5eFJOaUwzeUtjMkZkNnZma05Scm5NVGowaTdtMmJpeGRLM2g?oc=5",
-          "date": "2026-06-17",
-          "source": "Google News SE: uppsägningar"
+          "title": "Niutech i konkurs: 209 anställda berörda - Metal Supply",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb1d0Y1ZaQVlYaUdIR29xbnJrVWsybllpaUw3ZWZXRHhYWUttdVlKQTNtaklmQUs0YXg0NC1VZ0VUMHZYOFFqUHUxMlpGU0FlcWZBakdrRzYzcWhLRlhxLWlnN0psekU4ZTJPTTludXVNaFhLUm56Q0ZCZ0dZa0M5amNyT2FiUUV0bUNJRlBKWWdYdnJaRF9HNzFLUS0?oc=5",
+          "date": "2026-06-29",
+          "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "No layoffs at SVT – 114 positions eliminated"
+      "title_en": "Niutech in bankruptcy: 209 employees affected – Metal Supply"
     },
     {
       "company": null,
@@ -114,26 +71,7 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Subway in bankruptcy – 15–20 employees await wage clarity"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 20,
-      "title": "Det här händer med de 20 anställda i konkursbolaget - Sydöstran",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV3g3cUYzSEozeEN6a3A2dl9pU2Z3cUFGV0hsUGE2aUdnbC1ZRWI5QjFTWVpSd1dsTWpHRE1MUEx6VjNXM2ZIWUZncHV6MEltT2VCNVdMYUhrbmFxNk1WbExkUXJwRmJQNlAwTjk2LUFndnRHZ0RxZDlGLTdwWWZGT3JiUzk0QlpOWWdxc2ZR?oc=5",
-      "date": "2026-06-26",
-      "sources": [
-        {
-          "title": "Det här händer med de 20 anställda i konkursbolaget - Sydöstran",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV3g3cUYzSEozeEN6a3A2dl9pU2Z3cUFGV0hsUGE2aUdnbC1ZRWI5QjFTWVpSd1dsTWpHRE1MUEx6VjNXM2ZIWUZncHV6MEltT2VCNVdMYUhrbmFxNk1WbExkUXJwRmJQNlAwTjk2LUFndnRHZ0RxZDlGLTdwWWZGT3JiUzk0QlpOWWdxc2ZR?oc=5",
-          "date": "2026-06-26",
-          "source": "Google News SE: konkurs anställda"
-        }
-      ],
-      "title_en": "What happens to the 20 employees in bankrupt company"
+      "title_en": "Subway in bankruptcy – 15–20 employees awaiting wage confirmation"
     },
     {
       "company": null,
@@ -152,24 +90,18 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Large company in bankruptcy – 18 employees in Blekinge affected"
+      "title_en": "Major company in bankruptcy – 18 employees in Blekinge affected"
     },
     {
       "company": "Meta",
       "country": "Sweden",
-      "city": "København",
+      "city": "Göteborg",
       "type": "layoff",
       "jobs_affected": null,
-      "title": "Meta anklagas för att ha använt AI vid uppsägningar - Omni – Alla nyheter. Alla perspektiv.",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2x3VkhjcnhSQ2tfRFdtQnBCdFB0d2J6elJNTlpBbXl1anNiclE3TnktSGZOUERsc3dpaEg3TUNpaTBUWDhyLUZVN3RhdFBIVGpkN0tVcGlwLVJOLWlHNHJkR1Y0MG9sb2xzbnFHSFBITXZmVUl1Y0ZRS01JOXlmdWJoaVlIYXUyS1E?oc=5",
+      "title": "Meta anklagas för att ha använt AI för att sparka 8 000 anställda",
+      "url": "https://www.dn.se/ekonomi/meta-anklagas-for-att-ha-anvant-ai-for-att-sparka-8-000-anstallda/",
       "date": "2026-07-15",
       "sources": [
-        {
-          "title": "Meta anklagas för att ha använt AI vid uppsägningar - Omni – Alla nyheter. Alla perspektiv.",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2x3VkhjcnhSQ2tfRFdtQnBCdFB0d2J6elJNTlpBbXl1anNiclE3TnktSGZOUERsc3dpaEg3TUNpaTBUWDhyLUZVN3RhdFBIVGpkN0tVcGlwLVJOLWlHNHJkR1Y0MG9sb2xzbnFHSFBITXZmVUl1Y0ZRS01JOXlmdWJoaVlIYXUyS1E?oc=5",
-          "date": "2026-07-15",
-          "source": "Google News SE: uppsägningar"
-        },
         {
           "title": "Meta anklagas för att ha använt AI för att sparka 8 000 anställda",
           "url": "https://www.dn.se/ekonomi/meta-anklagas-for-att-ha-anvant-ai-for-att-sparka-8-000-anstallda/",
@@ -177,8 +109,8 @@
           "source": "Dagens Nyheter – Ekonomi"
         },
         {
-          "title": "Anställda stämmer Meta efter påstådd AI-styrd diskriminering vid uppsägningar - Börsvärlden",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU2FLVXM2R2VEbnhxZmFUSDAyem1KaVBWZFloOFZ5RUFhcWlBMHVKbHhsN2FRYjVTamlTczNYcWdRdkF6WVRsNl9XV1htM0EtbXJfRHktdjBKTGNiZUY1Ym1fMFVvN1pkQndOMXJmQ2N0eFdzaWhCeW1Sd0dHbjNrLVcydmJ0aGg1cXZzQTFJLUVwMDJoLTFaZ2xFSjFXeGt3MVFoOXIwakZvWWtGRGxB?oc=5",
+          "title": "Meta anklagas för att ha använt AI vid uppsägningar - Omni – Alla nyheter. Alla perspektiv.",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2x3VkhjcnhSQ2tfRFdtQnBCdFB0d2J6elJNTlpBbXl1anNiclE3TnktSGZOUERsc3dpaEg3TUNpaTBUWDhyLUZVN3RhdFBIVGpkN0tVcGlwLVJOLWlHNHJkR1Y0MG9sb2xzbnFHSFBITXZmVUl1Y0ZRS01JOXlmdWJoaVlIYXUyS1E?oc=5",
           "date": "2026-07-15",
           "source": "Google News SE: uppsägningar"
         },
@@ -207,9 +139,9 @@
           "source": "Google News SE: uppsägningar"
         },
         {
-          "title": "Meta gör om inför uppsägningar - Sydsvenskan",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2cU82bnBITEUwRUl0cFVlSWxCZ2RPY1pvaDk5elFPMTFmdWRnUXEyc2lLcE5fNy1iUjk0T3lnY0Y2OGYxZkJoaUZNdVhLXzl6SzZCa1FEN1VISk0xaEVtSEVzb2tvcTcyX2F2b1V0RWZrSHV6?oc=5",
-          "date": "2026-05-19",
+          "title": "Meta gör om inför uppsägningar - Svenska Epoch Times",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHTVAzcm9WaDZrMjFqYjFraG9zY0dlYlZDRklmTE04eklVeXNVVVpsZWs5ODVvaVVxU3hJUnRoVDJid3NTYkdPQlZ2WDFZMHpQTkpEY1ZNRDJvcm94V3R6a1Y1Z1ByWUE?oc=5",
+          "date": "2026-05-18",
           "source": "Google News SE: uppsägningar"
         },
         {
@@ -223,46 +155,90 @@
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOSVAxeWxGaV9mYVNWNE5WZFdvcFJJalg1c3VNRjItelFWZ3JrVlJzV0xacVR1UFlubk42NnZBdlYxMEV3d0lLc2JwNXlHaTVUeUtpTVp3bGxtWlJ5S0s2RTZualpwYm5RQUZ5SXVHcWtpTHF0NTFnRjBYd2R4bEo4MkFya0JhdkpUNTZrOTFzWWNsZFpYMTVYZ1lqUXV5M0VOZ3JseHZtcVBwSURYTnJTYkpLNHRMcVM0NFZjVThHQkp4dzc1OE40ejYzNG9OMXhMdGlUT0ktd0d6NUtqUW0xanBnWDlvV2RFaEFIWU41NkYyS2h6a3BrSERXQjJjV3BQb3VSZmw5clNMRkFSXzk2dkJsd3hkLVR3?oc=5",
           "date": "2026-03-17",
           "source": "Google News: Sweden layoffs"
+        },
+        {
+          "title": "Meta bekräftar uppsägningar i VR-satsningen - Omni – Alla nyheter. Alla perspektiv.",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03eV9XX3pUak52ODhxa2lhUmw1cG1fTVJmOGxjRGUtb05fSUtHNXVrWWh5eEhvZGZpMVhib2pUaVpOTUdwTzJ1QjRKMWROdi1WRzhkTTV4eWhONUFzTWk1aklYd25wVDBSYm9rSVJoMFJkMmN2NnVz?oc=5",
+          "date": "2026-01-14",
+          "source": "Google News SE: uppsägningar"
         }
       ],
-      "title_en": "Meta accused of using AI in terminations"
+      "title_en": "Meta accused of using AI to fire 8,000 employees"
+    },
+    {
+      "company": "Volvo",
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Tillverkar åt Volvo – världsledande svenskt bolag i konkurs - Carup.se",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZSkEwanlSWmJ2SU13UW9kelNrTWs0M2o2NjIzYUlKOXNPY2JIaG5GSWdscUtGVVlXT25sOVdzNXNwWEZKT0FFWXpTdnNrb2ZpSHUtMEl4QlU4c05FRHRrazBFN2RkQ21WSUpZQjRsZVNneGZQd0hCanYwX0M?oc=5",
+      "date": "2026-07-10",
+      "sources": [
+        {
+          "title": "Tillverkar åt Volvo – världsledande svenskt bolag i konkurs - Carup.se",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZSkEwanlSWmJ2SU13UW9kelNrTWs0M2o2NjIzYUlKOXNPY2JIaG5GSWdscUtGVVlXT25sOVdzNXNwWEZKT0FFWXpTdnNrb2ZpSHUtMEl4QlU4c05FRHRrazBFN2RkQ21WSUpZQjRsZVNneGZQd0hCanYwX0M?oc=5",
+          "date": "2026-07-10",
+          "source": "Google News SE: konkurs anställda"
+        }
+      ],
+      "title_en": "Volvo supplier – world-leading Swedish company in bankruptcy"
+    },
+    {
+      "company": "Microsoft",
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Uppgifter: Microsoft krattar för nya varsel - Dagens industri",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVUlR1MGs5MktrTW1QOVZnSkxMZGxpMXpBdl9FZHVSM29rRXRZMUh5LTBHcTU5cGhFaW5EbnZLZG5KQjZjUzlVdmo2YWdhM0N4ZV9RZERSVU5yaTIybDZvRWJqd1h4UXRPaUhnSWlRaXBQREFT?oc=5",
+      "date": "2026-07-01",
+      "sources": [
+        {
+          "title": "Uppgifter: Microsoft krattar för nya varsel - Dagens industri",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVUlR1MGs5MktrTW1QOVZnSkxMZGxpMXpBdl9FZHVSM29rRXRZMUh5LTBHcTU5cGhFaW5EbnZLZG5KQjZjUzlVdmo2YWdhM0N4ZV9RZERSVU5yaTIybDZvRWJqd1h4UXRPaUhnSWlRaXBQREFT?oc=5",
+          "date": "2026-07-01",
+          "source": "Google News SE: varsel"
+        }
+      ],
+      "title_en": "Reports: Microsoft preparing fresh layoff notices"
     }
   ],
   "demand": [
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 52,
-      "share": 34
+      "vacancies": 49,
+      "share": 33
     },
     {
       "country": "Sweden",
       "role": "Yrken med teknisk inriktning",
-      "vacancies": 22,
-      "share": 14
+      "vacancies": 28,
+      "share": 19
     },
     {
       "country": "Sweden",
       "role": "Administration, ekonomi, juridik",
-      "vacancies": 19,
-      "share": 12
+      "vacancies": 15,
+      "share": 10
     },
     {
       "country": "Sweden",
       "role": "Hälso- och sjukvård",
-      "vacancies": 16,
-      "share": 11
+      "vacancies": 14,
+      "share": 9
     },
     {
       "country": "Sweden",
       "role": "Pedagogik",
-      "vacancies": 16,
-      "share": 11
+      "vacancies": 13,
+      "share": 9
     },
     {
       "country": "Sweden",
-      "role": "Installation, drift, underhåll",
-      "vacancies": 8,
+      "role": "Försäljning, inköp, marknadsföring",
+      "vacancies": 7,
       "share": 5
     },
     {
@@ -279,30 +255,30 @@
     },
     {
       "country": "Denmark",
+      "role": "Data Scientist",
+      "vacancies": 14,
+      "share": 11
+    },
+    {
+      "country": "Denmark",
       "role": "Teacher",
       "vacancies": 14,
       "share": 11
     },
     {
       "country": "Denmark",
+      "role": "HR analytics",
+      "vacancies": 13,
+      "share": 11
+    },
+    {
+      "country": "Denmark",
       "role": "Machine Learning",
-      "vacancies": 12,
-      "share": 10
-    },
-    {
-      "country": "Denmark",
-      "role": "Electrician",
-      "vacancies": 12,
-      "share": 10
-    },
-    {
-      "country": "Denmark",
-      "role": "Data Scientist",
       "vacancies": 11,
       "share": 9
     }
   ],
   "shortages": [],
-  "sources_count": 24,
+  "sources_count": 27,
   "llm": "claude-haiku-4-5"
 }
