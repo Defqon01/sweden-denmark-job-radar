@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-10T07:05:16+00:00",
-  "period": "Jul 12 – Aug 10, 2026",
-  "summary": "Swedish taxi company bankruptcy eliminated 35 jobs; sector consolidation continues amid economic pressure.",
+  "generated_at": "2026-08-17T06:28:21+00:00",
+  "period": "Jul 19 – Aug 17, 2026",
+  "summary": "Bankruptcy wave in Sweden: taxi company (35 jobs) and Subway franchise (15-20 jobs) collapsed; wages at risk.",
   "insights": [
-    "Swedish taxi company bankruptcy eliminated 35 jobs; sector consolidation continues amid economic pressure.",
-    "Meta faced accusations of using AI for 8,000 layoffs; algorithmic termination raises workforce management scrutiny.",
-    "Tech sector shows vulnerability to automation justifications; traditional transport sector faces insolvency challenges.",
-    "HR teams should audit termination processes for bias; jobseekers in transport and tech face market disruption."
+    "Bankruptcy wave in Sweden: taxi company (35 jobs) and Subway franchise (15-20 jobs) collapsed; wages at risk.",
+    "Meta's mass layoff of 8,000 employees allegedly used AI screening; raises accountability concerns in tech sector.",
+    "Job seekers in Sweden should monitor bankruptcy notices in service sectors; wages may be at risk.",
+    "Leadership changes at Bang & Olufsen suggest strategic repositioning; monitor for workforce restructuring announcements."
   ],
   "countries": [
     {
@@ -14,24 +14,24 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 2,
-      "vacancies": 154,
+      "events": 3,
+      "vacancies": 148,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
-      "headline": "Taxibolag med 35 anställda i konkurs – alla sägs upp - gd.se",
+      "headline": "Taxibolag med 35 anställda i konkurs – alla sägs upp - Gefle Dagblad",
       "headline_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2hCYnJMX19vWVdwV0hvYmNVYXRrWTdaa1N0VjZuUWRNVnZuTklmc2l1VGNlWDRfRzVmVnhJUWFsQmVPNnNLa2p3ZGZLQVVrNmhULTUzbUpkV1V0WjhsVGhVYjJpbUlBUUtHMFh0VVI2d1FaVFJrQmtTdjlIQjU3aVRsOFJjTGc?oc=5",
-      "summary": "Taxi company bankruptcy with 35 job losses; Meta accused of AI-assisted mass layoffs affecting 8,000 employees."
+      "summary": "Multiple bankruptcies in transportation/food service; Meta's AI-assisted layoffs signal tech sector volatility."
     },
     {
       "name": "Denmark",
       "code": "DK",
-      "layoff_level": "low",
-      "layoff_score": 0.0,
-      "events": 0,
-      "vacancies": 115,
+      "layoff_level": "elevated",
+      "layoff_score": 0.33,
+      "events": 1,
+      "vacancies": 108,
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
-      "headline": null,
-      "headline_url": null,
-      "summary": "0 workforce event(s) and 115 sampled vacancies."
+      "headline": "Italiener med fortid hos Gucci og McQueen er ny topchef i Bang & Olufsen",
+      "headline_url": "https://www.dr.dk/nyheder/penge/italiener-med-fortid-hos-gucci-mcqueen-er-ny-topchef-i-bang-olufsen",
+      "summary": "Bang & Olufsen appoints new CEO with luxury brand experience; no immediate job cuts announced."
     }
   ],
   "events": [
@@ -41,18 +41,56 @@
       "city": null,
       "type": "layoff",
       "jobs_affected": 35,
-      "title": "Taxibolag med 35 anställda i konkurs – alla sägs upp - gd.se",
+      "title": "Taxibolag med 35 anställda i konkurs – alla sägs upp - Gefle Dagblad",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2hCYnJMX19vWVdwV0hvYmNVYXRrWTdaa1N0VjZuUWRNVnZuTklmc2l1VGNlWDRfRzVmVnhJUWFsQmVPNnNLa2p3ZGZLQVVrNmhULTUzbUpkV1V0WjhsVGhVYjJpbUlBUUtHMFh0VVI2d1FaVFJrQmtTdjlIQjU3aVRsOFJjTGc?oc=5",
       "date": "2026-08-06",
       "sources": [
         {
-          "title": "Taxibolag med 35 anställda i konkurs – alla sägs upp - gd.se",
+          "title": "Taxibolag med 35 anställda i konkurs – alla sägs upp - Gefle Dagblad",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2hCYnJMX19vWVdwV0hvYmNVYXRrWTdaa1N0VjZuUWRNVnZuTklmc2l1VGNlWDRfRzVmVnhJUWFsQmVPNnNLa2p3ZGZLQVVrNmhULTUzbUpkV1V0WjhsVGhVYjJpbUlBUUtHMFh0VVI2d1FaVFJrQmtTdjlIQjU3aVRsOFJjTGc?oc=5",
           "date": "2026-08-06",
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Taxi company with 35 employees bankrupt – all laid off"
+      "title_en": "Taxi company with 35 employees in bankruptcy – all laid off"
+    },
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 20,
+      "title": "Subway i konkurs – 15–20 anställda väntar på besked om lönerna - pt.se",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNTVwZ29NYkpUYmRwTEp3dGtoU0tYWkxqUVJPUEE5aFBrbzg2OWY2YzFSR1Y1UVlwdU92V1dBdjc5Rm9vNHZKMlNjQmZjc1loQUVYRjB2NS1XR1JaNHdtRnhFbU5xanRzRU94UG1NT2pzNjRzTVFXUFNlc1J3S3VsTWpEdXZtQVI5NGVQV3B2ZnVUc0ZqdFpiajBycElvUEVxUmd5ZWxuRVBkN2gw?oc=5",
+      "date": "2026-07-16",
+      "sources": [
+        {
+          "title": "Subway i konkurs – 15–20 anställda väntar på besked om lönerna - pt.se",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNTVwZ29NYkpUYmRwTEp3dGtoU0tYWkxqUVJPUEE5aFBrbzg2OWY2YzFSR1Y1UVlwdU92V1dBdjc5Rm9vNHZKMlNjQmZjc1loQUVYRjB2NS1XR1JaNHdtRnhFbU5xanRzRU94UG1NT2pzNjRzTVFXUFNlc1J3S3VsTWpEdXZtQVI5NGVQV3B2ZnVUc0ZqdFpiajBycElvUEVxUmd5ZWxuRVBkN2gw?oc=5",
+          "date": "2026-07-16",
+          "source": "Google News SE: konkurs anställda"
+        }
+      ],
+      "title_en": "Subway in bankruptcy – 15–20 employees awaiting wage updates"
+    },
+    {
+      "company": "Bang & Olufsen",
+      "country": "Denmark",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": null,
+      "title": "Italiener med fortid hos Gucci og McQueen er ny topchef i Bang & Olufsen",
+      "url": "https://www.dr.dk/nyheder/penge/italiener-med-fortid-hos-gucci-mcqueen-er-ny-topchef-i-bang-olufsen",
+      "date": "2026-08-12",
+      "sources": [
+        {
+          "title": "Italiener med fortid hos Gucci og McQueen er ny topchef i Bang & Olufsen",
+          "url": "https://www.dr.dk/nyheder/penge/italiener-med-fortid-hos-gucci-mcqueen-er-ny-topchef-i-bang-olufsen",
+          "date": "2026-08-12",
+          "source": "DR – Penge"
+        }
+      ],
+      "title_en": "Italian with Gucci and McQueen background becomes new CEO at Bang & Olufsen"
     },
     {
       "company": "Meta",
@@ -71,7 +109,7 @@
           "source": "Dagens Nyheter – Ekonomi"
         },
         {
-          "title": "Meta anklagas för att ha använt AI vid uppsägningar - omni.se",
+          "title": "Meta anklagas för att ha använt AI vid uppsägningar - Omni – Alla nyheter. Alla perspektiv.",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2x3VkhjcnhSQ2tfRFdtQnBCdFB0d2J6elJNTlpBbXl1anNiclE3TnktSGZOUERsc3dpaEg3TUNpaTBUWDhyLUZVN3RhdFBIVGpkN0tVcGlwLVJOLWlHNHJkR1Y0MG9sb2xzbnFHSFBITXZmVUl1Y0ZRS01JOXlmdWJoaVlIYXUyS1E?oc=5",
           "date": "2026-07-15",
           "source": "Google News SE: uppsägningar"
@@ -95,7 +133,7 @@
           "source": "Google News SE: uppsägningar"
         },
         {
-          "title": "Meta gör om inför uppsägningar - tv4.se",
+          "title": "Meta gör om inför uppsägningar - TV4 Nyheterna",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVEhtWkVicnN2ZkJXWFUyelkyamVUX0hkWE5oODB5eXhuOXNlMVM1T0tvZHF3Z09IdkY3blljY3k0VEdVUmxWaE41dmljNWprZWQzdEQtNGdrRmgxZi1kaGRENVEzSnJpQXQ1YXZ2SEVBc0RsRlhXM3pYVFZ1MHBmUDFpdndxZUZNYlF6R1hGenZZZl9z?oc=5",
           "date": "2026-05-19",
           "source": "Google News SE: uppsägningar"
@@ -103,12 +141,6 @@
         {
           "title": "Meta gör om inför uppsägningar - Svenska Dagbladet",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MYWtMT1lzNnlhU3Q2Z0pRcFZzTUZFMzJLQU9JSFpPX1p3VlB3Mi03YVpOZFBmSmp4Z1lrV3BFUWJ0bTV6Z1o4ZGdDZEo4NjdMeHYxR1VOQWxtTDR5RWlEUEFwb3lyZmpsb3c?oc=5",
-          "date": "2026-05-18",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Meta gör om inför uppsägningar - Svenska Epoch Times",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHTVAzcm9WaDZrMjFqYjFraG9zY0dlYlZDRklmTE04eklVeXNVVVpsZWs5ODVvaVVxU3hJUnRoVDJid3NTYkdPQlZ2WDFZMHpQTkpEY1ZNRDJvcm94V3R6a1Y1Z1ByWUE?oc=5",
           "date": "2026-05-18",
           "source": "Google News SE: uppsägningar"
         },
@@ -123,6 +155,12 @@
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOSVAxeWxGaV9mYVNWNE5WZFdvcFJJalg1c3VNRjItelFWZ3JrVlJzV0xacVR1UFlubk42NnZBdlYxMEV3d0lLc2JwNXlHaTVUeUtpTVp3bGxtWlJ5S0s2RTZualpwYm5RQUZ5SXVHcWtpTHF0NTFnRjBYd2R4bEo4MkFya0JhdkpUNTZrOTFzWWNsZFpYMTVYZ1lqUXV5M0VOZ3JseHZtcVBwSURYTnJTYkpLNHRMcVM0NFZjVThHQkp4dzc1OE40ejYzNG9OMXhMdGlUT0ktd0d6NUtqUW0xanBnWDlvV2RFaEFIWU41NkYyS2h6a3BrSERXQjJjV3BQb3VSZmw5clNMRkFSXzk2dkJsd3hkLVR3?oc=5",
           "date": "2026-03-17",
           "source": "Google News: Sweden layoffs"
+        },
+        {
+          "title": "Slut på jättelönerna – Meta inför anställningsstopp - Realtid",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmVLaGt5VXlMc2d3TlNmOVJhZnF2YmJ4NjRBZWtxZGZUWXVtZl90WkxLb0JyckpMZWZ5Q3FGVmxLYXRVQnl5QldCT1FLcUdoVHBqemZRcTE0b19rRkxLbGVVRzhTWHg5aFpIcUZBdHZUOHRzQ1NuZVZTSi1EY3R4NTYzVzB3NEpC?oc=5",
+          "date": "2025-08-21",
+          "source": "Google News SE: anställningsstopp"
         }
       ],
       "title_en": "Meta accused of using AI to fire 8,000 employees"
@@ -132,67 +170,61 @@
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 45,
-      "share": 29
+      "vacancies": 42,
+      "share": 28
     },
     {
       "country": "Sweden",
       "role": "Yrken med teknisk inriktning",
-      "vacancies": 22,
-      "share": 14
+      "vacancies": 17,
+      "share": 11
     },
     {
       "country": "Sweden",
-      "role": "Administration, ekonomi, juridik",
-      "vacancies": 20,
-      "share": 13
-    },
-    {
-      "country": "Sweden",
-      "role": "Pedagogik",
-      "vacancies": 18,
-      "share": 12
+      "role": "Försäljning, inköp, marknadsföring",
+      "vacancies": 17,
+      "share": 11
     },
     {
       "country": "Sweden",
       "role": "Hälso- och sjukvård",
-      "vacancies": 13,
-      "share": 8
+      "vacancies": 15,
+      "share": 10
     },
     {
       "country": "Sweden",
-      "role": "Chefer och verksamhetsledare",
-      "vacancies": 9,
-      "share": 6
+      "role": "Pedagogik",
+      "vacancies": 13,
+      "share": 9
+    },
+    {
+      "country": "Sweden",
+      "role": "Administration, ekonomi, juridik",
+      "vacancies": 12,
+      "share": 8
     },
     {
       "country": "Denmark",
       "role": "AI",
       "vacancies": 15,
-      "share": 13
+      "share": 14
     },
     {
       "country": "Denmark",
       "role": "Teacher",
       "vacancies": 15,
-      "share": 13
-    },
-    {
-      "country": "Denmark",
-      "role": "Machine Learning",
-      "vacancies": 15,
-      "share": 13
-    },
-    {
-      "country": "Denmark",
-      "role": "Nurse",
-      "vacancies": 15,
-      "share": 13
+      "share": 14
     },
     {
       "country": "Denmark",
       "role": "Data Scientist",
-      "vacancies": 14,
+      "vacancies": 13,
+      "share": 12
+    },
+    {
+      "country": "Denmark",
+      "role": "Machine Learning",
+      "vacancies": 13,
       "share": 12
     },
     {
@@ -200,9 +232,15 @@
       "role": "HR analytics",
       "vacancies": 9,
       "share": 8
+    },
+    {
+      "country": "Denmark",
+      "role": "Talent Acquisition",
+      "vacancies": 9,
+      "share": 8
     }
   ],
   "shortages": [],
-  "sources_count": 24,
+  "sources_count": 25,
   "llm": "claude-haiku-4-5"
 }
