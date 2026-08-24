@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17T06:28:21+00:00",
-  "period": "Jul 19 – Aug 17, 2026",
-  "summary": "Bankruptcy wave in Sweden: taxi company (35 jobs) and Subway franchise (15-20 jobs) collapsed; wages at risk.",
+  "generated_at": "2026-08-24T06:32:38+00:00",
+  "period": "Jul 26 – Aug 24, 2026",
+  "summary": "Two Swedish transport/logistics firms collapsed this period, eliminating 56 jobs total—sector faces structural challenges.",
   "insights": [
-    "Bankruptcy wave in Sweden: taxi company (35 jobs) and Subway franchise (15-20 jobs) collapsed; wages at risk.",
-    "Meta's mass layoff of 8,000 employees allegedly used AI screening; raises accountability concerns in tech sector.",
-    "Job seekers in Sweden should monitor bankruptcy notices in service sectors; wages may be at risk.",
-    "Leadership changes at Bang & Olufsen suggest strategic repositioning; monitor for workforce restructuring announcements."
+    "Two Swedish transport/logistics firms collapsed this period, eliminating 56 jobs total—sector faces structural challenges.",
+    "Both insolvencies affected regional employers (Gävle, Kumla), suggesting geographic vulnerability in smaller transport markets.",
+    "Job seekers in Swedish transport should monitor competitor solvency and diversify skills toward logistics tech roles.",
+    "HR teams managing transport suppliers should tighten vendor financial due diligence and backup contingencies immediately."
   ],
   "countries": [
     {
@@ -14,24 +14,24 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 3,
-      "vacancies": 148,
+      "events": 2,
+      "vacancies": 141,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
       "headline": "Taxibolag med 35 anställda i konkurs – alla sägs upp - Gefle Dagblad",
       "headline_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2hCYnJMX19vWVdwV0hvYmNVYXRrWTdaa1N0VjZuUWRNVnZuTklmc2l1VGNlWDRfRzVmVnhJUWFsQmVPNnNLa2p3ZGZLQVVrNmhULTUzbUpkV1V0WjhsVGhVYjJpbUlBUUtHMFh0VVI2d1FaVFJrQmtTdjlIQjU3aVRsOFJjTGc?oc=5",
-      "summary": "Multiple bankruptcies in transportation/food service; Meta's AI-assisted layoffs signal tech sector volatility."
+      "summary": "Two transport sector bankruptcies (taxi + general transport) eliminated 56 jobs in regional markets."
     },
     {
       "name": "Denmark",
       "code": "DK",
-      "layoff_level": "elevated",
-      "layoff_score": 0.33,
-      "events": 1,
-      "vacancies": 108,
+      "layoff_level": "low",
+      "layoff_score": 0.0,
+      "events": 0,
+      "vacancies": 111,
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
-      "headline": "Italiener med fortid hos Gucci og McQueen er ny topchef i Bang & Olufsen",
-      "headline_url": "https://www.dr.dk/nyheder/penge/italiener-med-fortid-hos-gucci-mcqueen-er-ny-topchef-i-bang-olufsen",
-      "summary": "Bang & Olufsen appoints new CEO with luxury brand experience; no immediate job cuts announced."
+      "headline": null,
+      "headline_url": null,
+      "summary": "No events reported."
     }
   ],
   "events": [
@@ -59,149 +59,57 @@
       "country": "Sweden",
       "city": null,
       "type": "layoff",
-      "jobs_affected": 20,
-      "title": "Subway i konkurs – 15–20 anställda väntar på besked om lönerna - pt.se",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNTVwZ29NYkpUYmRwTEp3dGtoU0tYWkxqUVJPUEE5aFBrbzg2OWY2YzFSR1Y1UVlwdU92V1dBdjc5Rm9vNHZKMlNjQmZjc1loQUVYRjB2NS1XR1JaNHdtRnhFbU5xanRzRU94UG1NT2pzNjRzTVFXUFNlc1J3S3VsTWpEdXZtQVI5NGVQV3B2ZnVUc0ZqdFpiajBycElvUEVxUmd5ZWxuRVBkN2gw?oc=5",
-      "date": "2026-07-16",
+      "jobs_affected": 21,
+      "title": "Transportbolag i Kumla i konkurs – 21 anställda - TRANSPORTochLOGISTIK.se",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcE4yZGN5cklyVXlGelhjS0twV2dySVJVRldTdFlDR0tYbzBMdWMtVEJnckl5cXpKbTB1XzYtZDdiMTBsNzZ1OUlRN1F1U0hJNm1LY2EwbkVyZWJjemZvUzhZVDF6ZFFaYnJiTy1TREJSR1VoODRpWjM0cU5XOXlrVGFUb1lpdjV3SDFaY1lLanNvaTV1Tmdtb2x3UXY?oc=5",
+      "date": "2026-08-20",
       "sources": [
         {
-          "title": "Subway i konkurs – 15–20 anställda väntar på besked om lönerna - pt.se",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNTVwZ29NYkpUYmRwTEp3dGtoU0tYWkxqUVJPUEE5aFBrbzg2OWY2YzFSR1Y1UVlwdU92V1dBdjc5Rm9vNHZKMlNjQmZjc1loQUVYRjB2NS1XR1JaNHdtRnhFbU5xanRzRU94UG1NT2pzNjRzTVFXUFNlc1J3S3VsTWpEdXZtQVI5NGVQV3B2ZnVUc0ZqdFpiajBycElvUEVxUmd5ZWxuRVBkN2gw?oc=5",
-          "date": "2026-07-16",
+          "title": "Transportbolag i Kumla i konkurs – 21 anställda - TRANSPORTochLOGISTIK.se",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcE4yZGN5cklyVXlGelhjS0twV2dySVJVRldTdFlDR0tYbzBMdWMtVEJnckl5cXpKbTB1XzYtZDdiMTBsNzZ1OUlRN1F1U0hJNm1LY2EwbkVyZWJjemZvUzhZVDF6ZFFaYnJiTy1TREJSR1VoODRpWjM0cU5XOXlrVGFUb1lpdjV3SDFaY1lLanNvaTV1Tmdtb2x3UXY?oc=5",
+          "date": "2026-08-20",
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Subway in bankruptcy – 15–20 employees awaiting wage updates"
-    },
-    {
-      "company": "Bang & Olufsen",
-      "country": "Denmark",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": null,
-      "title": "Italiener med fortid hos Gucci og McQueen er ny topchef i Bang & Olufsen",
-      "url": "https://www.dr.dk/nyheder/penge/italiener-med-fortid-hos-gucci-mcqueen-er-ny-topchef-i-bang-olufsen",
-      "date": "2026-08-12",
-      "sources": [
-        {
-          "title": "Italiener med fortid hos Gucci og McQueen er ny topchef i Bang & Olufsen",
-          "url": "https://www.dr.dk/nyheder/penge/italiener-med-fortid-hos-gucci-mcqueen-er-ny-topchef-i-bang-olufsen",
-          "date": "2026-08-12",
-          "source": "DR – Penge"
-        }
-      ],
-      "title_en": "Italian with Gucci and McQueen background becomes new CEO at Bang & Olufsen"
-    },
-    {
-      "company": "Meta",
-      "country": "Sweden",
-      "city": "Göteborg",
-      "type": "layoff",
-      "jobs_affected": null,
-      "title": "Meta anklagas för att ha använt AI för att sparka 8 000 anställda",
-      "url": "https://www.dn.se/ekonomi/meta-anklagas-for-att-ha-anvant-ai-for-att-sparka-8-000-anstallda/",
-      "date": "2026-07-15",
-      "sources": [
-        {
-          "title": "Meta anklagas för att ha använt AI för att sparka 8 000 anställda",
-          "url": "https://www.dn.se/ekonomi/meta-anklagas-for-att-ha-anvant-ai-for-att-sparka-8-000-anstallda/",
-          "date": "2026-07-15",
-          "source": "Dagens Nyheter – Ekonomi"
-        },
-        {
-          "title": "Meta anklagas för att ha använt AI vid uppsägningar - Omni – Alla nyheter. Alla perspektiv.",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2x3VkhjcnhSQ2tfRFdtQnBCdFB0d2J6elJNTlpBbXl1anNiclE3TnktSGZOUERsc3dpaEg3TUNpaTBUWDhyLUZVN3RhdFBIVGpkN0tVcGlwLVJOLWlHNHJkR1Y0MG9sb2xzbnFHSFBITXZmVUl1Y0ZRS01JOXlmdWJoaVlIYXUyS1E?oc=5",
-          "date": "2026-07-15",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Irland: Strejk mot AI-uppsägningar på Meta - Arbetaren",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUzRhbE5nQm8wd0F1bFBTdzhuVWNTQkZ2N3EwYVpNTkU0T0MybGs2VVc4OExKdHRmNmpTV19OYkg4VndFTjhxclphdDFqSV82aEJDR0NIVXZwZ2t2RExBdzE0LXgzTHc0djc0aWVxdThIbWN6N2Y4N01vaXdXd2VQdURGVlk?oc=5",
-          "date": "2026-05-25",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Uppsägningar sänker pressat mjukvarubolag – Meta har varslat klart - efn.se",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVWx0WUdTMkV3aXdXcW8xRHhfMzJVcUpUN0ZQdnlmLVBZSGNnY2txQXQ3M3BuQzlBN2JPRnlOZS1IZnd2cThzV1FoY0ZDNWFjT3FhZ3BBT2lQX2JpVm5DdUxaZTc1ejZ3T3VseHJfY1pUZTBmSGViSWdSRG15dS05dUJKREZvZw?oc=5",
-          "date": "2026-05-20",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Meta gör om inför uppsägningar - Göteborgs-Posten",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQekpacVZXQUJiblU4RTFhYWFIdjBrV0d5b2JuOWF1eXZIcmZqZDJocmVnaEFEaXdzbEJ6anhXZV9zZkduOHdJX0huYU9lekNnSE02a3FBdW1QOG5Neml2OTZoSmk4dnJDTnNKUXg4MFpzamZEVVppSDZXam82YUViSFRDNEFiNlNOb05zRW94WmNhd194eFFHdw?oc=5",
-          "date": "2026-05-19",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Meta gör om inför uppsägningar - TV4 Nyheterna",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVEhtWkVicnN2ZkJXWFUyelkyamVUX0hkWE5oODB5eXhuOXNlMVM1T0tvZHF3Z09IdkY3blljY3k0VEdVUmxWaE41dmljNWprZWQzdEQtNGdrRmgxZi1kaGRENVEzSnJpQXQ1YXZ2SEVBc0RsRlhXM3pYVFZ1MHBmUDFpdndxZUZNYlF6R1hGenZZZl9z?oc=5",
-          "date": "2026-05-19",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Meta gör om inför uppsägningar - Svenska Dagbladet",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MYWtMT1lzNnlhU3Q2Z0pRcFZzTUZFMzJLQU9JSFpPX1p3VlB3Mi03YVpOZFBmSmp4Z1lrV3BFUWJ0bTV6Z1o4ZGdDZEo4NjdMeHYxR1VOQWxtTDR5RWlEUEFwb3lyZmpsb3c?oc=5",
-          "date": "2026-05-18",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Omfattande uppsägningar på Meta väntas nästa månad - di.se",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mbGJ4TnEyc21wVFlpMllVRnBaU1g1MXVia05OM1JLRENZRXJjbktoWl8wQ1RYaVEyY0ZmbjRndGlZNnRHRnhOMzJDd2Q2XzlLakc4WGpQQ1RZaHg4NWNPY1RpZHN6ekpoZFdtRWJVZVNNX0tiZkZUcFRualNvUk0?oc=5",
-          "date": "2026-04-17",
-          "source": "Google News SE: uppsägningar"
-        },
-        {
-          "title": "Digest: OpenAI Tests Ads Manager and Prepares Agentic Storefronts Feature; Meta Plans Layoffs while Publishers Back its Expulsion from IAB Sweden - exchangewire.com",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOSVAxeWxGaV9mYVNWNE5WZFdvcFJJalg1c3VNRjItelFWZ3JrVlJzV0xacVR1UFlubk42NnZBdlYxMEV3d0lLc2JwNXlHaTVUeUtpTVp3bGxtWlJ5S0s2RTZualpwYm5RQUZ5SXVHcWtpTHF0NTFnRjBYd2R4bEo4MkFya0JhdkpUNTZrOTFzWWNsZFpYMTVYZ1lqUXV5M0VOZ3JseHZtcVBwSURYTnJTYkpLNHRMcVM0NFZjVThHQkp4dzc1OE40ejYzNG9OMXhMdGlUT0ktd0d6NUtqUW0xanBnWDlvV2RFaEFIWU41NkYyS2h6a3BrSERXQjJjV3BQb3VSZmw5clNMRkFSXzk2dkJsd3hkLVR3?oc=5",
-          "date": "2026-03-17",
-          "source": "Google News: Sweden layoffs"
-        },
-        {
-          "title": "Slut på jättelönerna – Meta inför anställningsstopp - Realtid",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmVLaGt5VXlMc2d3TlNmOVJhZnF2YmJ4NjRBZWtxZGZUWXVtZl90WkxLb0JyckpMZWZ5Q3FGVmxLYXRVQnl5QldCT1FLcUdoVHBqemZRcTE0b19rRkxLbGVVRzhTWHg5aFpIcUZBdHZUOHRzQ1NuZVZTSi1EY3R4NTYzVzB3NEpC?oc=5",
-          "date": "2025-08-21",
-          "source": "Google News SE: anställningsstopp"
-        }
-      ],
-      "title_en": "Meta accused of using AI to fire 8,000 employees"
+      "title_en": "Transport company in Kumla in bankruptcy – 21 employees"
     }
   ],
   "demand": [
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 42,
-      "share": 28
+      "vacancies": 47,
+      "share": 33
     },
     {
       "country": "Sweden",
       "role": "Yrken med teknisk inriktning",
-      "vacancies": 17,
-      "share": 11
+      "vacancies": 23,
+      "share": 16
     },
     {
       "country": "Sweden",
-      "role": "Försäljning, inköp, marknadsföring",
-      "vacancies": 17,
-      "share": 11
+      "role": "Pedagogik",
+      "vacancies": 18,
+      "share": 13
     },
     {
       "country": "Sweden",
       "role": "Hälso- och sjukvård",
       "vacancies": 15,
-      "share": 10
-    },
-    {
-      "country": "Sweden",
-      "role": "Pedagogik",
-      "vacancies": 13,
-      "share": 9
+      "share": 11
     },
     {
       "country": "Sweden",
       "role": "Administration, ekonomi, juridik",
       "vacancies": 12,
-      "share": 8
+      "share": 9
+    },
+    {
+      "country": "Sweden",
+      "role": "Industriell tillverkning",
+      "vacancies": 6,
+      "share": 4
     },
     {
       "country": "Denmark",
@@ -217,30 +125,30 @@
     },
     {
       "country": "Denmark",
-      "role": "Data Scientist",
+      "role": "Electrician",
+      "vacancies": 15,
+      "share": 14
+    },
+    {
+      "country": "Denmark",
+      "role": "Workforce Planning",
       "vacancies": 13,
       "share": 12
+    },
+    {
+      "country": "Denmark",
+      "role": "Data Scientist",
+      "vacancies": 12,
+      "share": 11
     },
     {
       "country": "Denmark",
       "role": "Machine Learning",
-      "vacancies": 13,
-      "share": 12
-    },
-    {
-      "country": "Denmark",
-      "role": "HR analytics",
-      "vacancies": 9,
-      "share": 8
-    },
-    {
-      "country": "Denmark",
-      "role": "Talent Acquisition",
-      "vacancies": 9,
-      "share": 8
+      "vacancies": 12,
+      "share": 11
     }
   ],
   "shortages": [],
-  "sources_count": 25,
+  "sources_count": 24,
   "llm": "claude-haiku-4-5"
 }
