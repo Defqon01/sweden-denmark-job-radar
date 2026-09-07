@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-31T11:59:15+00:00",
-  "period": "Aug 02 – Aug 31, 2026",
-  "summary": "Two Swedish transport companies collapsed in bankruptcy, eliminating 56 jobs total—sector stability concerns warrant monitoring.",
+  "generated_at": "2026-09-07T10:52:52+00:00",
+  "period": "Aug 09 – Sep 07, 2026",
+  "summary": "Retail and transport sectors facing significant disruption; Lindex layoffs (30) and taxi/transport bankruptcies (35+21) signal sector-wide challenges.",
   "insights": [
-    "Two Swedish transport companies collapsed in bankruptcy, eliminating 56 jobs total—sector stability concerns warrant monitoring.",
-    "Danish pharma giants Vestas and Novo Nordisk showing divergent trajectories: restructuring versus stability messaging.",
-    "Transport/logistics sector experiencing acute distress in Sweden; jobseekers should diversify industry focus.",
-    "Danish biotech workforce appears protected short-term; Swedish transport workers face immediate displacement risk."
+    "Retail and transport sectors facing significant disruption; Lindex layoffs (30) and taxi/transport bankruptcies (35+21) signal sector-wide challenges.",
+    "Manufacturing and logistics showing strain; Holmen sawmill layoffs (18) and transport company failure indicate economic pressure in production.",
+    "155 total jobs at risk across five events in one reporting period; jobseekers should prioritize industries outside retail/transport.",
+    "Bankruptcy filings (taxi, transport) indicate sudden job loss versus structured layoffs; affected workers need immediate unemployment support access."
   ],
   "countries": [
     {
@@ -14,27 +14,46 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 2,
-      "vacancies": 157,
+      "events": 5,
+      "vacancies": 150,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
-      "headline": "Taxibolag med 35 anställda i konkurs – alla sägs upp - Gefle Dagblad",
-      "headline_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2hCYnJMX19vWVdwV0hvYmNVYXRrWTdaa1N0VjZuUWRNVnZuTklmc2l1VGNlWDRfRzVmVnhJUWFsQmVPNnNLa2p3ZGZLQVVrNmhULTUzbUpkV1V0WjhsVGhVYjJpbUlBUUtHMFh0VVI2d1FaVFJrQmtTdjlIQjU3aVRsOFJjTGc?oc=5",
-      "summary": "Two concurrent bankruptcies in transport sector eliminating 56 jobs; sector-wide vulnerability signals."
+      "headline": "Grönsakshallen varslar om uppsägningar – totalt 80 tjänster",
+      "headline_url": "https://www.kristianstadsbladet.se/hassleholm/gronsakshallen-varslar-om-uppsagningar-totalt-80-tjanster/",
+      "summary": "Multiple sector layoffs and bankruptcies affecting 155+ jobs; retail, transport, and manufacturing under pressure."
     },
     {
       "name": "Denmark",
       "code": "DK",
-      "layoff_level": "high",
-      "layoff_score": 1.0,
-      "events": 2,
-      "vacancies": 119,
+      "layoff_level": "low",
+      "layoff_score": 0.0,
+      "events": 0,
+      "vacancies": 123,
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
-      "headline": "Vestas brager op efter nyt regnskab og fyringer",
-      "headline_url": "https://www.tv2fyn.dk/fyn/vestas-brager-op-efter-nyt-regnskab-og-fyringer-14d1e",
-      "summary": "Vestas restructuring ongoing; Novo Nordisk publicly commits to no near-term layoffs."
+      "headline": null,
+      "headline_url": null,
+      "summary": "0 workforce event(s) and 123 sampled vacancies."
     }
   ],
   "events": [
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 80,
+      "title": "Grönsakshallen varslar om uppsägningar – totalt 80 tjänster",
+      "url": "https://www.kristianstadsbladet.se/hassleholm/gronsakshallen-varslar-om-uppsagningar-totalt-80-tjanster/",
+      "date": "2026-09-04",
+      "sources": [
+        {
+          "title": "Grönsakshallen varslar om uppsägningar – totalt 80 tjänster",
+          "url": "https://www.kristianstadsbladet.se/hassleholm/gronsakshallen-varslar-om-uppsagningar-totalt-80-tjanster/",
+          "date": "2026-09-04",
+          "source": "GDELT: Sweden"
+        }
+      ],
+      "title_en": "Grönsakshallen warns of layoffs – 80 positions total"
+    },
     {
       "company": null,
       "country": "Sweden",
@@ -52,7 +71,26 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Taxi company with 35 employees in bankruptcy – all laid off"
+      "title_en": "Taxi company with 35 employees bankrupt – all dismissed"
+    },
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 30,
+      "title": "Stort varsel på Lindex – 30 anställda får lämna - Breakit",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3lmaU5KdEFCOXI5UmdXTGg4M3d5ZndJR1NZYXpUbUVKU2EzT1N2VDE0ZS1jNzNtbkFDWGloSUdmeVc4bllWdjhudERGcnlGNTV3MFJUM3I4cTR5Zm82bzktUVJpOEdweXNTdjNRbUhLMWx1LVpuQVY2UjJYRUxMOXFaLWNhQ1pMMHc?oc=5",
+      "date": "2026-09-01",
+      "sources": [
+        {
+          "title": "Stort varsel på Lindex – 30 anställda får lämna - Breakit",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3lmaU5KdEFCOXI5UmdXTGg4M3d5ZndJR1NZYXpUbUVKU2EzT1N2VDE0ZS1jNzNtbkFDWGloSUdmeVc4bllWdjhudERGcnlGNTV3MFJUM3I4cTR5Zm82bzktUVJpOEdweXNTdjNRbUhLMWx1LVpuQVY2UjJYRUxMOXFaLWNhQ1pMMHc?oc=5",
+          "date": "2026-09-01",
+          "source": "Google News SE: varsel"
+        }
+      ],
+      "title_en": "Major layoff at Lindex – 30 employees depart"
     },
     {
       "company": null,
@@ -71,117 +109,38 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Transport company in Kumla in bankruptcy – 21 employees"
+      "title_en": "Transport company in Kumla bankrupt – 21 employees"
     },
     {
-      "company": "Vestas",
-      "country": "Denmark",
+      "company": null,
+      "country": "Sweden",
       "city": null,
       "type": "layoff",
-      "jobs_affected": null,
-      "title": "Vestas brager op efter nyt regnskab og fyringer",
-      "url": "https://www.tv2fyn.dk/fyn/vestas-brager-op-efter-nyt-regnskab-og-fyringer-14d1e",
-      "date": "2026-08-12",
+      "jobs_affected": 18,
+      "title": "Holmen varslar 18 anställda vid sågverk i Linghem",
+      "url": "https://www.corren.se/nyheter/linkoping/artikel/holmen-varslar-18-anstallda-vid-sagverk-i-linghem/r1wpggkl",
+      "date": "2026-09-02",
       "sources": [
         {
-          "title": "Vestas brager op efter nyt regnskab og fyringer",
-          "url": "https://www.tv2fyn.dk/fyn/vestas-brager-op-efter-nyt-regnskab-og-fyringer-14d1e",
-          "date": "2026-08-12",
-          "source": "GDELT: Denmark"
-        },
-        {
-          "title": "Wind turbine giant Vestas plans 70 job cuts at Ringkøbing factory in Denmark - Wind Power Monthly",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd1BqRy1jdHo5WWNtWThHMW44X2E1V2QtejhhQUNVZXkydVpROXRuTG9SU25xdmVyQ2lzTVJNQjVPTG5YSE85akdnR3ZXNkJDOVdTSWZ1VVA1Z0otS1oxdGZqNHRPT0d5WDhfa3ZSd2RQWVZNUnd2YWdMMk9QTlZUYkM5bFY5YzF3REY0WkUwbWZLUm1VbGlGdzRtNjhwZmxBc2pOc0VkR0Y4QURjUnVVY2huRUgwQ2d3MFFB?oc=5",
-          "date": "2026-01-13",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Vestas and Siemens Gamesa lay off employees in Denmark - EnergyWatch",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01ZDMxcDZWYnhWeDg4cmRIcENXeklsNFd2aTVHcVU4UDlOdkltaUk5Yk0yMEN2R3lKUHUtVXNtM0pKOEFWYl9iVXhXVURhNktWQW9mUHZvZXRJMTVSb0FJTlhtNEdQTXloZmY0?oc=5",
-          "date": "2025-09-25",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Vestas to cut onshore wind nacelle factory jobs in wider Danish restructuring - Wind Power Monthly",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd3dCR0VJY2k2LWQtSDlnR1cwTGstWWpma3UtQU5mcXM3ZE9jQUFCUVJ5aE1RZ20xYjFHMERSVU9ubUJSWi1YN0h3Rm42SWpyMjhTTmxyVUF4N2pZZURGdkFUNV9QZVdUcXAtM1daUkxjS1NmNnVqWTdMSGZOU2E5aW5ONnBBZHNUR3ptQ2dHVVEwdnRIT1pBMjV6bVNGc0pSLUhyM1kxdXpLb2k4X0dyaG9OdV82SVA2aGZ6bw?oc=5",
-          "date": "2023-11-30",
-          "source": "Google News: Denmark job cuts"
+          "title": "Holmen varslar 18 anställda vid sågverk i Linghem",
+          "url": "https://www.corren.se/nyheter/linkoping/artikel/holmen-varslar-18-anstallda-vid-sagverk-i-linghem/r1wpggkl",
+          "date": "2026-09-02",
+          "source": "GDELT: Sweden"
         }
       ],
-      "title_en": "Vestas rebounds after new accounts and layoffs"
-    },
-    {
-      "company": "Novo Nordisk",
-      "country": "Denmark",
-      "city": "København",
-      "type": "layoff",
-      "jobs_affected": null,
-      "title": "Novo Nordisk slår fast : Ingen fyringsrunder på vej – Ekstra Bladet",
-      "url": "https://ekstrabladet.dk/penge/novo-nordisk-slaar-fast-ingen-fyringsrunder-paa-vej/11250369",
-      "date": "2026-08-05",
-      "sources": [
-        {
-          "title": "Novo Nordisk slår fast : Ingen fyringsrunder på vej – Ekstra Bladet",
-          "url": "https://ekstrabladet.dk/penge/novo-nordisk-slaar-fast-ingen-fyringsrunder-paa-vej/11250369",
-          "date": "2026-08-05",
-          "source": "GDELT: Denmark"
-        },
-        {
-          "title": "Danish employment rate hits record-high despite Novo Nordisk layoffs - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcWlsY28tai1RejBPQmZkMUNwREN4ZXZYbUJlSlI3UTdOekhFeTBiM1l3N3JLcXJhRGxHQlQ2WVhYOFdJbEFEclN1dFZnaFI4V1pwREh1MXNzeHV2dzZCaTM2NnAzOHBvS0dKZThqSVhMd2R2OXdRS0FiTGt3b1J0SEh2RFJKNEd3Nk15R2w0SXR1OHR4a2MtV0Ntd1J0WnRpSG5z?oc=5",
-          "date": "2026-05-21",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk Layoffs Add to Denmark’s Mounting Economic Anxieties - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnBSaDNoaG5CS09Jb1FmZF8yWG1qaGhmcFF5S3FqSTBBMmVWYmZLZGVFQ2NVbFNxeHhXS3dmdk1UWncyTzFRbUs1RF90VlVRTVVSMGtsTVI2WDdZQVVxNVA4cWhnbEotVGxXcVFtY0FuLVF4UjdUbzBnLUJSU0lFUzI0aEppQy1ubkZzWGg1S1p1SmZWcG8wbUVHTHM1SDRtb19DRFJsXzhBNFk?oc=5",
-          "date": "2026-02-20",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk Layoffs Add Fuel to Denmark's Economic Anxieties - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXRhSmsyZktpNkJEQjFvbGRlall4Zy1INTFhTGc5REsxSXByYTBveEJMQUwxYTRkLU9pWUFyX2ZNM2hqV2xySWVESzFOS0s4eHRhRnZzakNwY1dOQXB0N1BlVnZadzNIYnp2a0ZkaEljR0k2ZlNuS19uTzNQeWluRjVTdmtja05GeURoYkZaOUJmZXplc1FvbXFuZVBaejd4UGpDTjJjdFNnQ2Jvc2VmYXVB?oc=5",
-          "date": "2026-02-19",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Novo Nordisk announces layoffs are over - The Copenhagen Post",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMlVjaXAzbXNxWFFhbVp4TmlBeFQ1TU5NRVgwSTJGRlhvVmQwbkExZWVtdUtzR3lvMVBBRnJnTnk0ajRrZHowN0drUHBFRW91amFwYkg3aHktNi1iRzRXdzVpaHhfMS0xbnNrLVlnUGJzb3hlOXJLeHl6YTNvTkc4TWt1MEs4d1ktU3dkMzhZcGxkNUJIRzc1ajBhTlc?oc=5",
-          "date": "2025-11-03",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Employment climbs in Denmark but Novo Nordisk job cuts on way - The Local Denmark",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdUs2X0ZXc2lkenBIeHd2bFNWWmJlZXJOZlpkSDZFS0R4ZlRBd1dKd3IxT0RmaXJHZnUzdUFwT0dQdWl5dmpFOXlRRFJiWnlFcUNQajJLWHM0aTZ5Rkp1RXQwM1FSdTBwcldfaVRGTUZyOUZGelNjZkVyS0RpWFJpWWhzTDFYMEpHNnR0NjkxeFNjVnlSeGs5ZnJB?oc=5",
-          "date": "2025-09-22",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Danish Pharma Giant Novo Nordisk Announces Massive Layoffs as Competition Intensifies - Novinite.com",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZjdNREZkakliRzlLd1pwbHVMY2ZyWW85YmRIcHZIZ21OVWNRcFh0Q25zTk80UHhOVU9kNUcyM3VXOTh3eXZybldyX2FqNnRaVlpQcnUySWV0MjNmVlo5dW5SM3B1UlBncmFzemtXdzA2NC1PbXVUdld4eXQxcGZZeWhadzBsMG5iQW1XcDEtRzQxZUxZam1fMFp4WEhzNlkzeExQRVJROG9Ed3NzYlJUamFOemRUcFhaZENpS1NoQ3BKSTNm?oc=5",
-          "date": "2025-09-10",
-          "source": "Google News: Denmark layoffs"
-        },
-        {
-          "title": "Denmark's Economy Remains Strong Amid Novo Nordisk Layoffs - Global Banking & Finance Review",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeFpSVUNWRGpFQUtzNjI0ZEgxdlNPOGJuZzZtR211cUYxM2ZRUkt2QXVsSVpEeDF0VHZsNERVdmRyTDJrSVh0X0NQWG5HR3NkdEdPMHgtLUZNTElDai12MVJjcXFpbjJsXzUwVzF1Uk95b3RNV3dqclNFc2JURmZFa0czUkpTUE9IS1A0ZGlhY3FjQmdSQmJEYW00X29LRlpBZFZjcXAtZ1RrQQ?oc=5",
-          "date": "2025-09-10",
-          "source": "Google News: Denmark layoffs"
-        }
-      ],
-      "title_en": "Novo Nordisk confirms: No layoff rounds ahead"
+      "title_en": "Holmen warns 18 employees at Linghem sawmill"
     }
   ],
   "demand": [
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 52,
-      "share": 33
+      "vacancies": 45,
+      "share": 30
     },
     {
       "country": "Sweden",
-      "role": "Yrken med teknisk inriktning",
+      "role": "Administration, ekonomi, juridik",
       "vacancies": 23,
       "share": 15
     },
@@ -189,64 +148,64 @@
       "country": "Sweden",
       "role": "Pedagogik",
       "vacancies": 21,
+      "share": 14
+    },
+    {
+      "country": "Sweden",
+      "role": "Yrken med teknisk inriktning",
+      "vacancies": 19,
       "share": 13
     },
     {
       "country": "Sweden",
       "role": "Hälso- och sjukvård",
-      "vacancies": 18,
-      "share": 11
+      "vacancies": 15,
+      "share": 10
     },
     {
       "country": "Sweden",
-      "role": "Administration, ekonomi, juridik",
-      "vacancies": 11,
-      "share": 7
-    },
-    {
-      "country": "Sweden",
-      "role": "Chefer och verksamhetsledare",
-      "vacancies": 7,
+      "role": "Transport, distribution, lager",
+      "vacancies": 6,
       "share": 4
     },
     {
       "country": "Denmark",
       "role": "AI",
       "vacancies": 15,
-      "share": 13
-    },
-    {
-      "country": "Denmark",
-      "role": "Teacher",
-      "vacancies": 15,
-      "share": 13
+      "share": 12
     },
     {
       "country": "Denmark",
       "role": "Electrician",
       "vacancies": 15,
-      "share": 13
+      "share": 12
     },
     {
       "country": "Denmark",
       "role": "Machine Learning",
       "vacancies": 14,
-      "share": 12
+      "share": 11
+    },
+    {
+      "country": "Denmark",
+      "role": "Teacher",
+      "vacancies": 14,
+      "share": 11
     },
     {
       "country": "Denmark",
       "role": "Data Scientist",
-      "vacancies": 12,
-      "share": 10
+      "vacancies": 13,
+      "share": 11
     },
     {
       "country": "Denmark",
-      "role": "Workforce Planning",
+      "role": "Software Engineer",
       "vacancies": 12,
       "share": 10
     }
   ],
   "shortages": [],
-  "sources_count": 26,
+  "sources_count": 24,
   "llm": "claude-haiku-4-5"
 }
