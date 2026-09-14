@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-07T10:52:52+00:00",
-  "period": "Aug 09 – Sep 07, 2026",
-  "summary": "Retail and transport sectors facing significant disruption; Lindex layoffs (30) and taxi/transport bankruptcies (35+21) signal sector-wide challenges.",
+  "generated_at": "2026-09-14T11:07:03+00:00",
+  "period": "Aug 16 – Sep 14, 2026",
+  "summary": "Pizza Hut bankruptcy affects 250 Swedish employees; immediate job search advised for affected workers.",
   "insights": [
-    "Retail and transport sectors facing significant disruption; Lindex layoffs (30) and taxi/transport bankruptcies (35+21) signal sector-wide challenges.",
-    "Manufacturing and logistics showing strain; Holmen sawmill layoffs (18) and transport company failure indicate economic pressure in production.",
-    "155 total jobs at risk across five events in one reporting period; jobseekers should prioritize industries outside retail/transport.",
-    "Bankruptcy filings (taxi, transport) indicate sudden job loss versus structured layoffs; affected workers need immediate unemployment support access."
+    "Pizza Hut bankruptcy affects 250 Swedish employees; immediate job search advised for affected workers.",
+    "Transport sector vulnerability evident: two separate Swedish bankruptcies signal logistics industry stress.",
+    "Kumla transport company collapse adds to broader Swedish restructuring wave affecting multiple sectors.",
+    "Jobseekers in hospitality and logistics should monitor insolvency announcements for early opportunity alerts."
   ],
   "countries": [
     {
@@ -14,12 +14,12 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 5,
-      "vacancies": 150,
+      "events": 2,
+      "vacancies": 145,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
-      "headline": "Grönsakshallen varslar om uppsägningar – totalt 80 tjänster",
-      "headline_url": "https://www.kristianstadsbladet.se/hassleholm/gronsakshallen-varslar-om-uppsagningar-totalt-80-tjanster/",
-      "summary": "Multiple sector layoffs and bankruptcies affecting 155+ jobs; retail, transport, and manufacturing under pressure."
+      "headline": "Pizza Hut försatt i konkurs – har 250 anställda - NT",
+      "headline_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTU5sSGM4QlYtMGpHa3gxQ2lPejZwV05sN1owcERYb21TMzRaVEJrejNCSWI0alNnbl9sT1VpMmV4b1RhNzFGSDhjUzhGQnBWd2owb2ZseEdjSTBWNmdfX1p6cW5TZGVLWldsWVBSeU4xQ3NSSWtfcVZIY3piSkF2Z19LSzZZYXRxc1V3YkZ1UlpzYll1MFE?oc=5",
+      "summary": "Two bankruptcy events affecting 271 total jobs across hospitality and transport logistics sectors."
     },
     {
       "name": "Denmark",
@@ -27,11 +27,11 @@
       "layoff_level": "low",
       "layoff_score": 0.0,
       "events": 0,
-      "vacancies": 123,
-      "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
+      "vacancies": 44,
+      "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=Data+Scientist",
       "headline": null,
       "headline_url": null,
-      "summary": "0 workforce event(s) and 123 sampled vacancies."
+      "summary": "No events reported."
     }
   ],
   "events": [
@@ -40,57 +40,19 @@
       "country": "Sweden",
       "city": null,
       "type": "layoff",
-      "jobs_affected": 80,
-      "title": "Grönsakshallen varslar om uppsägningar – totalt 80 tjänster",
-      "url": "https://www.kristianstadsbladet.se/hassleholm/gronsakshallen-varslar-om-uppsagningar-totalt-80-tjanster/",
-      "date": "2026-09-04",
+      "jobs_affected": 250,
+      "title": "Pizza Hut försatt i konkurs – har 250 anställda - NT",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTU5sSGM4QlYtMGpHa3gxQ2lPejZwV05sN1owcERYb21TMzRaVEJrejNCSWI0alNnbl9sT1VpMmV4b1RhNzFGSDhjUzhGQnBWd2owb2ZseEdjSTBWNmdfX1p6cW5TZGVLWldsWVBSeU4xQ3NSSWtfcVZIY3piSkF2Z19LSzZZYXRxc1V3YkZ1UlpzYll1MFE?oc=5",
+      "date": "2026-09-09",
       "sources": [
         {
-          "title": "Grönsakshallen varslar om uppsägningar – totalt 80 tjänster",
-          "url": "https://www.kristianstadsbladet.se/hassleholm/gronsakshallen-varslar-om-uppsagningar-totalt-80-tjanster/",
-          "date": "2026-09-04",
-          "source": "GDELT: Sweden"
-        }
-      ],
-      "title_en": "Grönsakshallen warns of layoffs – 80 positions total"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 35,
-      "title": "Taxibolag med 35 anställda i konkurs – alla sägs upp - Gefle Dagblad",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2hCYnJMX19vWVdwV0hvYmNVYXRrWTdaa1N0VjZuUWRNVnZuTklmc2l1VGNlWDRfRzVmVnhJUWFsQmVPNnNLa2p3ZGZLQVVrNmhULTUzbUpkV1V0WjhsVGhVYjJpbUlBUUtHMFh0VVI2d1FaVFJrQmtTdjlIQjU3aVRsOFJjTGc?oc=5",
-      "date": "2026-08-06",
-      "sources": [
-        {
-          "title": "Taxibolag med 35 anställda i konkurs – alla sägs upp - Gefle Dagblad",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS2hCYnJMX19vWVdwV0hvYmNVYXRrWTdaa1N0VjZuUWRNVnZuTklmc2l1VGNlWDRfRzVmVnhJUWFsQmVPNnNLa2p3ZGZLQVVrNmhULTUzbUpkV1V0WjhsVGhVYjJpbUlBUUtHMFh0VVI2d1FaVFJrQmtTdjlIQjU3aVRsOFJjTGc?oc=5",
-          "date": "2026-08-06",
+          "title": "Pizza Hut försatt i konkurs – har 250 anställda - NT",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTU5sSGM4QlYtMGpHa3gxQ2lPejZwV05sN1owcERYb21TMzRaVEJrejNCSWI0alNnbl9sT1VpMmV4b1RhNzFGSDhjUzhGQnBWd2owb2ZseEdjSTBWNmdfX1p6cW5TZGVLWldsWVBSeU4xQ3NSSWtfcVZIY3piSkF2Z19LSzZZYXRxc1V3YkZ1UlpzYll1MFE?oc=5",
+          "date": "2026-09-09",
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Taxi company with 35 employees bankrupt – all dismissed"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 30,
-      "title": "Stort varsel på Lindex – 30 anställda får lämna - Breakit",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3lmaU5KdEFCOXI5UmdXTGg4M3d5ZndJR1NZYXpUbUVKU2EzT1N2VDE0ZS1jNzNtbkFDWGloSUdmeVc4bllWdjhudERGcnlGNTV3MFJUM3I4cTR5Zm82bzktUVJpOEdweXNTdjNRbUhLMWx1LVpuQVY2UjJYRUxMOXFaLWNhQ1pMMHc?oc=5",
-      "date": "2026-09-01",
-      "sources": [
-        {
-          "title": "Stort varsel på Lindex – 30 anställda får lämna - Breakit",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3lmaU5KdEFCOXI5UmdXTGg4M3d5ZndJR1NZYXpUbUVKU2EzT1N2VDE0ZS1jNzNtbkFDWGloSUdmeVc4bllWdjhudERGcnlGNTV3MFJUM3I4cTR5Zm82bzktUVJpOEdweXNTdjNRbUhLMWx1LVpuQVY2UjJYRUxMOXFaLWNhQ1pMMHc?oc=5",
-          "date": "2026-09-01",
-          "source": "Google News SE: varsel"
-        }
-      ],
-      "title_en": "Major layoff at Lindex – 30 employees depart"
+      "title_en": "Pizza Hut placed in bankruptcy – has 250 employees"
     },
     {
       "company": null,
@@ -109,100 +71,69 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Transport company in Kumla bankrupt – 21 employees"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 18,
-      "title": "Holmen varslar 18 anställda vid sågverk i Linghem",
-      "url": "https://www.corren.se/nyheter/linkoping/artikel/holmen-varslar-18-anstallda-vid-sagverk-i-linghem/r1wpggkl",
-      "date": "2026-09-02",
-      "sources": [
-        {
-          "title": "Holmen varslar 18 anställda vid sågverk i Linghem",
-          "url": "https://www.corren.se/nyheter/linkoping/artikel/holmen-varslar-18-anstallda-vid-sagverk-i-linghem/r1wpggkl",
-          "date": "2026-09-02",
-          "source": "GDELT: Sweden"
-        }
-      ],
-      "title_en": "Holmen warns 18 employees at Linghem sawmill"
+      "title_en": "Transport company in Kumla in bankruptcy – 21 employees"
     }
   ],
   "demand": [
     {
       "country": "Sweden",
       "role": "Data/IT",
-      "vacancies": 45,
-      "share": 30
+      "vacancies": 47,
+      "share": 32
     },
     {
       "country": "Sweden",
       "role": "Administration, ekonomi, juridik",
-      "vacancies": 23,
-      "share": 15
-    },
-    {
-      "country": "Sweden",
-      "role": "Pedagogik",
-      "vacancies": 21,
-      "share": 14
-    },
-    {
-      "country": "Sweden",
-      "role": "Yrken med teknisk inriktning",
       "vacancies": 19,
       "share": 13
     },
     {
       "country": "Sweden",
       "role": "Hälso- och sjukvård",
-      "vacancies": 15,
+      "vacancies": 18,
+      "share": 12
+    },
+    {
+      "country": "Sweden",
+      "role": "Yrken med teknisk inriktning",
+      "vacancies": 17,
+      "share": 12
+    },
+    {
+      "country": "Sweden",
+      "role": "Pedagogik",
+      "vacancies": 14,
       "share": 10
     },
     {
       "country": "Sweden",
-      "role": "Transport, distribution, lager",
-      "vacancies": 6,
-      "share": 4
-    },
-    {
-      "country": "Denmark",
-      "role": "AI",
-      "vacancies": 15,
-      "share": 12
-    },
-    {
-      "country": "Denmark",
-      "role": "Electrician",
-      "vacancies": 15,
-      "share": 12
-    },
-    {
-      "country": "Denmark",
-      "role": "Machine Learning",
-      "vacancies": 14,
-      "share": 11
-    },
-    {
-      "country": "Denmark",
-      "role": "Teacher",
-      "vacancies": 14,
-      "share": 11
+      "role": "Försäljning, inköp, marknadsföring",
+      "vacancies": 7,
+      "share": 5
     },
     {
       "country": "Denmark",
       "role": "Data Scientist",
-      "vacancies": 13,
-      "share": 11
+      "vacancies": 15,
+      "share": 34
     },
     {
       "country": "Denmark",
-      "role": "Software Engineer",
-      "vacancies": 12,
-      "share": 10
+      "role": "HR analytics",
+      "vacancies": 14,
+      "share": 32
+    },
+    {
+      "country": "Denmark",
+      "role": "Talent Acquisition",
+      "vacancies": 14,
+      "share": 32
+    },
+    {
+      "country": "Denmark",
+      "role": "Data Engineer",
+      "vacancies": 1,
+      "share": 2
     }
   ],
   "shortages": [],
