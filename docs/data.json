@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T12:50:55+00:00",
-  "period": "Sep 06 – Oct 05, 2026",
-  "summary": "Volvo Cars' 3,000-job cut dominates Swedish market; automotive sector facing structural pressure.",
+  "generated_at": "2026-10-12T13:42:37+00:00",
+  "period": "Sep 13 – Oct 12, 2026",
+  "summary": "Sweden's telecom and retail sectors hit hardest: Telia (900), DNB (400), and retail bankruptcies total 550+ jobs lost.",
   "insights": [
-    "Volvo Cars' 3,000-job cut dominates Swedish market; automotive sector facing structural pressure.",
-    "Retail and hospitality hit hard: Pizza Hut bankruptcy, unnamed retail chain collapse affecting 550+ workers.",
-    "Media and transport sectors restructuring: Channel 4 cuts 300, Swedavia 95 roles in reorganizations.",
-    "Multiple smaller bankruptcies signal broader economic stress beyond major companies in Sweden."
+    "Sweden's telecom and retail sectors hit hardest: Telia (900), DNB (400), and retail bankruptcies total 550+ jobs lost.",
+    "Bankruptcy wave ongoing: Pizza Hut, Kosta glasbruk, and Hemnet restructuring signal broader economic strain across sectors.",
+    "Tech and manufacturing also affected: IKEA (75), Volvo Cars hiring freeze, King labor dispute show cross-industry pressure.",
+    "Denmark's single reported event: 22 jobs cut via workforce halving, suggesting lower reporting volume than Sweden."
   ],
   "countries": [
     {
@@ -14,99 +14,76 @@
       "code": "SE",
       "layoff_level": "high",
       "layoff_score": 1.0,
-      "events": 11,
-      "vacancies": 162,
+      "events": 12,
+      "vacancies": 135,
       "vacancies_url": "https://arbetsformedlingen.se/platsbanken/annonser?q=Data%2FIT",
-      "headline": "Mass layoffs: Volvo Cars to cut 3,000 jobs – mainly in Sweden - thelocal.se",
-      "headline_url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxNZFhNR0hZVXlGWTZvMDNLSEM5RGdiWkVzRUpLYmNFV0g1SFg3WlZRblBaakQ5UUFBalZ2ZzVXWmhCYnRJWm8tN1JnN2VzcG9kanV4R3BoUDNnR3BiNUVUd01Pbm5lUjFDQXZNcDE2N2hrMjRRMWtnZmxNSk5oSnRJY2tuM2xpaDQwaUhoSnJlMEpWMWw5RUszdWVhMmJ0TXVtajFZekhDM2hTWWtzMEJBQmFZN2ctSTd5TmVFUkpjQ2hvcGNXZC14UmQ3MW9GZzNqM1FERlQ4blZQVlg0N25GTFhPTG0yVTV6Smwydk81R19Pbk9DaTg3cHR2WWRRWHdSSGV0NW00cjdZdVVtRFAtOTNEYXV6QTVGQzdFUjcyMzNNdDAxcDFUWGgwYVM5Mmt2RF9FOHRqUGJVUm5JT3gtYzF0Z2ZFWk5XY2dSWXBkaXU0SmZQZDF3MEVLbnFJUkNaNDdrTmF2ci00ZnhyUmlua05pd3NFUm05THF0bjNPSm5waHpLTDJ4WVdPWWlsajlEelpPWkRlcmRHUQ?oc=5",
-      "summary": "Significant restructuring wave across automotive, retail, media, and transport; Volvo Cars accounts for 3,000 of ~5,600 announced cuts."
+      "headline": "Sweden's Telia to Cut 900 Jobs Amid Corporate Restructuring - www.marketscreener.com",
+      "headline_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMG8wR25fMGRmOWg0REpMT2pYVmd3eVBoSGRjMHdaRHFJTzF4cWs1ZkhTSUZyc1FTOFV2V2pyWnU3bjZGVmVrWkN6dHlhaElfbzlRejQtdEJlamVLZGtvekI1RjZiMUNUYzRhVkFmdzgxVGFXcFVERncyYzZnUm1EWDFNRUdHRjVPZE00bFFWZVg0cFBEaVEtNUFDWE9WdUs0RkFlaXFOSjFQc0ZCY1RzMW5B?oc=5",
+      "summary": "Major layoff wave across telecom (Telia 900), financial services (DNB 400), retail bankruptcies, and manufacturing (IKEA, Volvo, Kosta)."
     },
     {
       "name": "Denmark",
       "code": "DK",
       "layoff_level": "low",
-      "layoff_score": 0.0,
-      "events": 0,
-      "vacancies": 116,
+      "layoff_score": 0.08,
+      "events": 1,
+      "vacancies": 122,
       "vacancies_url": "https://www.jobindex.dk/jobsoegning?q=AI",
-      "headline": null,
-      "headline_url": null,
-      "summary": "No events reported in this dataset."
+      "headline": "Halverer arbejdsstyrken : Fyrer 22 . 900 personer",
+      "headline_url": "https://ekstrabladet.dk/nyheder/Udland/halverer-arbejdsstyrken-fyrer-22.900-personer/11303798",
+      "summary": "Minimal data; one reported restructuring affecting 22 employees with workforce reduction."
     }
   ],
   "events": [
     {
-      "company": "Volvo Cars",
+      "company": "Telia",
       "country": "Sweden",
-      "city": "Göteborg",
-      "type": "hiring_freeze",
-      "jobs_affected": 3000,
-      "title": "Mass layoffs: Volvo Cars to cut 3,000 jobs – mainly in Sweden - thelocal.se",
-      "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxNZFhNR0hZVXlGWTZvMDNLSEM5RGdiWkVzRUpLYmNFV0g1SFg3WlZRblBaakQ5UUFBalZ2ZzVXWmhCYnRJWm8tN1JnN2VzcG9kanV4R3BoUDNnR3BiNUVUd01Pbm5lUjFDQXZNcDE2N2hrMjRRMWtnZmxNSk5oSnRJY2tuM2xpaDQwaUhoSnJlMEpWMWw5RUszdWVhMmJ0TXVtajFZekhDM2hTWWtzMEJBQmFZN2ctSTd5TmVFUkpjQ2hvcGNXZC14UmQ3MW9GZzNqM1FERlQ4blZQVlg0N25GTFhPTG0yVTV6Smwydk81R19Pbk9DaTg3cHR2WWRRWHdSSGV0NW00cjdZdVVtRFAtOTNEYXV6QTVGQzdFUjcyMzNNdDAxcDFUWGgwYVM5Mmt2RF9FOHRqUGJVUm5JT3gtYzF0Z2ZFWk5XY2dSWXBkaXU0SmZQZDF3MEVLbnFJUkNaNDdrTmF2ci00ZnhyUmlua05pd3NFUm05THF0bjNPSm5waHpLTDJ4WVdPWWlsajlEelpPWkRlcmRHUQ?oc=5",
-      "date": "2026-10-02",
+      "city": null,
+      "type": "restructuring",
+      "jobs_affected": 900,
+      "title": "Sweden's Telia to Cut 900 Jobs Amid Corporate Restructuring - www.marketscreener.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMG8wR25fMGRmOWg0REpMT2pYVmd3eVBoSGRjMHdaRHFJTzF4cWs1ZkhTSUZyc1FTOFV2V2pyWnU3bjZGVmVrWkN6dHlhaElfbzlRejQtdEJlamVLZGtvekI1RjZiMUNUYzRhVkFmdzgxVGFXcFVERncyYzZnUm1EWDFNRUdHRjVPZE00bFFWZVg0cFBEaVEtNUFDWE9WdUs0RkFlaXFOSjFQc0ZCY1RzMW5B?oc=5",
+      "date": "2026-10-12",
       "sources": [
         {
-          "title": "Globalt anställningsstopp för Volvo Cars - evertiq.se",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQclB3RTJNZENvM0dMYm9HNjZzM1Q3UnRhYTY0MDJsalBXa25uRnNmbHViVWN1Rk91ei03LVpNRHpJQXRxOEx1b1ptYmNVZ1Y2Y2l0ZV9kNlJpcmh4dWJXQVVsM2RQQWJMcXJrOVl0aWxmRzIyemtfRUxjU0E1c0VFdA?oc=5",
-          "date": "2026-10-02",
-          "source": "Google News SE: anställningsstopp"
+          "title": "Sweden's Telia to Cut 900 Jobs Amid Corporate Restructuring - www.marketscreener.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMG8wR25fMGRmOWg0REpMT2pYVmd3eVBoSGRjMHdaRHFJTzF4cWs1ZkhTSUZyc1FTOFV2V2pyWnU3bjZGVmVrWkN6dHlhaElfbzlRejQtdEJlamVLZGtvekI1RjZiMUNUYzRhVkFmdzgxVGFXcFVERncyYzZnUm1EWDFNRUdHRjVPZE00bFFWZVg0cFBEaVEtNUFDWE9WdUs0RkFlaXFOSjFQc0ZCY1RzMW5B?oc=5",
+          "date": "2026-10-12",
+          "source": "Google News: Sweden restructuring"
         },
         {
-          "title": "Volvo Cars på ny bottennivå – inför anställningsstopp - EFN",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81Z1FhWHBPVzRnQUMxLThIXzFiS2c1WXhNUUVtand3dVVwc1pLb1c1QVBOYU1NYy1IczFsbFZUTjZudWNwUGVkOW4wT0c1NFc2WnhLZk1fdzBYVWVwMFBFWC1oTWM3QmV2QXVTRWFsdUktSnJT?oc=5",
-          "date": "2026-09-30",
-          "source": "Google News SE: anställningsstopp"
+          "title": "Neddragningar på Telia: ”AI effektiviserar arbete” - Ingenjören",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNXU5ekQ5YXNvZGs1c1BNbmdJekhUREtTT3J4VzlUWkhWdFBxMDZqV2kwNTJnc3lNNkxNM2ppSG5MN1Z2dmVnVjhudFJqZl9hWTVWalgxQnl6VDlPclh3MjkyWFJqeXpnWWYxYlV5RTRwSHNUWXB0T2cyTzFpTnJqM0RGSWMwUDlr?oc=5",
+          "date": "2026-01-14",
+          "source": "Google News SE: uppsägningar"
         },
         {
-          "title": "Volvo Cars inför anställningsstopp för tjänstemän - Metal Supply",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMTFsekZybVZuc1AtRTZtQ3VQTlVKa25lREs3b3VFd1JiTURyOUhKS1dadXh0RFhyb1U1YnhLTXUwcjB5b1loRzBTU0RBeXVQQjNsNEp1YTVuMUZsS3NzMVVGSVhtTW9xdnpZZEpHY0M2ekxhM2ZscmxPN3FhcFQwTlpNWGstOWJVby1pejZkNzRwVlNnRFdiSnNnMXJuTDQ?oc=5",
-          "date": "2026-09-30",
-          "source": "Google News SE: anställningsstopp"
-        },
+          "title": "Telia in talks with unions for job cuts in Sweden, Finland and Norway - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPck9WQVR4eEVhZWFUakY2azl4SGNrbDBpd2lIdmQzaVRSdmRUbmpKUS16TV9PempjMjI5Zy1FampDTXlmaktqZWtkREs0ZUdIRmhDUkJUNTZsUGpCSmZZM0hEQndNMjlhbFBZMlhpRVRhX2hpdGlQWUhuaENHQmFaTlp3RzJ5SFdkNkpBSlVLZ0VJNHJ6ZzI2NGwyUWFLYjR1cVZDWWVqXzkzU2FubXFJR0pjNA?oc=5",
+          "date": "2023-01-17",
+          "source": "Google News: Sweden job cuts"
+        }
+      ],
+      "title_en": "Telia to cut 900 jobs in corporate restructuring"
+    },
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 400,
+      "title": "DNB varslar 400 tjänster - Affärsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RaVRwLW9sLWFBQjZXMlZLcTZIMkt2S2pFNHdXajJrbzlTRUdqM3BBMk5JVXZVTEdHZ09xWUhmdnBpMXAtNjN6MGtoTlNJcDgxNHVwd1Q4VXZPM2VjNzljWjBKV1cweWZlN0hQSk9B?oc=5",
+      "date": "2026-10-06",
+      "sources": [
         {
-          "title": "Volvo Cars inför anställningsstopp för tjänstemän - Börsvärlden",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZlFOdE9WdGpwbWcxdHVxQ1RJSUd6WXNwaGhSRHhSUHlYWHVpWEF6a0ZObWtTUmJXd09LY0FhX0E4b09zUEVKTDhGeU9xNDh5SHZSQUtPazZMMnJFMm9OVEZuaWU0d20wYllrMFpJcG9ITml2V3dQVU1XQjZYeGxQSEJseFNmVjhLVVFWMjM0bw?oc=5",
-          "date": "2026-09-29",
-          "source": "Google News SE: anställningsstopp"
-        },
-        {
-          "title": "Anställningsstopp hos Volvo Cars - Göteborgs-Posten",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkhsRVhqR3YwVUV5eEhQcE1rVmthbURtNGhtQllWbWZ0cjd4Tm5kQmNJZmxBMjJLSGo2Z0wyUUFpamxhUEptV3llaHlXT0l1Q1RfYVZOcFM2NGNLSjlrQ3kyak1ULVVydmpfaWd3OWtOdmotdDdRdG5BS2puSEw1V1J0d2swX3VoUEJZeTJYT0Z4OFZEblo3ZGEzZi1qc2pWejRqWklEVUdtWjlBaVdSeFpR?oc=5",
-          "date": "2026-09-29",
-          "source": "Google News SE: anställningsstopp"
-        },
-        {
-          "title": "Volvo Cars inför globalt anställningsstopp för tjänstemän - nyteknik",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMnhoTmRRZzhqUG5hdmFTeHhScGhXNklGZWp4OWtlQnh1RGQwWFZraEE5Y1NxSjU1aHBjVS0tN2hjdXlpSnJRNGw3eEVOaVZCV1hpV0FiTkJPd3FpM0dwRmlOVTBtZWpuTTRoLW9VNlRZdlFhelFqR0VMSzJZa0t6X2lLMGR2WkowZDIyN2c3R1lNZUlDUlVqbXdRaVBuNnNIbE9CdHFR?oc=5",
-          "date": "2026-09-29",
-          "source": "Google News SE: anställningsstopp"
-        },
-        {
-          "title": "Volvo Cars inför anställningsstopp - motormagasinet.se",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSjk5X0o1S2RCbzNNS0ZFbjJwbEwwYzVXT0FpVjFLWS1HRExIZ1J0RGlfcU5JSXJacllJV3JXOVpfaU5sMzM3aTRXMG5XX3VvZ3BkWWQxN0VWQ2hwd1RGX0xndzVmYWpPZUpIQjVCY3htYWh1dlMxb3FocEl0blltTGFQUDRrTjRsUjJHcDdR?oc=5",
-          "date": "2026-09-29",
-          "source": "Google News SE: anställningsstopp"
-        },
-        {
-          "title": "Volvo Cars pressas på nyckelmarknader – inför anställningsstopp - Affärsvärlden",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZk1oSF90cnVPTkpFUmVSVkJRVkI1dTBCTWFlTUFwOWpHb3JjVU5NbXhlTDhPeWRMVGhTX0stLVdfcmdfblpEVTNsWGxOMEY5ZnhzVGo2d1B3UWhtY19xYkRZQ2huNGRRX1pZRUFleEdubk0tQ1ROQ3pweUNWc1RCdVkzVHVIRUlabkwxTF9YQ1JqLUhMdkJNdEhiaV9FWURn?oc=5",
-          "date": "2026-09-29",
-          "source": "Google News SE: anställningsstopp"
-        },
-        {
-          "title": "Volvo Cars inför globalt anställningsstopp - Dagens industri",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyOU9NaXdfaW5HZzkxS0tmTEswVElCYWdoSkd6Sk1FOW4xaFpqX1FWZDJoUGQydUowSHF4OUM5akdlQjdwM2Z1akhVNlhaLXR4SnFJeEpUZUJiWkJRTWtGSVhURFdhMndrMDV2b3hEODZVUEhvaHlmTQ?oc=5",
-          "date": "2026-09-29",
-          "source": "Google News SE: anställningsstopp"
-        },
-        {
-          "title": "Toppchef lämnar Volvo Cars med kort varsel - carup.se",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VOUpKMENYVk52bkxfUTBwSzh5bDliYXZlS0EwckNBQzlqenJ2ZzI1cVVfTkJ4VXJNdmRHVzZqQ01DenJFZXlWSGNScUFrN2VmSDN5NHNtOS1xbG9ySlhxX19rSUREWVZheXRtQQ?oc=5",
-          "date": "2026-09-15",
+          "title": "DNB varslar 400 tjänster - Affärsvärlden",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RaVRwLW9sLWFBQjZXMlZLcTZIMkt2S2pFNHdXajJrbzlTRUdqM3BBMk5JVXZVTEdHZ09xWUhmdnBpMXAtNjN6MGtoTlNJcDgxNHVwd1Q4VXZPM2VjNzljWjBKV1cweWZlN0hQSk9B?oc=5",
+          "date": "2026-10-06",
           "source": "Google News SE: varsel"
         }
       ],
-      "title_en": "Volvo Cars to cut 3,000 jobs, mainly in Sweden"
+      "title_en": "DNB warns of 400 job cuts"
     },
     {
       "company": null,
@@ -125,26 +102,7 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Retail chain bankruptcy – 300 employees affected"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 300,
-      "title": "Channel 4 planerar att skära ner 300 tjänster",
-      "url": "https://www.dagensmedia.se/ljud-och-rorligt/tv/channel-4-kapar-300-tjanster-i-rekorduppsagning/",
-      "date": "2026-09-09",
-      "sources": [
-        {
-          "title": "Channel 4 planerar att skära ner 300 tjänster",
-          "url": "https://www.dagensmedia.se/ljud-och-rorligt/tv/channel-4-kapar-300-tjanster-i-rekorduppsagning/",
-          "date": "2026-09-09",
-          "source": "GDELT: Sweden"
-        }
-      ],
-      "title_en": "Channel 4 plans to cut 300 positions"
+      "title_en": "Retail chain bankruptcy impacts 300 employees"
     },
     {
       "company": null,
@@ -152,37 +110,18 @@
       "city": null,
       "type": "layoff",
       "jobs_affected": 250,
-      "title": "Pizza Hut försatt i konkurs – har 250 anställda - nt.se",
+      "title": "Pizza Hut försatt i konkurs – har 250 anställda - NT",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTU5sSGM4QlYtMGpHa3gxQ2lPejZwV05sN1owcERYb21TMzRaVEJrejNCSWI0alNnbl9sT1VpMmV4b1RhNzFGSDhjUzhGQnBWd2owb2ZseEdjSTBWNmdfX1p6cW5TZGVLWldsWVBSeU4xQ3NSSWtfcVZIY3piSkF2Z19LSzZZYXRxc1V3YkZ1UlpzYll1MFE?oc=5",
       "date": "2026-09-09",
       "sources": [
         {
-          "title": "Pizza Hut försatt i konkurs – har 250 anställda - nt.se",
+          "title": "Pizza Hut försatt i konkurs – har 250 anställda - NT",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTU5sSGM4QlYtMGpHa3gxQ2lPejZwV05sN1owcERYb21TMzRaVEJrejNCSWI0alNnbl9sT1VpMmV4b1RhNzFGSDhjUzhGQnBWd2owb2ZseEdjSTBWNmdfX1p6cW5TZGVLWldsWVBSeU4xQ3NSSWtfcVZIY3piSkF2Z19LSzZZYXRxc1V3YkZ1UlpzYll1MFE?oc=5",
           "date": "2026-09-09",
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Pizza Hut bankruptcy – has 250 employees"
-    },
-    {
-      "company": null,
-      "country": "Sweden",
-      "city": null,
-      "type": "layoff",
-      "jobs_affected": 140,
-      "title": "Efter miljardförlusten: Kemijätten Perstorp varslar 140 i Sverige - HD",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQemZnZVZzNjlOZVlxRUZadC1yd3Q5dVh3SEU4V1FzZ2hBM01EcGdoazdMSElsLThfWXNHN0g1OUppNzFENTM1dTBRYkxaMERTRjJmOW9PMXMtSXZEeHFaeWFPRW53OHFfeG1kQTdSR2ZocU9qZ1M2ZTcweGNTZkNnLWUyd2JyOEowVkw2RHpkYjRxaFl2NE1aUjBWUQ?oc=5",
-      "date": "2026-09-30",
-      "sources": [
-        {
-          "title": "Efter miljardförlusten: Kemijätten Perstorp varslar 140 i Sverige - HD",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQemZnZVZzNjlOZVlxRUZadC1yd3Q5dVh3SEU4V1FzZ2hBM01EcGdoazdMSElsLThfWXNHN0g1OUppNzFENTM1dTBRYkxaMERTRjJmOW9PMXMtSXZEeHFaeWFPRW53OHFfeG1kQTdSR2ZocU9qZ1M2ZTcweGNTZkNnLWUyd2JyOEowVkw2RHpkYjRxaFl2NE1aUjBWUQ?oc=5",
-          "date": "2026-09-30",
-          "source": "Google News SE: varsel"
-        }
-      ],
-      "title_en": "After billion-crown loss: Chemical giant Perstorp warns 140 in Sweden"
+      "title_en": "Pizza Hut bankruptcy affects 250 employees"
     },
     {
       "company": null,
@@ -201,26 +140,80 @@
           "source": "SVT Nyheter – Ekonomi"
         }
       ],
-      "title_en": "Steel bath on Hemnet – roughly one-third face layoffs"
+      "title_en": "Hemnet layoffs: approximately one-third of workforce affected (115 jobs)"
     },
     {
-      "company": null,
+      "company": "IKEA",
       "country": "Sweden",
-      "city": null,
+      "city": "Uppsala",
       "type": "layoff",
-      "jobs_affected": 95,
-      "title": "Swedavia varslar 95 tjänster i stor omorganisation - travelnews-se",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQenRXQjE1WVdlWW5WVFEwVVZ3MjdiZFZEM2VDRzRmNnM1YnRhQ1NjQmVYcTVETWNvTlhXSFVSTHZ4Z0hNNl9Hd205cjlELVUzcHpyeEdIeDA4Vmg2Uzd6Zzc4XzZBMTJZR29zV3ZMZ0ZSMFlQc3lQZmlfSnhlb1I1ZWd6bHQxdDZkc3lFUg?oc=5",
-      "date": "2026-09-24",
+      "jobs_affected": 75,
+      "title": "Nya varsel på Ikea – 75 anställda kan mista jobbet - Market.se",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3ltWElaNkJPYk5IQThuUFV5Ym1VNkZrN0dBdmVBWjdnNWphVjEzMW5kSnp5Rm9PU01scW12SkV6Q2J0SmFWTmVEZTI4MGdlSnZKeEdwbzE0RnRmaTZiemZwU29hR0ZzVnBNUU14a3BQZjRkMFNEWFZEUHEwcGZ4eXlhRlpBQTdfM2NoNVQ4TVJBQ3V1VThQY05nMXkxWV84TGVVSg?oc=5",
+      "date": "2026-10-08",
       "sources": [
         {
-          "title": "Swedavia varslar 95 tjänster i stor omorganisation - travelnews-se",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQenRXQjE1WVdlWW5WVFEwVVZ3MjdiZFZEM2VDRzRmNnM1YnRhQ1NjQmVYcTVETWNvTlhXSFVSTHZ4Z0hNNl9Hd205cjlELVUzcHpyeEdIeDA4Vmg2Uzd6Zzc4XzZBMTJZR29zV3ZMZ0ZSMFlQc3lQZmlfSnhlb1I1ZWd6bHQxdDZkc3lFUg?oc=5",
-          "date": "2026-09-24",
-          "source": "Google News SE: omorganisation jobb"
+          "title": "Ikea-varsel skakar Älmhult: ”Påverkar näringslivet i stort” - Smålänningen",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMVlNTGFscUU0MG5mLXZfalB1dUZOemJ2LXp3TnNpbVcyNkhuUzhjUEhBbTNYcFh4a25aUzd3ZEpFTm83akpMSDA5VUpITWZPaUZvdkRTaWxueHRhSUZLR3dycHQxcFVJMFFDVzdZY0pfY0JGcDc0aFN6eHMtX2laelZDRlFIaTh5LTVVbnZPVHZsc0g4VG5fag?oc=5",
+          "date": "2026-10-08",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Facket kritiserar Ikea efter varsel – anställda i Älmhult tvingas sluta - Svenska Epoch Times",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51eDNneDFvTWhtSnNYeUZvS0dlYjVTNk1KMkluSWFoSWN5WDNPREtFTDZnNi1ZT3ZWdURfUzBMUnVscW1aMWlPTDFwendfRzhJTDlsd3lIMnVCRnhJME9hRnYwY2NuYVBuVFBtcGln?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Nya varsel på Ikea – 75 anställda kan mista jobbet - Market.se",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV3ltWElaNkJPYk5IQThuUFV5Ym1VNkZrN0dBdmVBWjdnNWphVjEzMW5kSnp5Rm9PU01scW12SkV6Q2J0SmFWTmVEZTI4MGdlSnZKeEdwbzE0RnRmaTZiemZwU29hR0ZzVnBNUU14a3BQZjRkMFNEWFZEUHEwcGZ4eXlhRlpBQTdfM2NoNVQ4TVJBQ3V1VThQY05nMXkxWV84TGVVSg?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Varsel på Ikea i Älmhult och Uppsala - Värnamo Nyheter",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sWDJvWFJQaGpSY19aZE9ocllLUTZfTnBVM21VdXlaZW1tM3paWXF4NWtvYk50R0JLZEYxZkFSZ2lIdFh6aFR3VC05NFdsU1RNbVlVSjdEU000dWpXQ0ZGSDk2TGdSUlVCRW02R0ticEJJblVUUmc4?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Varsel på Ikea - Placera.se",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TeGh5RE8yUzAtd2NVZ0QxUVJVVFRfMTlaV3BqYThGcktUWWR4eEduT1U1LUFyZ3NLVVF6V0wzQ3ZyV3JET2ZacF9mM2JHR1Y1dE56ZTVEclNpTmdTVTBRc2dMWVhZS1U?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Varsel på Ikea - TV4 Nyheterna",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14cnltWVR5VGpXekdoWUpORXdsUURFcGN1S21Na01iRHd3MmJnbVRiNi1DWnVUTGVOUTF0Snk4UEdLcmI3VE1hN3F5cjNmQTk5V3ZpLVRkektFR0k1djY1WDRSODhTNWk3V1ZtSUd4WHluUQ?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Nya Ikea-varsel – 75 riskerar uppsägning - Dagens Handel",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzhEdFE1cGRDMG5Xd255OFE5Q0ZsY055dTVuOTFnN3N5bmVXS0ZJV3J3NEdFdmU4cHhFQzRILU05Z1p3UHdHU0VKRTVKX1h1OE13UFZDRG0xS3dIZEJaUVphaGxNb0xEXzkxaDZoMEs3MUtFRElndHl3QUYyV3FiNFpLYnlic1QycXVqVEdfNA?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Varsel på Ikea i Älmhult och Uppsala - Aftonbladet",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd3NrMmlYNmlWRjIwSHpnZ0drTkh3Q0FMNWpoQUZfMlBzWXRoTG9MN0xmdHZ6MDdQa3dLbF8tcmgwZWJMelk0UzdMWnVjTHZTdlhRMjJQZnNXcmNIRTI5LWxtenNyZ1BiTFV2LWlZV0JTcHcyTjctVG5kQmxiNjlMcVVhMmJLemF6QXIw?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Varsel på Ikea i Älmhult och Uppsala - Svenska Dagbladet",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BcE9XUklSaEJxSjBjV3R4cVFYOE94YW15YlhuZWZQVXpmcmQ5S0FXTGc5cVJZbjhITllXVlJ1OFB5ekFRZFlhYjNUNHdTMU1tMm9tQUtPb1VIeE9oUTVKYzM0cF8zdUtIX0tORkt3ekZ2Zw?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Varsel på Ikea i Älmhult och Uppsala - TV4 Nyheterna",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc18xTUxrbDNKQTRJRGZMOW5tNTU1MkVUNG9aMjlQdTJoYktoNlk4UEc4bUllRGhwcFZjMFRJQXdRdFFmTFBhMnVsYXFwSXFuRU1PUkozSy01YWlfY2haQTN4Rm9PZ0lnUHlaaFJ3OHdxMmhyV2gzblBxRXFsakxENzdTTTBOZlNNaFVoeVFITzI2VktIYk8taEFB?oc=5",
+          "date": "2026-10-07",
+          "source": "Google News SE: varsel"
         }
       ],
-      "title_en": "Swedavia warns 95 positions in major reorganization"
+      "title_en": "IKEA new warning: 75 employees at risk"
     },
     {
       "company": null,
@@ -239,7 +232,26 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Gothenburg company bankruptcy – had 58 employees"
+      "title_en": "Gothenburg company bankruptcy: 58 employees affected"
+    },
+    {
+      "company": null,
+      "country": "Sweden",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 55,
+      "title": "Omfattande varsel på Kosta glasbruk – 55 tjänster berörs - Sveriges Radio",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUlxNVMzelJuWTBoR3hqMU1JeVB5M2N3OUVIeEVlT3hybExEOGEtZWFFX2l3WHYzZXZKb1pHLVpqYzhldXhWS3dISHdQVW1kME5iaFd6UE1vTUVBVUp1SXUtaGJWZGN4OEQ4UHFTc0thNUNQb243ZDhJS25ienZCNkM1Z3NMZmUxS2JvTW82djQ?oc=5",
+      "date": "2026-09-22",
+      "sources": [
+        {
+          "title": "Omfattande varsel på Kosta glasbruk – 55 tjänster berörs - Sveriges Radio",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaUlxNVMzelJuWTBoR3hqMU1JeVB5M2N3OUVIeEVlT3hybExEOGEtZWFFX2l3WHYzZXZKb1pHLVpqYzhldXhWS3dISHdQVW1kME5iaFd6UE1vTUVBVUp1SXUtaGJWZGN4OEQ4UHFTc0thNUNQb243ZDhJS25ienZCNkM1Z3NMZmUxS2JvTW82djQ?oc=5",
+          "date": "2026-09-22",
+          "source": "Google News SE: varsel"
+        }
+      ],
+      "title_en": "Kosta glassworks major layoff: 55 positions affected"
     },
     {
       "company": null,
@@ -247,18 +259,37 @@
       "city": null,
       "type": "restructuring",
       "jobs_affected": 25,
-      "title": "UR föreslår omorganisation – upp till 25 tjänster kan beröras - via.tt.se",
+      "title": "UR föreslår omorganisation – upp till 25 tjänster kan beröras - Via TT",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUmh4NFA3aWpJVl82a1NjdVlHc0JNUDNzdkQyTV9ZNVhIUm1JQTllTWx0TDkzRkdINl9KTlVXdVlZMmRuaWhKdGN5eW9xbjloQWV4aWxWYlRZcExfWWZObTlUWUkzV1VBeEZ4QnB5cWJqMXMyUXZiYUFfbnJvLV9NbktBMF84ejlQQ2h6NlYzeTZmVkZEX0FxS0dSZmZsVUVKQ0tpdFVxWWNKYW1lN1YzX2JRZkRSR1JOSVVBNzI2a0QzLUdOY0o4cA?oc=5",
       "date": "2026-09-15",
       "sources": [
         {
-          "title": "UR föreslår omorganisation – upp till 25 tjänster kan beröras - via.tt.se",
+          "title": "UR föreslår omorganisation – upp till 25 tjänster kan beröras - Via TT",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUmh4NFA3aWpJVl82a1NjdVlHc0JNUDNzdkQyTV9ZNVhIUm1JQTllTWx0TDkzRkdINl9KTlVXdVlZMmRuaWhKdGN5eW9xbjloQWV4aWxWYlRZcExfWWZObTlUWUkzV1VBeEZ4QnB5cWJqMXMyUXZiYUFfbnJvLV9NbktBMF84ejlQQ2h6NlYzeTZmVkZEX0FxS0dSZmZsVUVKQ0tpdFVxWWNKYW1lN1YzX2JRZkRSR1JOSVVBNzI2a0QzLUdOY0o4cA?oc=5",
           "date": "2026-09-15",
           "source": "Google News SE: omorganisation jobb"
         }
       ],
-      "title_en": "UR proposes reorganization – up to 25 positions may be affected"
+      "title_en": "UR proposes reorganization: up to 25 positions may be affected"
+    },
+    {
+      "company": null,
+      "country": "Denmark",
+      "city": null,
+      "type": "layoff",
+      "jobs_affected": 22,
+      "title": "Halverer arbejdsstyrken : Fyrer 22 . 900 personer",
+      "url": "https://ekstrabladet.dk/nyheder/Udland/halverer-arbejdsstyrken-fyrer-22.900-personer/11303798",
+      "date": "2026-09-28",
+      "sources": [
+        {
+          "title": "Halverer arbejdsstyrken : Fyrer 22 . 900 personer",
+          "url": "https://ekstrabladet.dk/nyheder/Udland/halverer-arbejdsstyrken-fyrer-22.900-personer/11303798",
+          "date": "2026-09-28",
+          "source": "GDELT: Denmark"
+        }
+      ],
+      "title_en": "Halves workforce: 22,900 employees laid off"
     },
     {
       "company": null,
@@ -277,7 +308,80 @@
           "source": "Google News SE: konkurs anställda"
         }
       ],
-      "title_en": "Two companies bankruptcy – 15 employees impacted"
+      "title_en": "Two companies bankrupt: 15 employees impacted"
+    },
+    {
+      "company": "Volvo Cars",
+      "country": "Sweden",
+      "city": "Göteborg",
+      "type": "hiring_freeze",
+      "jobs_affected": null,
+      "title": "Globalt anställningsstopp för Volvo Cars - Evertiq",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQclB3RTJNZENvM0dMYm9HNjZzM1Q3UnRhYTY0MDJsalBXa25uRnNmbHViVWN1Rk91ei03LVpNRHpJQXRxOEx1b1ptYmNVZ1Y2Y2l0ZV9kNlJpcmh4dWJXQVVsM2RQQWJMcXJrOVl0aWxmRzIyemtfRUxjU0E1c0VFdA?oc=5",
+      "date": "2026-10-02",
+      "sources": [
+        {
+          "title": "Globalt anställningsstopp för Volvo Cars - Evertiq",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQclB3RTJNZENvM0dMYm9HNjZzM1Q3UnRhYTY0MDJsalBXa25uRnNmbHViVWN1Rk91ei03LVpNRHpJQXRxOEx1b1ptYmNVZ1Y2Y2l0ZV9kNlJpcmh4dWJXQVVsM2RQQWJMcXJrOVl0aWxmRzIyemtfRUxjU0E1c0VFdA?oc=5",
+          "date": "2026-10-02",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Volvo Cars inför anställningsstopp för tjänstemän - Metal Supply",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMTFsekZybVZuc1AtRTZtQ3VQTlVKa25lREs3b3VFd1JiTURyOUhKS1dadXh0RFhyb1U1YnhLTXUwcjB5b1loRzBTU0RBeXVQQjNsNEp1YTVuMUZsS3NzMVVGSVhtTW9xdnpZZEpHY0M2ekxhM2ZscmxPN3FhcFQwTlpNWGstOWJVby1pejZkNzRwVlNnRFdiSnNnMXJuTDQ?oc=5",
+          "date": "2026-09-30",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Volvo Cars inför anställningsstopp - motormagasinet.se",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSjk5X0o1S2RCbzNNS0ZFbjJwbEwwYzVXT0FpVjFLWS1HRExIZ1J0RGlfcU5JSXJacllJV3JXOVpfaU5sMzM3aTRXMG5XX3VvZ3BkWWQxN0VWQ2hwd1RGX0xndzVmYWpPZUpIQjVCY3htYWh1dlMxb3FocEl0blltTGFQUDRrTjRsUjJHcDdR?oc=5",
+          "date": "2026-09-29",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Volvo Cars på ny bottennivå – inför anställningsstopp - EFN",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81Z1FhWHBPVzRnQUMxLThIXzFiS2c1WXhNUUVtand3dVVwc1pLb1c1QVBOYU1NYy1IczFsbFZUTjZudWNwUGVkOW4wT0c1NFc2WnhLZk1fdzBYVWVwMFBFWC1oTWM3QmV2QXVTRWFsdUktSnJT?oc=5",
+          "date": "2026-09-29",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Anställningsstopp hos Volvo Cars - Göteborgs-Posten",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkhsRVhqR3YwVUV5eEhQcE1rVmthbURtNGhtQllWbWZ0cjd4Tm5kQmNJZmxBMjJLSGo2Z0wyUUFpamxhUEptV3llaHlXT0l1Q1RfYVZOcFM2NGNLSjlrQ3kyak1ULVVydmpfaWd3OWtOdmotdDdRdG5BS2puSEw1V1J0d2swX3VoUEJZeTJYT0Z4OFZEblo3ZGEzZi1qc2pWejRqWklEVUdtWjlBaVdSeFpR?oc=5",
+          "date": "2026-09-29",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Volvo Cars inför globalt anställningsstopp - DI",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyOU9NaXdfaW5HZzkxS0tmTEswVElCYWdoSkd6Sk1FOW4xaFpqX1FWZDJoUGQydUowSHF4OUM5akdlQjdwM2Z1akhVNlhaLXR4SnFJeEpUZUJiWkJRTWtGSVhURFdhMndrMDV2b3hEODZVUEhvaHlmTQ?oc=5",
+          "date": "2026-09-29",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Volvo Cars inför globalt anställningsstopp för tjänstemän - Ny Teknik",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMnhoTmRRZzhqUG5hdmFTeHhScGhXNklGZWp4OWtlQnh1RGQwWFZraEE5Y1NxSjU1aHBjVS0tN2hjdXlpSnJRNGw3eEVOaVZCV1hpV0FiTkJPd3FpM0dwRmlOVTBtZWpuTTRoLW9VNlRZdlFhelFqR0VMSzJZa0t6X2lLMGR2WkowZDIyN2c3R1lNZUlDUlVqbXdRaVBuNnNIbE9CdHFR?oc=5",
+          "date": "2026-09-29",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Volvo Cars pressas på nyckelmarknader – inför anställningsstopp - Affärsvärlden",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZk1oSF90cnVPTkpFUmVSVkJRVkI1dTBCTWFlTUFwOWpHb3JjVU5NbXhlTDhPeWRMVGhTX0stLVdfcmdfblpEVTNsWGxOMEY5ZnhzVGo2d1B3UWhtY19xYkRZQ2huNGRRX1pZRUFleEdubk0tQ1ROQ3pweUNWc1RCdVkzVHVIRUlabkwxTF9YQ1JqLUhMdkJNdEhiaV9FWURn?oc=5",
+          "date": "2026-09-29",
+          "source": "Google News SE: anställningsstopp"
+        },
+        {
+          "title": "Toppchef lämnar Volvo Cars med kort varsel - Carup.se",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VOUpKMENYVk52bkxfUTBwSzh5bDliYXZlS0EwckNBQzlqenJ2ZzI1cVVfTkJ4VXJNdmRHVzZqQ01DenJFZXlWSGNScUFrN2VmSDN5NHNtOS1xbG9ySlhxX19rSUREWVZheXRtQQ?oc=5",
+          "date": "2026-09-15",
+          "source": "Google News SE: varsel"
+        },
+        {
+          "title": "Efter vinstraset – anställningsstopp på Volvo Cars - Göteborgs-Posten",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObm1YQU1VSmRHekNBREJlRld5al9qdktKbHlNMU1PdnFQdlZwT2JuQzBnbm51NXEwZmJ4b0ZXNVdvTDFhbGNBZ2VyNnVtdVctaVdTNVJKcWdYam9wVFRpRy05U3ZCN2FkMlZJZkhPcHB2aWt4d0p2cmtRQmNTQ3hDQUVPUmZteFBWTE96aW1ibGprcy1sVHo2NlUxMDVnaDcwRFpLSGQ0YlZ3dzhFTmZ6dA?oc=5",
+          "date": "2019-04-29",
+          "source": "Google News SE: anställningsstopp"
+        }
+      ],
+      "title_en": "Volvo Cars announces global hiring freeze"
     },
     {
       "company": "King",
@@ -296,7 +400,7 @@
           "source": "Dagens Nyheter – Ekonomi"
         },
         {
-          "title": "Fackens varsel mot spelbolaget King är ingen isolerad händelse - dagensarena.se",
+          "title": "Fackens varsel mot spelbolaget King är ingen isolerad händelse - Dagens Arena",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTkyZmN3WmREeHBLWkhsdy1Ybl9EZTN2Xy1UdU9nRlZocTFhcEE4XzBnTWttd0dibG1OcTFIWU9vQ04zc3ZfdDRNdlRZQ2NWQmZGUExibkdDWFdJcG90Z0xqd3RyWXR1QTdRQVJOejRvcnplN2d5Z0xsblJ4OE5XV1lFTk9OdHA2WUN0R01rNGVjNEFGbG1hT3lYZC1mdms?oc=5",
           "date": "2026-09-20",
           "source": "Google News SE: varsel"
@@ -308,7 +412,7 @@
           "source": "Dagens Nyheter – Ekonomi"
         }
       ],
-      "title_en": "King signs collective agreement – strike notice withdrawn"
+      "title_en": "King signs collective agreement: strike notice withdrawn"
     }
   ],
   "demand": [
@@ -316,49 +420,49 @@
       "country": "Sweden",
       "role": "Data/IT",
       "vacancies": 54,
-      "share": 33
+      "share": 40
     },
     {
       "country": "Sweden",
       "role": "Yrken med teknisk inriktning",
-      "vacancies": 31,
-      "share": 19
+      "vacancies": 24,
+      "share": 18
     },
     {
       "country": "Sweden",
       "role": "Pedagogik",
-      "vacancies": 14,
-      "share": 9
-    },
-    {
-      "country": "Sweden",
-      "role": "Hälso- och sjukvård",
-      "vacancies": 14,
-      "share": 9
+      "vacancies": 17,
+      "share": 13
     },
     {
       "country": "Sweden",
       "role": "Försäljning, inköp, marknadsföring",
       "vacancies": 10,
-      "share": 6
+      "share": 7
+    },
+    {
+      "country": "Sweden",
+      "role": "Hälso- och sjukvård",
+      "vacancies": 9,
+      "share": 7
     },
     {
       "country": "Sweden",
       "role": "Administration, ekonomi, juridik",
-      "vacancies": 10,
-      "share": 6
+      "vacancies": 7,
+      "share": 5
     },
     {
       "country": "Denmark",
       "role": "AI",
       "vacancies": 15,
-      "share": 13
+      "share": 12
     },
     {
       "country": "Denmark",
       "role": "Teacher",
       "vacancies": 15,
-      "share": 13
+      "share": 12
     },
     {
       "country": "Denmark",
@@ -374,18 +478,18 @@
     },
     {
       "country": "Denmark",
-      "role": "Workforce Planning",
+      "role": "Software Engineer",
       "vacancies": 12,
       "share": 10
     },
     {
       "country": "Denmark",
-      "role": "Software Engineer",
-      "vacancies": 11,
+      "role": "Electrician",
+      "vacancies": 12,
       "share": 10
     }
   ],
   "shortages": [],
-  "sources_count": 25,
+  "sources_count": 26,
   "llm": "claude-haiku-4-5"
 }
